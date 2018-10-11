@@ -6,10 +6,9 @@
     "start": "webpack --watch & nodemon ./bin/www"
   },
   "dependencies": {
-    "babel-plugin-transform-async-to-generator": "^6.22.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-node6": "^11.0.0",
-    "babel-register": "^6.24.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
     "cookie-parser": "~1.4.3",
     "css-loader": "^0.28.7",
     "debug": "~2.6.9",
@@ -30,12 +29,12 @@
     "url-loader": "^0.5.9"
     },
     "devDependencies": {
-      "babel-cli": "^6.24.0",
-      "babel-core": "^6.26.0",
-      "babel-loader": "^7.1.2",
-      "babel-plugin-transform-runtime": "^6.23.0",
-      "babel-preset-env": "^1.6.1",
-      "babel-watch": "^2.0.6",
+      "@babel/cli": "^7.1.0",
+      "@babel/core": "^7.1.0",
+      "@babel/plugin-transform-async-to-generator": "^7.1.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/register": "^7.0.0",
+      "babel-loader": "^8.0.2",
       "webpack": "^3.5.5"
     }
 }
