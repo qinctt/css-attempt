@@ -1,9 +1,10 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    // 'mid-autumn-style': './public/modules/mid-autumn/style.less',
-    // 'mid-autumn-main': './public/modules/mid-autumn/index.js',
+    'app-style': './public/modules/app/style.js',
+    'app-main': './public/modules/app/index.js',
   },
   output: {
     path: path.resolve(__dirname, 'public/dist'),
@@ -16,6 +17,10 @@ module.exports = {
         path.resolve(__dirname, 'node_modules')
       ],
       loader: 'babel-loader',
+      options: {
+        presets: ['@babel/env'],
+        plugins: ['@babel/plugin-transform-async-to-generator', '@babel/plugin-proposal-optional-chaining'],
+      },
     }, {
       test: /\.css$/,
       use: [{
@@ -52,6 +57,9 @@ module.exports = {
     }],
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      regeneratorRuntime: 'regenerator-runtime',
+    }),
   ],
-  // devtool: 'source-map',
+  devtool: 'source-map',
 };

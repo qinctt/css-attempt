@@ -1,0 +1,82 @@
+/* body */
+
+body {
+  font-size: 12px;
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; // font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+
+/* Header */
+
+.header {
+  margin-bottom: 50px;
+}
+
+.main {
+  padding-left: 170px;
+  min-width: 1200px;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+  position: fixed;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+  width: 150px;
+}
+
+
+/* Main */
+
+h2 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .navbar-right {
+    display: none;
+  }
+}
+
+// add ng-cloak
+.ng-cloak {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}
+
+// 复写ui-select 宽度样式
+.dropdown-menu {
+  min-width: 0px;
+}
+
+.dropdown-menu {
+  .switch {
+    display: table-cell;
+    width: auto;
+  }
+}
+

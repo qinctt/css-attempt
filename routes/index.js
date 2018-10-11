@@ -4,8 +4,8 @@ const loginRouter = require('./login');
 const registRouter = require('./register');
 
 /* GET home page. */
-router.get('/index', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/app', function(req, res, next) {
+  res.render('app', { title: 'Express' });
 });
 router.use('/', loginRouter,registRouter);
 
