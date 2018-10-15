@@ -60,14 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 16);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */
+/* 0 */
 /***/ (function(module, exports) {
 
 var g;
@@ -94,6 +91,16 @@ module.exports = g;
 
 
 /***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(33);
+module.exports = angular;
+
+
+/***/ }),
+/* 2 */,
+/* 3 */,
 /* 4 */,
 /* 5 */,
 /* 6 */,
@@ -105,43 +112,58 @@ module.exports = g;
 /* 12 */,
 /* 13 */,
 /* 14 */,
-/* 15 */
+/* 15 */,
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bootstrap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_angular__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular_ui_bootstrap_dist_ui_bootstrap_tpls__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular_ui_bootstrap_dist_ui_bootstrap_tpls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular_ui_bootstrap_dist_ui_bootstrap_tpls__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__main__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__main___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__main__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular_animate__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular_animate___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular_animate__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular_ui_bootstrap_dist_ui_bootstrap_tpls__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular_ui_bootstrap_dist_ui_bootstrap_tpls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_angular_ui_bootstrap_dist_ui_bootstrap_tpls__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular_ui_tree__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular_ui_tree___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_angular_ui_tree__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vendors_angular_ui_router_min__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vendors_angular_ui_router_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__vendors_angular_ui_router_min__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__main__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__main___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__main__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__constants__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__directives_nav_sidebar_index__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__directives_nav_sidebar_index___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__directives_nav_sidebar_index__);
 
 
 
 
 
 
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["jQuery"] = __webpack_require__(17);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+
+
+
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["$"] = __webpack_require__(18);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["jQuery"] = __webpack_require__(18);
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["$"] = __webpack_require__(19);
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -9358,11 +9380,10 @@ return jQuery;
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // This file is autogenerated via the `commonjs` Grunt task. You can require() this file in a CommonJS environment.
-__webpack_require__(20)
 __webpack_require__(21)
 __webpack_require__(22)
 __webpack_require__(23)
@@ -9374,9 +9395,10 @@ __webpack_require__(28)
 __webpack_require__(29)
 __webpack_require__(30)
 __webpack_require__(31)
+__webpack_require__(32)
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -9441,7 +9463,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -9541,7 +9563,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -9672,7 +9694,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -9915,7 +9937,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -10133,7 +10155,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -10304,7 +10326,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -10649,7 +10671,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -11175,7 +11197,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -11289,7 +11311,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -11467,7 +11489,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -11628,7 +11650,7 @@ __webpack_require__(31)
 
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports) {
 
 /* ========================================================================
@@ -11793,14 +11815,6 @@ __webpack_require__(31)
   })
 
 }(jQuery);
-
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(33);
-module.exports = angular;
 
 
 /***/ }),
@@ -45155,6 +45169,4175 @@ $provide.value("$locale", {
 
 /***/ }),
 /* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(35);
+module.exports = 'ngAnimate';
+
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports) {
+
+/**
+ * @license AngularJS v1.6.3
+ * (c) 2010-2017 Google, Inc. http://angularjs.org
+ * License: MIT
+ */
+(function(window, angular) {'use strict';
+
+var ELEMENT_NODE = 1;
+var COMMENT_NODE = 8;
+
+var ADD_CLASS_SUFFIX = '-add';
+var REMOVE_CLASS_SUFFIX = '-remove';
+var EVENT_CLASS_PREFIX = 'ng-';
+var ACTIVE_CLASS_SUFFIX = '-active';
+var PREPARE_CLASS_SUFFIX = '-prepare';
+
+var NG_ANIMATE_CLASSNAME = 'ng-animate';
+var NG_ANIMATE_CHILDREN_DATA = '$$ngAnimateChildren';
+
+// Detect proper transitionend/animationend event names.
+var CSS_PREFIX = '', TRANSITION_PROP, TRANSITIONEND_EVENT, ANIMATION_PROP, ANIMATIONEND_EVENT;
+
+// If unprefixed events are not supported but webkit-prefixed are, use the latter.
+// Otherwise, just use W3C names, browsers not supporting them at all will just ignore them.
+// Note: Chrome implements `window.onwebkitanimationend` and doesn't implement `window.onanimationend`
+// but at the same time dispatches the `animationend` event and not `webkitAnimationEnd`.
+// Register both events in case `window.onanimationend` is not supported because of that,
+// do the same for `transitionend` as Safari is likely to exhibit similar behavior.
+// Also, the only modern browser that uses vendor prefixes for transitions/keyframes is webkit
+// therefore there is no reason to test anymore for other vendor prefixes:
+// http://caniuse.com/#search=transition
+if ((window.ontransitionend === undefined) && (window.onwebkittransitionend !== undefined)) {
+  CSS_PREFIX = '-webkit-';
+  TRANSITION_PROP = 'WebkitTransition';
+  TRANSITIONEND_EVENT = 'webkitTransitionEnd transitionend';
+} else {
+  TRANSITION_PROP = 'transition';
+  TRANSITIONEND_EVENT = 'transitionend';
+}
+
+if ((window.onanimationend === undefined) && (window.onwebkitanimationend !== undefined)) {
+  CSS_PREFIX = '-webkit-';
+  ANIMATION_PROP = 'WebkitAnimation';
+  ANIMATIONEND_EVENT = 'webkitAnimationEnd animationend';
+} else {
+  ANIMATION_PROP = 'animation';
+  ANIMATIONEND_EVENT = 'animationend';
+}
+
+var DURATION_KEY = 'Duration';
+var PROPERTY_KEY = 'Property';
+var DELAY_KEY = 'Delay';
+var TIMING_KEY = 'TimingFunction';
+var ANIMATION_ITERATION_COUNT_KEY = 'IterationCount';
+var ANIMATION_PLAYSTATE_KEY = 'PlayState';
+var SAFE_FAST_FORWARD_DURATION_VALUE = 9999;
+
+var ANIMATION_DELAY_PROP = ANIMATION_PROP + DELAY_KEY;
+var ANIMATION_DURATION_PROP = ANIMATION_PROP + DURATION_KEY;
+var TRANSITION_DELAY_PROP = TRANSITION_PROP + DELAY_KEY;
+var TRANSITION_DURATION_PROP = TRANSITION_PROP + DURATION_KEY;
+
+var ngMinErr = angular.$$minErr('ng');
+function assertArg(arg, name, reason) {
+  if (!arg) {
+    throw ngMinErr('areq', 'Argument \'{0}\' is {1}', (name || '?'), (reason || 'required'));
+  }
+  return arg;
+}
+
+function mergeClasses(a,b) {
+  if (!a && !b) return '';
+  if (!a) return b;
+  if (!b) return a;
+  if (isArray(a)) a = a.join(' ');
+  if (isArray(b)) b = b.join(' ');
+  return a + ' ' + b;
+}
+
+function packageStyles(options) {
+  var styles = {};
+  if (options && (options.to || options.from)) {
+    styles.to = options.to;
+    styles.from = options.from;
+  }
+  return styles;
+}
+
+function pendClasses(classes, fix, isPrefix) {
+  var className = '';
+  classes = isArray(classes)
+      ? classes
+      : classes && isString(classes) && classes.length
+          ? classes.split(/\s+/)
+          : [];
+  forEach(classes, function(klass, i) {
+    if (klass && klass.length > 0) {
+      className += (i > 0) ? ' ' : '';
+      className += isPrefix ? fix + klass
+                            : klass + fix;
+    }
+  });
+  return className;
+}
+
+function removeFromArray(arr, val) {
+  var index = arr.indexOf(val);
+  if (val >= 0) {
+    arr.splice(index, 1);
+  }
+}
+
+function stripCommentsFromElement(element) {
+  if (element instanceof jqLite) {
+    switch (element.length) {
+      case 0:
+        return element;
+
+      case 1:
+        // there is no point of stripping anything if the element
+        // is the only element within the jqLite wrapper.
+        // (it's important that we retain the element instance.)
+        if (element[0].nodeType === ELEMENT_NODE) {
+          return element;
+        }
+        break;
+
+      default:
+        return jqLite(extractElementNode(element));
+    }
+  }
+
+  if (element.nodeType === ELEMENT_NODE) {
+    return jqLite(element);
+  }
+}
+
+function extractElementNode(element) {
+  if (!element[0]) return element;
+  for (var i = 0; i < element.length; i++) {
+    var elm = element[i];
+    if (elm.nodeType === ELEMENT_NODE) {
+      return elm;
+    }
+  }
+}
+
+function $$addClass($$jqLite, element, className) {
+  forEach(element, function(elm) {
+    $$jqLite.addClass(elm, className);
+  });
+}
+
+function $$removeClass($$jqLite, element, className) {
+  forEach(element, function(elm) {
+    $$jqLite.removeClass(elm, className);
+  });
+}
+
+function applyAnimationClassesFactory($$jqLite) {
+  return function(element, options) {
+    if (options.addClass) {
+      $$addClass($$jqLite, element, options.addClass);
+      options.addClass = null;
+    }
+    if (options.removeClass) {
+      $$removeClass($$jqLite, element, options.removeClass);
+      options.removeClass = null;
+    }
+  };
+}
+
+function prepareAnimationOptions(options) {
+  options = options || {};
+  if (!options.$$prepared) {
+    var domOperation = options.domOperation || noop;
+    options.domOperation = function() {
+      options.$$domOperationFired = true;
+      domOperation();
+      domOperation = noop;
+    };
+    options.$$prepared = true;
+  }
+  return options;
+}
+
+function applyAnimationStyles(element, options) {
+  applyAnimationFromStyles(element, options);
+  applyAnimationToStyles(element, options);
+}
+
+function applyAnimationFromStyles(element, options) {
+  if (options.from) {
+    element.css(options.from);
+    options.from = null;
+  }
+}
+
+function applyAnimationToStyles(element, options) {
+  if (options.to) {
+    element.css(options.to);
+    options.to = null;
+  }
+}
+
+function mergeAnimationDetails(element, oldAnimation, newAnimation) {
+  var target = oldAnimation.options || {};
+  var newOptions = newAnimation.options || {};
+
+  var toAdd = (target.addClass || '') + ' ' + (newOptions.addClass || '');
+  var toRemove = (target.removeClass || '') + ' ' + (newOptions.removeClass || '');
+  var classes = resolveElementClasses(element.attr('class'), toAdd, toRemove);
+
+  if (newOptions.preparationClasses) {
+    target.preparationClasses = concatWithSpace(newOptions.preparationClasses, target.preparationClasses);
+    delete newOptions.preparationClasses;
+  }
+
+  // noop is basically when there is no callback; otherwise something has been set
+  var realDomOperation = target.domOperation !== noop ? target.domOperation : null;
+
+  extend(target, newOptions);
+
+  // TODO(matsko or sreeramu): proper fix is to maintain all animation callback in array and call at last,but now only leave has the callback so no issue with this.
+  if (realDomOperation) {
+    target.domOperation = realDomOperation;
+  }
+
+  if (classes.addClass) {
+    target.addClass = classes.addClass;
+  } else {
+    target.addClass = null;
+  }
+
+  if (classes.removeClass) {
+    target.removeClass = classes.removeClass;
+  } else {
+    target.removeClass = null;
+  }
+
+  oldAnimation.addClass = target.addClass;
+  oldAnimation.removeClass = target.removeClass;
+
+  return target;
+}
+
+function resolveElementClasses(existing, toAdd, toRemove) {
+  var ADD_CLASS = 1;
+  var REMOVE_CLASS = -1;
+
+  var flags = {};
+  existing = splitClassesToLookup(existing);
+
+  toAdd = splitClassesToLookup(toAdd);
+  forEach(toAdd, function(value, key) {
+    flags[key] = ADD_CLASS;
+  });
+
+  toRemove = splitClassesToLookup(toRemove);
+  forEach(toRemove, function(value, key) {
+    flags[key] = flags[key] === ADD_CLASS ? null : REMOVE_CLASS;
+  });
+
+  var classes = {
+    addClass: '',
+    removeClass: ''
+  };
+
+  forEach(flags, function(val, klass) {
+    var prop, allow;
+    if (val === ADD_CLASS) {
+      prop = 'addClass';
+      allow = !existing[klass] || existing[klass + REMOVE_CLASS_SUFFIX];
+    } else if (val === REMOVE_CLASS) {
+      prop = 'removeClass';
+      allow = existing[klass] || existing[klass + ADD_CLASS_SUFFIX];
+    }
+    if (allow) {
+      if (classes[prop].length) {
+        classes[prop] += ' ';
+      }
+      classes[prop] += klass;
+    }
+  });
+
+  function splitClassesToLookup(classes) {
+    if (isString(classes)) {
+      classes = classes.split(' ');
+    }
+
+    var obj = {};
+    forEach(classes, function(klass) {
+      // sometimes the split leaves empty string values
+      // incase extra spaces were applied to the options
+      if (klass.length) {
+        obj[klass] = true;
+      }
+    });
+    return obj;
+  }
+
+  return classes;
+}
+
+function getDomNode(element) {
+  return (element instanceof jqLite) ? element[0] : element;
+}
+
+function applyGeneratedPreparationClasses(element, event, options) {
+  var classes = '';
+  if (event) {
+    classes = pendClasses(event, EVENT_CLASS_PREFIX, true);
+  }
+  if (options.addClass) {
+    classes = concatWithSpace(classes, pendClasses(options.addClass, ADD_CLASS_SUFFIX));
+  }
+  if (options.removeClass) {
+    classes = concatWithSpace(classes, pendClasses(options.removeClass, REMOVE_CLASS_SUFFIX));
+  }
+  if (classes.length) {
+    options.preparationClasses = classes;
+    element.addClass(classes);
+  }
+}
+
+function clearGeneratedClasses(element, options) {
+  if (options.preparationClasses) {
+    element.removeClass(options.preparationClasses);
+    options.preparationClasses = null;
+  }
+  if (options.activeClasses) {
+    element.removeClass(options.activeClasses);
+    options.activeClasses = null;
+  }
+}
+
+function blockTransitions(node, duration) {
+  // we use a negative delay value since it performs blocking
+  // yet it doesn't kill any existing transitions running on the
+  // same element which makes this safe for class-based animations
+  var value = duration ? '-' + duration + 's' : '';
+  applyInlineStyle(node, [TRANSITION_DELAY_PROP, value]);
+  return [TRANSITION_DELAY_PROP, value];
+}
+
+function blockKeyframeAnimations(node, applyBlock) {
+  var value = applyBlock ? 'paused' : '';
+  var key = ANIMATION_PROP + ANIMATION_PLAYSTATE_KEY;
+  applyInlineStyle(node, [key, value]);
+  return [key, value];
+}
+
+function applyInlineStyle(node, styleTuple) {
+  var prop = styleTuple[0];
+  var value = styleTuple[1];
+  node.style[prop] = value;
+}
+
+function concatWithSpace(a,b) {
+  if (!a) return b;
+  if (!b) return a;
+  return a + ' ' + b;
+}
+
+var $$rAFSchedulerFactory = ['$$rAF', function($$rAF) {
+  var queue, cancelFn;
+
+  function scheduler(tasks) {
+    // we make a copy since RAFScheduler mutates the state
+    // of the passed in array variable and this would be difficult
+    // to track down on the outside code
+    queue = queue.concat(tasks);
+    nextTick();
+  }
+
+  queue = scheduler.queue = [];
+
+  /* waitUntilQuiet does two things:
+   * 1. It will run the FINAL `fn` value only when an uncanceled RAF has passed through
+   * 2. It will delay the next wave of tasks from running until the quiet `fn` has run.
+   *
+   * The motivation here is that animation code can request more time from the scheduler
+   * before the next wave runs. This allows for certain DOM properties such as classes to
+   * be resolved in time for the next animation to run.
+   */
+  scheduler.waitUntilQuiet = function(fn) {
+    if (cancelFn) cancelFn();
+
+    cancelFn = $$rAF(function() {
+      cancelFn = null;
+      fn();
+      nextTick();
+    });
+  };
+
+  return scheduler;
+
+  function nextTick() {
+    if (!queue.length) return;
+
+    var items = queue.shift();
+    for (var i = 0; i < items.length; i++) {
+      items[i]();
+    }
+
+    if (!cancelFn) {
+      $$rAF(function() {
+        if (!cancelFn) nextTick();
+      });
+    }
+  }
+}];
+
+/**
+ * @ngdoc directive
+ * @name ngAnimateChildren
+ * @restrict AE
+ * @element ANY
+ *
+ * @description
+ *
+ * ngAnimateChildren allows you to specify that children of this element should animate even if any
+ * of the children's parents are currently animating. By default, when an element has an active `enter`, `leave`, or `move`
+ * (structural) animation, child elements that also have an active structural animation are not animated.
+ *
+ * Note that even if `ngAnimateChildren` is set, no child animations will run when the parent element is removed from the DOM (`leave` animation).
+ *
+ *
+ * @param {string} ngAnimateChildren If the value is empty, `true` or `on`,
+ *     then child animations are allowed. If the value is `false`, child animations are not allowed.
+ *
+ * @example
+ * <example module="ngAnimateChildren" name="ngAnimateChildren" deps="angular-animate.js" animations="true">
+     <file name="index.html">
+       <div ng-controller="MainController as main">
+         <label>Show container? <input type="checkbox" ng-model="main.enterElement" /></label>
+         <label>Animate children? <input type="checkbox" ng-model="main.animateChildren" /></label>
+         <hr>
+         <div ng-animate-children="{{main.animateChildren}}">
+           <div ng-if="main.enterElement" class="container">
+             List of items:
+             <div ng-repeat="item in [0, 1, 2, 3]" class="item">Item {{item}}</div>
+           </div>
+         </div>
+       </div>
+     </file>
+     <file name="animations.css">
+
+      .container.ng-enter,
+      .container.ng-leave {
+        transition: all ease 1.5s;
+      }
+
+      .container.ng-enter,
+      .container.ng-leave-active {
+        opacity: 0;
+      }
+
+      .container.ng-leave,
+      .container.ng-enter-active {
+        opacity: 1;
+      }
+
+      .item {
+        background: firebrick;
+        color: #FFF;
+        margin-bottom: 10px;
+      }
+
+      .item.ng-enter,
+      .item.ng-leave {
+        transition: transform 1.5s ease;
+      }
+
+      .item.ng-enter {
+        transform: translateX(50px);
+      }
+
+      .item.ng-enter-active {
+        transform: translateX(0);
+      }
+    </file>
+    <file name="script.js">
+      angular.module('ngAnimateChildren', ['ngAnimate'])
+        .controller('MainController', function MainController() {
+          this.animateChildren = false;
+          this.enterElement = false;
+        });
+    </file>
+  </example>
+ */
+var $$AnimateChildrenDirective = ['$interpolate', function($interpolate) {
+  return {
+    link: function(scope, element, attrs) {
+      var val = attrs.ngAnimateChildren;
+      if (isString(val) && val.length === 0) { //empty attribute
+        element.data(NG_ANIMATE_CHILDREN_DATA, true);
+      } else {
+        // Interpolate and set the value, so that it is available to
+        // animations that run right after compilation
+        setData($interpolate(val)(scope));
+        attrs.$observe('ngAnimateChildren', setData);
+      }
+
+      function setData(value) {
+        value = value === 'on' || value === 'true';
+        element.data(NG_ANIMATE_CHILDREN_DATA, value);
+      }
+    }
+  };
+}];
+
+/* exported $AnimateCssProvider */
+
+var ANIMATE_TIMER_KEY = '$$animateCss';
+
+/**
+ * @ngdoc service
+ * @name $animateCss
+ * @kind object
+ *
+ * @description
+ * The `$animateCss` service is a useful utility to trigger customized CSS-based transitions/keyframes
+ * from a JavaScript-based animation or directly from a directive. The purpose of `$animateCss` is NOT
+ * to side-step how `$animate` and ngAnimate work, but the goal is to allow pre-existing animations or
+ * directives to create more complex animations that can be purely driven using CSS code.
+ *
+ * Note that only browsers that support CSS transitions and/or keyframe animations are capable of
+ * rendering animations triggered via `$animateCss` (bad news for IE9 and lower).
+ *
+ * ## Usage
+ * Once again, `$animateCss` is designed to be used inside of a registered JavaScript animation that
+ * is powered by ngAnimate. It is possible to use `$animateCss` directly inside of a directive, however,
+ * any automatic control over cancelling animations and/or preventing animations from being run on
+ * child elements will not be handled by Angular. For this to work as expected, please use `$animate` to
+ * trigger the animation and then setup a JavaScript animation that injects `$animateCss` to trigger
+ * the CSS animation.
+ *
+ * The example below shows how we can create a folding animation on an element using `ng-if`:
+ *
+ * ```html
+ * <!-- notice the `fold-animation` CSS class -->
+ * <div ng-if="onOff" class="fold-animation">
+ *   This element will go BOOM
+ * </div>
+ * <button ng-click="onOff=true">Fold In</button>
+ * ```
+ *
+ * Now we create the **JavaScript animation** that will trigger the CSS transition:
+ *
+ * ```js
+ * ngModule.animation('.fold-animation', ['$animateCss', function($animateCss) {
+ *   return {
+ *     enter: function(element, doneFn) {
+ *       var height = element[0].offsetHeight;
+ *       return $animateCss(element, {
+ *         from: { height:'0px' },
+ *         to: { height:height + 'px' },
+ *         duration: 1 // one second
+ *       });
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * ## More Advanced Uses
+ *
+ * `$animateCss` is the underlying code that ngAnimate uses to power **CSS-based animations** behind the scenes. Therefore CSS hooks
+ * like `.ng-EVENT`, `.ng-EVENT-active`, `.ng-EVENT-stagger` are all features that can be triggered using `$animateCss` via JavaScript code.
+ *
+ * This also means that just about any combination of adding classes, removing classes, setting styles, dynamically setting a keyframe animation,
+ * applying a hardcoded duration or delay value, changing the animation easing or applying a stagger animation are all options that work with
+ * `$animateCss`. The service itself is smart enough to figure out the combination of options and examine the element styling properties in order
+ * to provide a working animation that will run in CSS.
+ *
+ * The example below showcases a more advanced version of the `.fold-animation` from the example above:
+ *
+ * ```js
+ * ngModule.animation('.fold-animation', ['$animateCss', function($animateCss) {
+ *   return {
+ *     enter: function(element, doneFn) {
+ *       var height = element[0].offsetHeight;
+ *       return $animateCss(element, {
+ *         addClass: 'red large-text pulse-twice',
+ *         easing: 'ease-out',
+ *         from: { height:'0px' },
+ *         to: { height:height + 'px' },
+ *         duration: 1 // one second
+ *       });
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * Since we're adding/removing CSS classes then the CSS transition will also pick those up:
+ *
+ * ```css
+ * /&#42; since a hardcoded duration value of 1 was provided in the JavaScript animation code,
+ * the CSS classes below will be transitioned despite them being defined as regular CSS classes &#42;/
+ * .red { background:red; }
+ * .large-text { font-size:20px; }
+ *
+ * /&#42; we can also use a keyframe animation and $animateCss will make it work alongside the transition &#42;/
+ * .pulse-twice {
+ *   animation: 0.5s pulse linear 2;
+ *   -webkit-animation: 0.5s pulse linear 2;
+ * }
+ *
+ * @keyframes pulse {
+ *   from { transform: scale(0.5); }
+ *   to { transform: scale(1.5); }
+ * }
+ *
+ * @-webkit-keyframes pulse {
+ *   from { -webkit-transform: scale(0.5); }
+ *   to { -webkit-transform: scale(1.5); }
+ * }
+ * ```
+ *
+ * Given this complex combination of CSS classes, styles and options, `$animateCss` will figure everything out and make the animation happen.
+ *
+ * ## How the Options are handled
+ *
+ * `$animateCss` is very versatile and intelligent when it comes to figuring out what configurations to apply to the element to ensure the animation
+ * works with the options provided. Say for example we were adding a class that contained a keyframe value and we wanted to also animate some inline
+ * styles using the `from` and `to` properties.
+ *
+ * ```js
+ * var animator = $animateCss(element, {
+ *   from: { background:'red' },
+ *   to: { background:'blue' }
+ * });
+ * animator.start();
+ * ```
+ *
+ * ```css
+ * .rotating-animation {
+ *   animation:0.5s rotate linear;
+ *   -webkit-animation:0.5s rotate linear;
+ * }
+ *
+ * @keyframes rotate {
+ *   from { transform: rotate(0deg); }
+ *   to { transform: rotate(360deg); }
+ * }
+ *
+ * @-webkit-keyframes rotate {
+ *   from { -webkit-transform: rotate(0deg); }
+ *   to { -webkit-transform: rotate(360deg); }
+ * }
+ * ```
+ *
+ * The missing pieces here are that we do not have a transition set (within the CSS code nor within the `$animateCss` options) and the duration of the animation is
+ * going to be detected from what the keyframe styles on the CSS class are. In this event, `$animateCss` will automatically create an inline transition
+ * style matching the duration detected from the keyframe style (which is present in the CSS class that is being added) and then prepare both the transition
+ * and keyframe animations to run in parallel on the element. Then when the animation is underway the provided `from` and `to` CSS styles will be applied
+ * and spread across the transition and keyframe animation.
+ *
+ * ## What is returned
+ *
+ * `$animateCss` works in two stages: a preparation phase and an animation phase. Therefore when `$animateCss` is first called it will NOT actually
+ * start the animation. All that is going on here is that the element is being prepared for the animation (which means that the generated CSS classes are
+ * added and removed on the element). Once `$animateCss` is called it will return an object with the following properties:
+ *
+ * ```js
+ * var animator = $animateCss(element, { ... });
+ * ```
+ *
+ * Now what do the contents of our `animator` variable look like:
+ *
+ * ```js
+ * {
+ *   // starts the animation
+ *   start: Function,
+ *
+ *   // ends (aborts) the animation
+ *   end: Function
+ * }
+ * ```
+ *
+ * To actually start the animation we need to run `animation.start()` which will then return a promise that we can hook into to detect when the animation ends.
+ * If we choose not to run the animation then we MUST run `animation.end()` to perform a cleanup on the element (since some CSS classes and styles may have been
+ * applied to the element during the preparation phase). Note that all other properties such as duration, delay, transitions and keyframes are just properties
+ * and that changing them will not reconfigure the parameters of the animation.
+ *
+ * ### runner.done() vs runner.then()
+ * It is documented that `animation.start()` will return a promise object and this is true, however, there is also an additional method available on the
+ * runner called `.done(callbackFn)`. The done method works the same as `.finally(callbackFn)`, however, it does **not trigger a digest to occur**.
+ * Therefore, for performance reasons, it's always best to use `runner.done(callback)` instead of `runner.then()`, `runner.catch()` or `runner.finally()`
+ * unless you really need a digest to kick off afterwards.
+ *
+ * Keep in mind that, to make this easier, ngAnimate has tweaked the JS animations API to recognize when a runner instance is returned from $animateCss
+ * (so there is no need to call `runner.done(doneFn)` inside of your JavaScript animation code).
+ * Check the {@link ngAnimate.$animateCss#usage animation code above} to see how this works.
+ *
+ * @param {DOMElement} element the element that will be animated
+ * @param {object} options the animation-related options that will be applied during the animation
+ *
+ * * `event` - The DOM event (e.g. enter, leave, move). When used, a generated CSS class of `ng-EVENT` and `ng-EVENT-active` will be applied
+ * to the element during the animation. Multiple events can be provided when spaces are used as a separator. (Note that this will not perform any DOM operation.)
+ * * `structural` - Indicates that the `ng-` prefix will be added to the event class. Setting to `false` or omitting will turn `ng-EVENT` and
+ * `ng-EVENT-active` in `EVENT` and `EVENT-active`. Unused if `event` is omitted.
+ * * `easing` - The CSS easing value that will be applied to the transition or keyframe animation (or both).
+ * * `transitionStyle` - The raw CSS transition style that will be used (e.g. `1s linear all`).
+ * * `keyframeStyle` - The raw CSS keyframe animation style that will be used (e.g. `1s my_animation linear`).
+ * * `from` - The starting CSS styles (a key/value object) that will be applied at the start of the animation.
+ * * `to` - The ending CSS styles (a key/value object) that will be applied across the animation via a CSS transition.
+ * * `addClass` - A space separated list of CSS classes that will be added to the element and spread across the animation.
+ * * `removeClass` - A space separated list of CSS classes that will be removed from the element and spread across the animation.
+ * * `duration` - A number value representing the total duration of the transition and/or keyframe (note that a value of 1 is 1000ms). If a value of `0`
+ * is provided then the animation will be skipped entirely.
+ * * `delay` - A number value representing the total delay of the transition and/or keyframe (note that a value of 1 is 1000ms). If a value of `true` is
+ * used then whatever delay value is detected from the CSS classes will be mirrored on the elements styles (e.g. by setting delay true then the style value
+ * of the element will be `transition-delay: DETECTED_VALUE`). Using `true` is useful when you want the CSS classes and inline styles to all share the same
+ * CSS delay value.
+ * * `stagger` - A numeric time value representing the delay between successively animated elements
+ * ({@link ngAnimate#css-staggering-animations Click here to learn how CSS-based staggering works in ngAnimate.})
+ * * `staggerIndex` - The numeric index representing the stagger item (e.g. a value of 5 is equal to the sixth item in the stagger; therefore when a
+ *   `stagger` option value of `0.1` is used then there will be a stagger delay of `600ms`)
+ * * `applyClassesEarly` - Whether or not the classes being added or removed will be used when detecting the animation. This is set by `$animate` when enter/leave/move animations are fired to ensure that the CSS classes are resolved in time. (Note that this will prevent any transitions from occurring on the classes being added and removed.)
+ * * `cleanupStyles` - Whether or not the provided `from` and `to` styles will be removed once
+ *    the animation is closed. This is useful for when the styles are used purely for the sake of
+ *    the animation and do not have a lasting visual effect on the element (e.g. a collapse and open animation).
+ *    By default this value is set to `false`.
+ *
+ * @return {object} an object with start and end methods and details about the animation.
+ *
+ * * `start` - The method to start the animation. This will return a `Promise` when called.
+ * * `end` - This method will cancel the animation and remove all applied CSS classes and styles.
+ */
+var ONE_SECOND = 1000;
+
+var ELAPSED_TIME_MAX_DECIMAL_PLACES = 3;
+var CLOSING_TIME_BUFFER = 1.5;
+
+var DETECT_CSS_PROPERTIES = {
+  transitionDuration:      TRANSITION_DURATION_PROP,
+  transitionDelay:         TRANSITION_DELAY_PROP,
+  transitionProperty:      TRANSITION_PROP + PROPERTY_KEY,
+  animationDuration:       ANIMATION_DURATION_PROP,
+  animationDelay:          ANIMATION_DELAY_PROP,
+  animationIterationCount: ANIMATION_PROP + ANIMATION_ITERATION_COUNT_KEY
+};
+
+var DETECT_STAGGER_CSS_PROPERTIES = {
+  transitionDuration:      TRANSITION_DURATION_PROP,
+  transitionDelay:         TRANSITION_DELAY_PROP,
+  animationDuration:       ANIMATION_DURATION_PROP,
+  animationDelay:          ANIMATION_DELAY_PROP
+};
+
+function getCssKeyframeDurationStyle(duration) {
+  return [ANIMATION_DURATION_PROP, duration + 's'];
+}
+
+function getCssDelayStyle(delay, isKeyframeAnimation) {
+  var prop = isKeyframeAnimation ? ANIMATION_DELAY_PROP : TRANSITION_DELAY_PROP;
+  return [prop, delay + 's'];
+}
+
+function computeCssStyles($window, element, properties) {
+  var styles = Object.create(null);
+  var detectedStyles = $window.getComputedStyle(element) || {};
+  forEach(properties, function(formalStyleName, actualStyleName) {
+    var val = detectedStyles[formalStyleName];
+    if (val) {
+      var c = val.charAt(0);
+
+      // only numerical-based values have a negative sign or digit as the first value
+      if (c === '-' || c === '+' || c >= 0) {
+        val = parseMaxTime(val);
+      }
+
+      // by setting this to null in the event that the delay is not set or is set directly as 0
+      // then we can still allow for negative values to be used later on and not mistake this
+      // value for being greater than any other negative value.
+      if (val === 0) {
+        val = null;
+      }
+      styles[actualStyleName] = val;
+    }
+  });
+
+  return styles;
+}
+
+function parseMaxTime(str) {
+  var maxValue = 0;
+  var values = str.split(/\s*,\s*/);
+  forEach(values, function(value) {
+    // it's always safe to consider only second values and omit `ms` values since
+    // getComputedStyle will always handle the conversion for us
+    if (value.charAt(value.length - 1) === 's') {
+      value = value.substring(0, value.length - 1);
+    }
+    value = parseFloat(value) || 0;
+    maxValue = maxValue ? Math.max(value, maxValue) : value;
+  });
+  return maxValue;
+}
+
+function truthyTimingValue(val) {
+  return val === 0 || val != null;
+}
+
+function getCssTransitionDurationStyle(duration, applyOnlyDuration) {
+  var style = TRANSITION_PROP;
+  var value = duration + 's';
+  if (applyOnlyDuration) {
+    style += DURATION_KEY;
+  } else {
+    value += ' linear all';
+  }
+  return [style, value];
+}
+
+function createLocalCacheLookup() {
+  var cache = Object.create(null);
+  return {
+    flush: function() {
+      cache = Object.create(null);
+    },
+
+    count: function(key) {
+      var entry = cache[key];
+      return entry ? entry.total : 0;
+    },
+
+    get: function(key) {
+      var entry = cache[key];
+      return entry && entry.value;
+    },
+
+    put: function(key, value) {
+      if (!cache[key]) {
+        cache[key] = { total: 1, value: value };
+      } else {
+        cache[key].total++;
+      }
+    }
+  };
+}
+
+// we do not reassign an already present style value since
+// if we detect the style property value again we may be
+// detecting styles that were added via the `from` styles.
+// We make use of `isDefined` here since an empty string
+// or null value (which is what getPropertyValue will return
+// for a non-existing style) will still be marked as a valid
+// value for the style (a falsy value implies that the style
+// is to be removed at the end of the animation). If we had a simple
+// "OR" statement then it would not be enough to catch that.
+function registerRestorableStyles(backup, node, properties) {
+  forEach(properties, function(prop) {
+    backup[prop] = isDefined(backup[prop])
+        ? backup[prop]
+        : node.style.getPropertyValue(prop);
+  });
+}
+
+var $AnimateCssProvider = ['$animateProvider', /** @this */ function($animateProvider) {
+  var gcsLookup = createLocalCacheLookup();
+  var gcsStaggerLookup = createLocalCacheLookup();
+
+  this.$get = ['$window', '$$jqLite', '$$AnimateRunner', '$timeout',
+               '$$forceReflow', '$sniffer', '$$rAFScheduler', '$$animateQueue',
+       function($window,   $$jqLite,   $$AnimateRunner,   $timeout,
+                $$forceReflow,   $sniffer,   $$rAFScheduler, $$animateQueue) {
+
+    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+    var parentCounter = 0;
+    function gcsHashFn(node, extraClasses) {
+      var KEY = '$$ngAnimateParentKey';
+      var parentNode = node.parentNode;
+      var parentID = parentNode[KEY] || (parentNode[KEY] = ++parentCounter);
+      return parentID + '-' + node.getAttribute('class') + '-' + extraClasses;
+    }
+
+    function computeCachedCssStyles(node, className, cacheKey, properties) {
+      var timings = gcsLookup.get(cacheKey);
+
+      if (!timings) {
+        timings = computeCssStyles($window, node, properties);
+        if (timings.animationIterationCount === 'infinite') {
+          timings.animationIterationCount = 1;
+        }
+      }
+
+      // we keep putting this in multiple times even though the value and the cacheKey are the same
+      // because we're keeping an internal tally of how many duplicate animations are detected.
+      gcsLookup.put(cacheKey, timings);
+      return timings;
+    }
+
+    function computeCachedCssStaggerStyles(node, className, cacheKey, properties) {
+      var stagger;
+
+      // if we have one or more existing matches of matching elements
+      // containing the same parent + CSS styles (which is how cacheKey works)
+      // then staggering is possible
+      if (gcsLookup.count(cacheKey) > 0) {
+        stagger = gcsStaggerLookup.get(cacheKey);
+
+        if (!stagger) {
+          var staggerClassName = pendClasses(className, '-stagger');
+
+          $$jqLite.addClass(node, staggerClassName);
+
+          stagger = computeCssStyles($window, node, properties);
+
+          // force the conversion of a null value to zero incase not set
+          stagger.animationDuration = Math.max(stagger.animationDuration, 0);
+          stagger.transitionDuration = Math.max(stagger.transitionDuration, 0);
+
+          $$jqLite.removeClass(node, staggerClassName);
+
+          gcsStaggerLookup.put(cacheKey, stagger);
+        }
+      }
+
+      return stagger || {};
+    }
+
+    var rafWaitQueue = [];
+    function waitUntilQuiet(callback) {
+      rafWaitQueue.push(callback);
+      $$rAFScheduler.waitUntilQuiet(function() {
+        gcsLookup.flush();
+        gcsStaggerLookup.flush();
+
+        // DO NOT REMOVE THIS LINE OR REFACTOR OUT THE `pageWidth` variable.
+        // PLEASE EXAMINE THE `$$forceReflow` service to understand why.
+        var pageWidth = $$forceReflow();
+
+        // we use a for loop to ensure that if the queue is changed
+        // during this looping then it will consider new requests
+        for (var i = 0; i < rafWaitQueue.length; i++) {
+          rafWaitQueue[i](pageWidth);
+        }
+        rafWaitQueue.length = 0;
+      });
+    }
+
+    function computeTimings(node, className, cacheKey) {
+      var timings = computeCachedCssStyles(node, className, cacheKey, DETECT_CSS_PROPERTIES);
+      var aD = timings.animationDelay;
+      var tD = timings.transitionDelay;
+      timings.maxDelay = aD && tD
+          ? Math.max(aD, tD)
+          : (aD || tD);
+      timings.maxDuration = Math.max(
+          timings.animationDuration * timings.animationIterationCount,
+          timings.transitionDuration);
+
+      return timings;
+    }
+
+    return function init(element, initialOptions) {
+      // all of the animation functions should create
+      // a copy of the options data, however, if a
+      // parent service has already created a copy then
+      // we should stick to using that
+      var options = initialOptions || {};
+      if (!options.$$prepared) {
+        options = prepareAnimationOptions(copy(options));
+      }
+
+      var restoreStyles = {};
+      var node = getDomNode(element);
+      if (!node
+          || !node.parentNode
+          || !$$animateQueue.enabled()) {
+        return closeAndReturnNoopAnimator();
+      }
+
+      var temporaryStyles = [];
+      var classes = element.attr('class');
+      var styles = packageStyles(options);
+      var animationClosed;
+      var animationPaused;
+      var animationCompleted;
+      var runner;
+      var runnerHost;
+      var maxDelay;
+      var maxDelayTime;
+      var maxDuration;
+      var maxDurationTime;
+      var startTime;
+      var events = [];
+
+      if (options.duration === 0 || (!$sniffer.animations && !$sniffer.transitions)) {
+        return closeAndReturnNoopAnimator();
+      }
+
+      var method = options.event && isArray(options.event)
+            ? options.event.join(' ')
+            : options.event;
+
+      var isStructural = method && options.structural;
+      var structuralClassName = '';
+      var addRemoveClassName = '';
+
+      if (isStructural) {
+        structuralClassName = pendClasses(method, EVENT_CLASS_PREFIX, true);
+      } else if (method) {
+        structuralClassName = method;
+      }
+
+      if (options.addClass) {
+        addRemoveClassName += pendClasses(options.addClass, ADD_CLASS_SUFFIX);
+      }
+
+      if (options.removeClass) {
+        if (addRemoveClassName.length) {
+          addRemoveClassName += ' ';
+        }
+        addRemoveClassName += pendClasses(options.removeClass, REMOVE_CLASS_SUFFIX);
+      }
+
+      // there may be a situation where a structural animation is combined together
+      // with CSS classes that need to resolve before the animation is computed.
+      // However this means that there is no explicit CSS code to block the animation
+      // from happening (by setting 0s none in the class name). If this is the case
+      // we need to apply the classes before the first rAF so we know to continue if
+      // there actually is a detected transition or keyframe animation
+      if (options.applyClassesEarly && addRemoveClassName.length) {
+        applyAnimationClasses(element, options);
+      }
+
+      var preparationClasses = [structuralClassName, addRemoveClassName].join(' ').trim();
+      var fullClassName = classes + ' ' + preparationClasses;
+      var activeClasses = pendClasses(preparationClasses, ACTIVE_CLASS_SUFFIX);
+      var hasToStyles = styles.to && Object.keys(styles.to).length > 0;
+      var containsKeyframeAnimation = (options.keyframeStyle || '').length > 0;
+
+      // there is no way we can trigger an animation if no styles and
+      // no classes are being applied which would then trigger a transition,
+      // unless there a is raw keyframe value that is applied to the element.
+      if (!containsKeyframeAnimation
+           && !hasToStyles
+           && !preparationClasses) {
+        return closeAndReturnNoopAnimator();
+      }
+
+      var cacheKey, stagger;
+      if (options.stagger > 0) {
+        var staggerVal = parseFloat(options.stagger);
+        stagger = {
+          transitionDelay: staggerVal,
+          animationDelay: staggerVal,
+          transitionDuration: 0,
+          animationDuration: 0
+        };
+      } else {
+        cacheKey = gcsHashFn(node, fullClassName);
+        stagger = computeCachedCssStaggerStyles(node, preparationClasses, cacheKey, DETECT_STAGGER_CSS_PROPERTIES);
+      }
+
+      if (!options.$$skipPreparationClasses) {
+        $$jqLite.addClass(element, preparationClasses);
+      }
+
+      var applyOnlyDuration;
+
+      if (options.transitionStyle) {
+        var transitionStyle = [TRANSITION_PROP, options.transitionStyle];
+        applyInlineStyle(node, transitionStyle);
+        temporaryStyles.push(transitionStyle);
+      }
+
+      if (options.duration >= 0) {
+        applyOnlyDuration = node.style[TRANSITION_PROP].length > 0;
+        var durationStyle = getCssTransitionDurationStyle(options.duration, applyOnlyDuration);
+
+        // we set the duration so that it will be picked up by getComputedStyle later
+        applyInlineStyle(node, durationStyle);
+        temporaryStyles.push(durationStyle);
+      }
+
+      if (options.keyframeStyle) {
+        var keyframeStyle = [ANIMATION_PROP, options.keyframeStyle];
+        applyInlineStyle(node, keyframeStyle);
+        temporaryStyles.push(keyframeStyle);
+      }
+
+      var itemIndex = stagger
+          ? options.staggerIndex >= 0
+              ? options.staggerIndex
+              : gcsLookup.count(cacheKey)
+          : 0;
+
+      var isFirst = itemIndex === 0;
+
+      // this is a pre-emptive way of forcing the setup classes to be added and applied INSTANTLY
+      // without causing any combination of transitions to kick in. By adding a negative delay value
+      // it forces the setup class' transition to end immediately. We later then remove the negative
+      // transition delay to allow for the transition to naturally do it's thing. The beauty here is
+      // that if there is no transition defined then nothing will happen and this will also allow
+      // other transitions to be stacked on top of each other without any chopping them out.
+      if (isFirst && !options.skipBlocking) {
+        blockTransitions(node, SAFE_FAST_FORWARD_DURATION_VALUE);
+      }
+
+      var timings = computeTimings(node, fullClassName, cacheKey);
+      var relativeDelay = timings.maxDelay;
+      maxDelay = Math.max(relativeDelay, 0);
+      maxDuration = timings.maxDuration;
+
+      var flags = {};
+      flags.hasTransitions          = timings.transitionDuration > 0;
+      flags.hasAnimations           = timings.animationDuration > 0;
+      flags.hasTransitionAll        = flags.hasTransitions && timings.transitionProperty === 'all';
+      flags.applyTransitionDuration = hasToStyles && (
+                                        (flags.hasTransitions && !flags.hasTransitionAll)
+                                         || (flags.hasAnimations && !flags.hasTransitions));
+      flags.applyAnimationDuration  = options.duration && flags.hasAnimations;
+      flags.applyTransitionDelay    = truthyTimingValue(options.delay) && (flags.applyTransitionDuration || flags.hasTransitions);
+      flags.applyAnimationDelay     = truthyTimingValue(options.delay) && flags.hasAnimations;
+      flags.recalculateTimingStyles = addRemoveClassName.length > 0;
+
+      if (flags.applyTransitionDuration || flags.applyAnimationDuration) {
+        maxDuration = options.duration ? parseFloat(options.duration) : maxDuration;
+
+        if (flags.applyTransitionDuration) {
+          flags.hasTransitions = true;
+          timings.transitionDuration = maxDuration;
+          applyOnlyDuration = node.style[TRANSITION_PROP + PROPERTY_KEY].length > 0;
+          temporaryStyles.push(getCssTransitionDurationStyle(maxDuration, applyOnlyDuration));
+        }
+
+        if (flags.applyAnimationDuration) {
+          flags.hasAnimations = true;
+          timings.animationDuration = maxDuration;
+          temporaryStyles.push(getCssKeyframeDurationStyle(maxDuration));
+        }
+      }
+
+      if (maxDuration === 0 && !flags.recalculateTimingStyles) {
+        return closeAndReturnNoopAnimator();
+      }
+
+      if (options.delay != null) {
+        var delayStyle;
+        if (typeof options.delay !== 'boolean') {
+          delayStyle = parseFloat(options.delay);
+          // number in options.delay means we have to recalculate the delay for the closing timeout
+          maxDelay = Math.max(delayStyle, 0);
+        }
+
+        if (flags.applyTransitionDelay) {
+          temporaryStyles.push(getCssDelayStyle(delayStyle));
+        }
+
+        if (flags.applyAnimationDelay) {
+          temporaryStyles.push(getCssDelayStyle(delayStyle, true));
+        }
+      }
+
+      // we need to recalculate the delay value since we used a pre-emptive negative
+      // delay value and the delay value is required for the final event checking. This
+      // property will ensure that this will happen after the RAF phase has passed.
+      if (options.duration == null && timings.transitionDuration > 0) {
+        flags.recalculateTimingStyles = flags.recalculateTimingStyles || isFirst;
+      }
+
+      maxDelayTime = maxDelay * ONE_SECOND;
+      maxDurationTime = maxDuration * ONE_SECOND;
+      if (!options.skipBlocking) {
+        flags.blockTransition = timings.transitionDuration > 0;
+        flags.blockKeyframeAnimation = timings.animationDuration > 0 &&
+                                       stagger.animationDelay > 0 &&
+                                       stagger.animationDuration === 0;
+      }
+
+      if (options.from) {
+        if (options.cleanupStyles) {
+          registerRestorableStyles(restoreStyles, node, Object.keys(options.from));
+        }
+        applyAnimationFromStyles(element, options);
+      }
+
+      if (flags.blockTransition || flags.blockKeyframeAnimation) {
+        applyBlocking(maxDuration);
+      } else if (!options.skipBlocking) {
+        blockTransitions(node, false);
+      }
+
+      // TODO(matsko): for 1.5 change this code to have an animator object for better debugging
+      return {
+        $$willAnimate: true,
+        end: endFn,
+        start: function() {
+          if (animationClosed) return;
+
+          runnerHost = {
+            end: endFn,
+            cancel: cancelFn,
+            resume: null, //this will be set during the start() phase
+            pause: null
+          };
+
+          runner = new $$AnimateRunner(runnerHost);
+
+          waitUntilQuiet(start);
+
+          // we don't have access to pause/resume the animation
+          // since it hasn't run yet. AnimateRunner will therefore
+          // set noop functions for resume and pause and they will
+          // later be overridden once the animation is triggered
+          return runner;
+        }
+      };
+
+      function endFn() {
+        close();
+      }
+
+      function cancelFn() {
+        close(true);
+      }
+
+      function close(rejected) {
+        // if the promise has been called already then we shouldn't close
+        // the animation again
+        if (animationClosed || (animationCompleted && animationPaused)) return;
+        animationClosed = true;
+        animationPaused = false;
+
+        if (!options.$$skipPreparationClasses) {
+          $$jqLite.removeClass(element, preparationClasses);
+        }
+        $$jqLite.removeClass(element, activeClasses);
+
+        blockKeyframeAnimations(node, false);
+        blockTransitions(node, false);
+
+        forEach(temporaryStyles, function(entry) {
+          // There is only one way to remove inline style properties entirely from elements.
+          // By using `removeProperty` this works, but we need to convert camel-cased CSS
+          // styles down to hyphenated values.
+          node.style[entry[0]] = '';
+        });
+
+        applyAnimationClasses(element, options);
+        applyAnimationStyles(element, options);
+
+        if (Object.keys(restoreStyles).length) {
+          forEach(restoreStyles, function(value, prop) {
+            if (value) {
+              node.style.setProperty(prop, value);
+            } else {
+              node.style.removeProperty(prop);
+            }
+          });
+        }
+
+        // the reason why we have this option is to allow a synchronous closing callback
+        // that is fired as SOON as the animation ends (when the CSS is removed) or if
+        // the animation never takes off at all. A good example is a leave animation since
+        // the element must be removed just after the animation is over or else the element
+        // will appear on screen for one animation frame causing an overbearing flicker.
+        if (options.onDone) {
+          options.onDone();
+        }
+
+        if (events && events.length) {
+          // Remove the transitionend / animationend listener(s)
+          element.off(events.join(' '), onAnimationProgress);
+        }
+
+        //Cancel the fallback closing timeout and remove the timer data
+        var animationTimerData = element.data(ANIMATE_TIMER_KEY);
+        if (animationTimerData) {
+          $timeout.cancel(animationTimerData[0].timer);
+          element.removeData(ANIMATE_TIMER_KEY);
+        }
+
+        // if the preparation function fails then the promise is not setup
+        if (runner) {
+          runner.complete(!rejected);
+        }
+      }
+
+      function applyBlocking(duration) {
+        if (flags.blockTransition) {
+          blockTransitions(node, duration);
+        }
+
+        if (flags.blockKeyframeAnimation) {
+          blockKeyframeAnimations(node, !!duration);
+        }
+      }
+
+      function closeAndReturnNoopAnimator() {
+        runner = new $$AnimateRunner({
+          end: endFn,
+          cancel: cancelFn
+        });
+
+        // should flush the cache animation
+        waitUntilQuiet(noop);
+        close();
+
+        return {
+          $$willAnimate: false,
+          start: function() {
+            return runner;
+          },
+          end: endFn
+        };
+      }
+
+      function onAnimationProgress(event) {
+        event.stopPropagation();
+        var ev = event.originalEvent || event;
+
+        // we now always use `Date.now()` due to the recent changes with
+        // event.timeStamp in Firefox, Webkit and Chrome (see #13494 for more info)
+        var timeStamp = ev.$manualTimeStamp || Date.now();
+
+        /* Firefox (or possibly just Gecko) likes to not round values up
+         * when a ms measurement is used for the animation */
+        var elapsedTime = parseFloat(ev.elapsedTime.toFixed(ELAPSED_TIME_MAX_DECIMAL_PLACES));
+
+        /* $manualTimeStamp is a mocked timeStamp value which is set
+         * within browserTrigger(). This is only here so that tests can
+         * mock animations properly. Real events fallback to event.timeStamp,
+         * or, if they don't, then a timeStamp is automatically created for them.
+         * We're checking to see if the timeStamp surpasses the expected delay,
+         * but we're using elapsedTime instead of the timeStamp on the 2nd
+         * pre-condition since animationPauseds sometimes close off early */
+        if (Math.max(timeStamp - startTime, 0) >= maxDelayTime && elapsedTime >= maxDuration) {
+          // we set this flag to ensure that if the transition is paused then, when resumed,
+          // the animation will automatically close itself since transitions cannot be paused.
+          animationCompleted = true;
+          close();
+        }
+      }
+
+      function start() {
+        if (animationClosed) return;
+        if (!node.parentNode) {
+          close();
+          return;
+        }
+
+        // even though we only pause keyframe animations here the pause flag
+        // will still happen when transitions are used. Only the transition will
+        // not be paused since that is not possible. If the animation ends when
+        // paused then it will not complete until unpaused or cancelled.
+        var playPause = function(playAnimation) {
+          if (!animationCompleted) {
+            animationPaused = !playAnimation;
+            if (timings.animationDuration) {
+              var value = blockKeyframeAnimations(node, animationPaused);
+              if (animationPaused) {
+                temporaryStyles.push(value);
+              } else {
+                removeFromArray(temporaryStyles, value);
+              }
+            }
+          } else if (animationPaused && playAnimation) {
+            animationPaused = false;
+            close();
+          }
+        };
+
+        // checking the stagger duration prevents an accidentally cascade of the CSS delay style
+        // being inherited from the parent. If the transition duration is zero then we can safely
+        // rely that the delay value is an intentional stagger delay style.
+        var maxStagger = itemIndex > 0
+                         && ((timings.transitionDuration && stagger.transitionDuration === 0) ||
+                            (timings.animationDuration && stagger.animationDuration === 0))
+                         && Math.max(stagger.animationDelay, stagger.transitionDelay);
+        if (maxStagger) {
+          $timeout(triggerAnimationStart,
+                   Math.floor(maxStagger * itemIndex * ONE_SECOND),
+                   false);
+        } else {
+          triggerAnimationStart();
+        }
+
+        // this will decorate the existing promise runner with pause/resume methods
+        runnerHost.resume = function() {
+          playPause(true);
+        };
+
+        runnerHost.pause = function() {
+          playPause(false);
+        };
+
+        function triggerAnimationStart() {
+          // just incase a stagger animation kicks in when the animation
+          // itself was cancelled entirely
+          if (animationClosed) return;
+
+          applyBlocking(false);
+
+          forEach(temporaryStyles, function(entry) {
+            var key = entry[0];
+            var value = entry[1];
+            node.style[key] = value;
+          });
+
+          applyAnimationClasses(element, options);
+          $$jqLite.addClass(element, activeClasses);
+
+          if (flags.recalculateTimingStyles) {
+            fullClassName = node.getAttribute('class') + ' ' + preparationClasses;
+            cacheKey = gcsHashFn(node, fullClassName);
+
+            timings = computeTimings(node, fullClassName, cacheKey);
+            relativeDelay = timings.maxDelay;
+            maxDelay = Math.max(relativeDelay, 0);
+            maxDuration = timings.maxDuration;
+
+            if (maxDuration === 0) {
+              close();
+              return;
+            }
+
+            flags.hasTransitions = timings.transitionDuration > 0;
+            flags.hasAnimations = timings.animationDuration > 0;
+          }
+
+          if (flags.applyAnimationDelay) {
+            relativeDelay = typeof options.delay !== 'boolean' && truthyTimingValue(options.delay)
+                  ? parseFloat(options.delay)
+                  : relativeDelay;
+
+            maxDelay = Math.max(relativeDelay, 0);
+            timings.animationDelay = relativeDelay;
+            delayStyle = getCssDelayStyle(relativeDelay, true);
+            temporaryStyles.push(delayStyle);
+            node.style[delayStyle[0]] = delayStyle[1];
+          }
+
+          maxDelayTime = maxDelay * ONE_SECOND;
+          maxDurationTime = maxDuration * ONE_SECOND;
+
+          if (options.easing) {
+            var easeProp, easeVal = options.easing;
+            if (flags.hasTransitions) {
+              easeProp = TRANSITION_PROP + TIMING_KEY;
+              temporaryStyles.push([easeProp, easeVal]);
+              node.style[easeProp] = easeVal;
+            }
+            if (flags.hasAnimations) {
+              easeProp = ANIMATION_PROP + TIMING_KEY;
+              temporaryStyles.push([easeProp, easeVal]);
+              node.style[easeProp] = easeVal;
+            }
+          }
+
+          if (timings.transitionDuration) {
+            events.push(TRANSITIONEND_EVENT);
+          }
+
+          if (timings.animationDuration) {
+            events.push(ANIMATIONEND_EVENT);
+          }
+
+          startTime = Date.now();
+          var timerTime = maxDelayTime + CLOSING_TIME_BUFFER * maxDurationTime;
+          var endTime = startTime + timerTime;
+
+          var animationsData = element.data(ANIMATE_TIMER_KEY) || [];
+          var setupFallbackTimer = true;
+          if (animationsData.length) {
+            var currentTimerData = animationsData[0];
+            setupFallbackTimer = endTime > currentTimerData.expectedEndTime;
+            if (setupFallbackTimer) {
+              $timeout.cancel(currentTimerData.timer);
+            } else {
+              animationsData.push(close);
+            }
+          }
+
+          if (setupFallbackTimer) {
+            var timer = $timeout(onAnimationExpired, timerTime, false);
+            animationsData[0] = {
+              timer: timer,
+              expectedEndTime: endTime
+            };
+            animationsData.push(close);
+            element.data(ANIMATE_TIMER_KEY, animationsData);
+          }
+
+          if (events.length) {
+            element.on(events.join(' '), onAnimationProgress);
+          }
+
+          if (options.to) {
+            if (options.cleanupStyles) {
+              registerRestorableStyles(restoreStyles, node, Object.keys(options.to));
+            }
+            applyAnimationToStyles(element, options);
+          }
+        }
+
+        function onAnimationExpired() {
+          var animationsData = element.data(ANIMATE_TIMER_KEY);
+
+          // this will be false in the event that the element was
+          // removed from the DOM (via a leave animation or something
+          // similar)
+          if (animationsData) {
+            for (var i = 1; i < animationsData.length; i++) {
+              animationsData[i]();
+            }
+            element.removeData(ANIMATE_TIMER_KEY);
+          }
+        }
+      }
+    };
+  }];
+}];
+
+var $$AnimateCssDriverProvider = ['$$animationProvider', /** @this */ function($$animationProvider) {
+  $$animationProvider.drivers.push('$$animateCssDriver');
+
+  var NG_ANIMATE_SHIM_CLASS_NAME = 'ng-animate-shim';
+  var NG_ANIMATE_ANCHOR_CLASS_NAME = 'ng-anchor';
+
+  var NG_OUT_ANCHOR_CLASS_NAME = 'ng-anchor-out';
+  var NG_IN_ANCHOR_CLASS_NAME = 'ng-anchor-in';
+
+  function isDocumentFragment(node) {
+    return node.parentNode && node.parentNode.nodeType === 11;
+  }
+
+  this.$get = ['$animateCss', '$rootScope', '$$AnimateRunner', '$rootElement', '$sniffer', '$$jqLite', '$document',
+       function($animateCss,   $rootScope,   $$AnimateRunner,   $rootElement,   $sniffer,   $$jqLite,   $document) {
+
+    // only browsers that support these properties can render animations
+    if (!$sniffer.animations && !$sniffer.transitions) return noop;
+
+    var bodyNode = $document[0].body;
+    var rootNode = getDomNode($rootElement);
+
+    var rootBodyElement = jqLite(
+      // this is to avoid using something that exists outside of the body
+      // we also special case the doc fragment case because our unit test code
+      // appends the $rootElement to the body after the app has been bootstrapped
+      isDocumentFragment(rootNode) || bodyNode.contains(rootNode) ? rootNode : bodyNode
+    );
+
+    return function initDriverFn(animationDetails) {
+      return animationDetails.from && animationDetails.to
+          ? prepareFromToAnchorAnimation(animationDetails.from,
+                                         animationDetails.to,
+                                         animationDetails.classes,
+                                         animationDetails.anchors)
+          : prepareRegularAnimation(animationDetails);
+    };
+
+    function filterCssClasses(classes) {
+      //remove all the `ng-` stuff
+      return classes.replace(/\bng-\S+\b/g, '');
+    }
+
+    function getUniqueValues(a, b) {
+      if (isString(a)) a = a.split(' ');
+      if (isString(b)) b = b.split(' ');
+      return a.filter(function(val) {
+        return b.indexOf(val) === -1;
+      }).join(' ');
+    }
+
+    function prepareAnchoredAnimation(classes, outAnchor, inAnchor) {
+      var clone = jqLite(getDomNode(outAnchor).cloneNode(true));
+      var startingClasses = filterCssClasses(getClassVal(clone));
+
+      outAnchor.addClass(NG_ANIMATE_SHIM_CLASS_NAME);
+      inAnchor.addClass(NG_ANIMATE_SHIM_CLASS_NAME);
+
+      clone.addClass(NG_ANIMATE_ANCHOR_CLASS_NAME);
+
+      rootBodyElement.append(clone);
+
+      var animatorIn, animatorOut = prepareOutAnimation();
+
+      // the user may not end up using the `out` animation and
+      // only making use of the `in` animation or vice-versa.
+      // In either case we should allow this and not assume the
+      // animation is over unless both animations are not used.
+      if (!animatorOut) {
+        animatorIn = prepareInAnimation();
+        if (!animatorIn) {
+          return end();
+        }
+      }
+
+      var startingAnimator = animatorOut || animatorIn;
+
+      return {
+        start: function() {
+          var runner;
+
+          var currentAnimation = startingAnimator.start();
+          currentAnimation.done(function() {
+            currentAnimation = null;
+            if (!animatorIn) {
+              animatorIn = prepareInAnimation();
+              if (animatorIn) {
+                currentAnimation = animatorIn.start();
+                currentAnimation.done(function() {
+                  currentAnimation = null;
+                  end();
+                  runner.complete();
+                });
+                return currentAnimation;
+              }
+            }
+            // in the event that there is no `in` animation
+            end();
+            runner.complete();
+          });
+
+          runner = new $$AnimateRunner({
+            end: endFn,
+            cancel: endFn
+          });
+
+          return runner;
+
+          function endFn() {
+            if (currentAnimation) {
+              currentAnimation.end();
+            }
+          }
+        }
+      };
+
+      function calculateAnchorStyles(anchor) {
+        var styles = {};
+
+        var coords = getDomNode(anchor).getBoundingClientRect();
+
+        // we iterate directly since safari messes up and doesn't return
+        // all the keys for the coords object when iterated
+        forEach(['width','height','top','left'], function(key) {
+          var value = coords[key];
+          switch (key) {
+            case 'top':
+              value += bodyNode.scrollTop;
+              break;
+            case 'left':
+              value += bodyNode.scrollLeft;
+              break;
+          }
+          styles[key] = Math.floor(value) + 'px';
+        });
+        return styles;
+      }
+
+      function prepareOutAnimation() {
+        var animator = $animateCss(clone, {
+          addClass: NG_OUT_ANCHOR_CLASS_NAME,
+          delay: true,
+          from: calculateAnchorStyles(outAnchor)
+        });
+
+        // read the comment within `prepareRegularAnimation` to understand
+        // why this check is necessary
+        return animator.$$willAnimate ? animator : null;
+      }
+
+      function getClassVal(element) {
+        return element.attr('class') || '';
+      }
+
+      function prepareInAnimation() {
+        var endingClasses = filterCssClasses(getClassVal(inAnchor));
+        var toAdd = getUniqueValues(endingClasses, startingClasses);
+        var toRemove = getUniqueValues(startingClasses, endingClasses);
+
+        var animator = $animateCss(clone, {
+          to: calculateAnchorStyles(inAnchor),
+          addClass: NG_IN_ANCHOR_CLASS_NAME + ' ' + toAdd,
+          removeClass: NG_OUT_ANCHOR_CLASS_NAME + ' ' + toRemove,
+          delay: true
+        });
+
+        // read the comment within `prepareRegularAnimation` to understand
+        // why this check is necessary
+        return animator.$$willAnimate ? animator : null;
+      }
+
+      function end() {
+        clone.remove();
+        outAnchor.removeClass(NG_ANIMATE_SHIM_CLASS_NAME);
+        inAnchor.removeClass(NG_ANIMATE_SHIM_CLASS_NAME);
+      }
+    }
+
+    function prepareFromToAnchorAnimation(from, to, classes, anchors) {
+      var fromAnimation = prepareRegularAnimation(from, noop);
+      var toAnimation = prepareRegularAnimation(to, noop);
+
+      var anchorAnimations = [];
+      forEach(anchors, function(anchor) {
+        var outElement = anchor['out'];
+        var inElement = anchor['in'];
+        var animator = prepareAnchoredAnimation(classes, outElement, inElement);
+        if (animator) {
+          anchorAnimations.push(animator);
+        }
+      });
+
+      // no point in doing anything when there are no elements to animate
+      if (!fromAnimation && !toAnimation && anchorAnimations.length === 0) return;
+
+      return {
+        start: function() {
+          var animationRunners = [];
+
+          if (fromAnimation) {
+            animationRunners.push(fromAnimation.start());
+          }
+
+          if (toAnimation) {
+            animationRunners.push(toAnimation.start());
+          }
+
+          forEach(anchorAnimations, function(animation) {
+            animationRunners.push(animation.start());
+          });
+
+          var runner = new $$AnimateRunner({
+            end: endFn,
+            cancel: endFn // CSS-driven animations cannot be cancelled, only ended
+          });
+
+          $$AnimateRunner.all(animationRunners, function(status) {
+            runner.complete(status);
+          });
+
+          return runner;
+
+          function endFn() {
+            forEach(animationRunners, function(runner) {
+              runner.end();
+            });
+          }
+        }
+      };
+    }
+
+    function prepareRegularAnimation(animationDetails) {
+      var element = animationDetails.element;
+      var options = animationDetails.options || {};
+
+      if (animationDetails.structural) {
+        options.event = animationDetails.event;
+        options.structural = true;
+        options.applyClassesEarly = true;
+
+        // we special case the leave animation since we want to ensure that
+        // the element is removed as soon as the animation is over. Otherwise
+        // a flicker might appear or the element may not be removed at all
+        if (animationDetails.event === 'leave') {
+          options.onDone = options.domOperation;
+        }
+      }
+
+      // We assign the preparationClasses as the actual animation event since
+      // the internals of $animateCss will just suffix the event token values
+      // with `-active` to trigger the animation.
+      if (options.preparationClasses) {
+        options.event = concatWithSpace(options.event, options.preparationClasses);
+      }
+
+      var animator = $animateCss(element, options);
+
+      // the driver lookup code inside of $$animation attempts to spawn a
+      // driver one by one until a driver returns a.$$willAnimate animator object.
+      // $animateCss will always return an object, however, it will pass in
+      // a flag as a hint as to whether an animation was detected or not
+      return animator.$$willAnimate ? animator : null;
+    }
+  }];
+}];
+
+// TODO(matsko): use caching here to speed things up for detection
+// TODO(matsko): add documentation
+//  by the time...
+
+var $$AnimateJsProvider = ['$animateProvider', /** @this */ function($animateProvider) {
+  this.$get = ['$injector', '$$AnimateRunner', '$$jqLite',
+       function($injector,   $$AnimateRunner,   $$jqLite) {
+
+    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+         // $animateJs(element, 'enter');
+    return function(element, event, classes, options) {
+      var animationClosed = false;
+
+      // the `classes` argument is optional and if it is not used
+      // then the classes will be resolved from the element's className
+      // property as well as options.addClass/options.removeClass.
+      if (arguments.length === 3 && isObject(classes)) {
+        options = classes;
+        classes = null;
+      }
+
+      options = prepareAnimationOptions(options);
+      if (!classes) {
+        classes = element.attr('class') || '';
+        if (options.addClass) {
+          classes += ' ' + options.addClass;
+        }
+        if (options.removeClass) {
+          classes += ' ' + options.removeClass;
+        }
+      }
+
+      var classesToAdd = options.addClass;
+      var classesToRemove = options.removeClass;
+
+      // the lookupAnimations function returns a series of animation objects that are
+      // matched up with one or more of the CSS classes. These animation objects are
+      // defined via the module.animation factory function. If nothing is detected then
+      // we don't return anything which then makes $animation query the next driver.
+      var animations = lookupAnimations(classes);
+      var before, after;
+      if (animations.length) {
+        var afterFn, beforeFn;
+        if (event === 'leave') {
+          beforeFn = 'leave';
+          afterFn = 'afterLeave'; // TODO(matsko): get rid of this
+        } else {
+          beforeFn = 'before' + event.charAt(0).toUpperCase() + event.substr(1);
+          afterFn = event;
+        }
+
+        if (event !== 'enter' && event !== 'move') {
+          before = packageAnimations(element, event, options, animations, beforeFn);
+        }
+        after  = packageAnimations(element, event, options, animations, afterFn);
+      }
+
+      // no matching animations
+      if (!before && !after) return;
+
+      function applyOptions() {
+        options.domOperation();
+        applyAnimationClasses(element, options);
+      }
+
+      function close() {
+        animationClosed = true;
+        applyOptions();
+        applyAnimationStyles(element, options);
+      }
+
+      var runner;
+
+      return {
+        $$willAnimate: true,
+        end: function() {
+          if (runner) {
+            runner.end();
+          } else {
+            close();
+            runner = new $$AnimateRunner();
+            runner.complete(true);
+          }
+          return runner;
+        },
+        start: function() {
+          if (runner) {
+            return runner;
+          }
+
+          runner = new $$AnimateRunner();
+          var closeActiveAnimations;
+          var chain = [];
+
+          if (before) {
+            chain.push(function(fn) {
+              closeActiveAnimations = before(fn);
+            });
+          }
+
+          if (chain.length) {
+            chain.push(function(fn) {
+              applyOptions();
+              fn(true);
+            });
+          } else {
+            applyOptions();
+          }
+
+          if (after) {
+            chain.push(function(fn) {
+              closeActiveAnimations = after(fn);
+            });
+          }
+
+          runner.setHost({
+            end: function() {
+              endAnimations();
+            },
+            cancel: function() {
+              endAnimations(true);
+            }
+          });
+
+          $$AnimateRunner.chain(chain, onComplete);
+          return runner;
+
+          function onComplete(success) {
+            close(success);
+            runner.complete(success);
+          }
+
+          function endAnimations(cancelled) {
+            if (!animationClosed) {
+              (closeActiveAnimations || noop)(cancelled);
+              onComplete(cancelled);
+            }
+          }
+        }
+      };
+
+      function executeAnimationFn(fn, element, event, options, onDone) {
+        var args;
+        switch (event) {
+          case 'animate':
+            args = [element, options.from, options.to, onDone];
+            break;
+
+          case 'setClass':
+            args = [element, classesToAdd, classesToRemove, onDone];
+            break;
+
+          case 'addClass':
+            args = [element, classesToAdd, onDone];
+            break;
+
+          case 'removeClass':
+            args = [element, classesToRemove, onDone];
+            break;
+
+          default:
+            args = [element, onDone];
+            break;
+        }
+
+        args.push(options);
+
+        var value = fn.apply(fn, args);
+        if (value) {
+          if (isFunction(value.start)) {
+            value = value.start();
+          }
+
+          if (value instanceof $$AnimateRunner) {
+            value.done(onDone);
+          } else if (isFunction(value)) {
+            // optional onEnd / onCancel callback
+            return value;
+          }
+        }
+
+        return noop;
+      }
+
+      function groupEventedAnimations(element, event, options, animations, fnName) {
+        var operations = [];
+        forEach(animations, function(ani) {
+          var animation = ani[fnName];
+          if (!animation) return;
+
+          // note that all of these animations will run in parallel
+          operations.push(function() {
+            var runner;
+            var endProgressCb;
+
+            var resolved = false;
+            var onAnimationComplete = function(rejected) {
+              if (!resolved) {
+                resolved = true;
+                (endProgressCb || noop)(rejected);
+                runner.complete(!rejected);
+              }
+            };
+
+            runner = new $$AnimateRunner({
+              end: function() {
+                onAnimationComplete();
+              },
+              cancel: function() {
+                onAnimationComplete(true);
+              }
+            });
+
+            endProgressCb = executeAnimationFn(animation, element, event, options, function(result) {
+              var cancelled = result === false;
+              onAnimationComplete(cancelled);
+            });
+
+            return runner;
+          });
+        });
+
+        return operations;
+      }
+
+      function packageAnimations(element, event, options, animations, fnName) {
+        var operations = groupEventedAnimations(element, event, options, animations, fnName);
+        if (operations.length === 0) {
+          var a, b;
+          if (fnName === 'beforeSetClass') {
+            a = groupEventedAnimations(element, 'removeClass', options, animations, 'beforeRemoveClass');
+            b = groupEventedAnimations(element, 'addClass', options, animations, 'beforeAddClass');
+          } else if (fnName === 'setClass') {
+            a = groupEventedAnimations(element, 'removeClass', options, animations, 'removeClass');
+            b = groupEventedAnimations(element, 'addClass', options, animations, 'addClass');
+          }
+
+          if (a) {
+            operations = operations.concat(a);
+          }
+          if (b) {
+            operations = operations.concat(b);
+          }
+        }
+
+        if (operations.length === 0) return;
+
+        // TODO(matsko): add documentation
+        return function startAnimation(callback) {
+          var runners = [];
+          if (operations.length) {
+            forEach(operations, function(animateFn) {
+              runners.push(animateFn());
+            });
+          }
+
+          if (runners.length) {
+            $$AnimateRunner.all(runners, callback);
+          }  else {
+            callback();
+          }
+
+          return function endFn(reject) {
+            forEach(runners, function(runner) {
+              if (reject) {
+                runner.cancel();
+              } else {
+                runner.end();
+              }
+            });
+          };
+        };
+      }
+    };
+
+    function lookupAnimations(classes) {
+      classes = isArray(classes) ? classes : classes.split(' ');
+      var matches = [], flagMap = {};
+      for (var i = 0; i < classes.length; i++) {
+        var klass = classes[i],
+            animationFactory = $animateProvider.$$registeredAnimations[klass];
+        if (animationFactory && !flagMap[klass]) {
+          matches.push($injector.get(animationFactory));
+          flagMap[klass] = true;
+        }
+      }
+      return matches;
+    }
+  }];
+}];
+
+var $$AnimateJsDriverProvider = ['$$animationProvider', /** @this */ function($$animationProvider) {
+  $$animationProvider.drivers.push('$$animateJsDriver');
+  this.$get = ['$$animateJs', '$$AnimateRunner', function($$animateJs, $$AnimateRunner) {
+    return function initDriverFn(animationDetails) {
+      if (animationDetails.from && animationDetails.to) {
+        var fromAnimation = prepareAnimation(animationDetails.from);
+        var toAnimation = prepareAnimation(animationDetails.to);
+        if (!fromAnimation && !toAnimation) return;
+
+        return {
+          start: function() {
+            var animationRunners = [];
+
+            if (fromAnimation) {
+              animationRunners.push(fromAnimation.start());
+            }
+
+            if (toAnimation) {
+              animationRunners.push(toAnimation.start());
+            }
+
+            $$AnimateRunner.all(animationRunners, done);
+
+            var runner = new $$AnimateRunner({
+              end: endFnFactory(),
+              cancel: endFnFactory()
+            });
+
+            return runner;
+
+            function endFnFactory() {
+              return function() {
+                forEach(animationRunners, function(runner) {
+                  // at this point we cannot cancel animations for groups just yet. 1.5+
+                  runner.end();
+                });
+              };
+            }
+
+            function done(status) {
+              runner.complete(status);
+            }
+          }
+        };
+      } else {
+        return prepareAnimation(animationDetails);
+      }
+    };
+
+    function prepareAnimation(animationDetails) {
+      // TODO(matsko): make sure to check for grouped animations and delegate down to normal animations
+      var element = animationDetails.element;
+      var event = animationDetails.event;
+      var options = animationDetails.options;
+      var classes = animationDetails.classes;
+      return $$animateJs(element, event, classes, options);
+    }
+  }];
+}];
+
+var NG_ANIMATE_ATTR_NAME = 'data-ng-animate';
+var NG_ANIMATE_PIN_DATA = '$ngAnimatePin';
+var $$AnimateQueueProvider = ['$animateProvider', /** @this */ function($animateProvider) {
+  var PRE_DIGEST_STATE = 1;
+  var RUNNING_STATE = 2;
+  var ONE_SPACE = ' ';
+
+  var rules = this.rules = {
+    skip: [],
+    cancel: [],
+    join: []
+  };
+
+  function makeTruthyCssClassMap(classString) {
+    if (!classString) {
+      return null;
+    }
+
+    var keys = classString.split(ONE_SPACE);
+    var map = Object.create(null);
+
+    forEach(keys, function(key) {
+      map[key] = true;
+    });
+    return map;
+  }
+
+  function hasMatchingClasses(newClassString, currentClassString) {
+    if (newClassString && currentClassString) {
+      var currentClassMap = makeTruthyCssClassMap(currentClassString);
+      return newClassString.split(ONE_SPACE).some(function(className) {
+        return currentClassMap[className];
+      });
+    }
+  }
+
+  function isAllowed(ruleType, currentAnimation, previousAnimation) {
+    return rules[ruleType].some(function(fn) {
+      return fn(currentAnimation, previousAnimation);
+    });
+  }
+
+  function hasAnimationClasses(animation, and) {
+    var a = (animation.addClass || '').length > 0;
+    var b = (animation.removeClass || '').length > 0;
+    return and ? a && b : a || b;
+  }
+
+  rules.join.push(function(newAnimation, currentAnimation) {
+    // if the new animation is class-based then we can just tack that on
+    return !newAnimation.structural && hasAnimationClasses(newAnimation);
+  });
+
+  rules.skip.push(function(newAnimation, currentAnimation) {
+    // there is no need to animate anything if no classes are being added and
+    // there is no structural animation that will be triggered
+    return !newAnimation.structural && !hasAnimationClasses(newAnimation);
+  });
+
+  rules.skip.push(function(newAnimation, currentAnimation) {
+    // why should we trigger a new structural animation if the element will
+    // be removed from the DOM anyway?
+    return currentAnimation.event === 'leave' && newAnimation.structural;
+  });
+
+  rules.skip.push(function(newAnimation, currentAnimation) {
+    // if there is an ongoing current animation then don't even bother running the class-based animation
+    return currentAnimation.structural && currentAnimation.state === RUNNING_STATE && !newAnimation.structural;
+  });
+
+  rules.cancel.push(function(newAnimation, currentAnimation) {
+    // there can never be two structural animations running at the same time
+    return currentAnimation.structural && newAnimation.structural;
+  });
+
+  rules.cancel.push(function(newAnimation, currentAnimation) {
+    // if the previous animation is already running, but the new animation will
+    // be triggered, but the new animation is structural
+    return currentAnimation.state === RUNNING_STATE && newAnimation.structural;
+  });
+
+  rules.cancel.push(function(newAnimation, currentAnimation) {
+    // cancel the animation if classes added / removed in both animation cancel each other out,
+    // but only if the current animation isn't structural
+
+    if (currentAnimation.structural) return false;
+
+    var nA = newAnimation.addClass;
+    var nR = newAnimation.removeClass;
+    var cA = currentAnimation.addClass;
+    var cR = currentAnimation.removeClass;
+
+    // early detection to save the global CPU shortage :)
+    if ((isUndefined(nA) && isUndefined(nR)) || (isUndefined(cA) && isUndefined(cR))) {
+      return false;
+    }
+
+    return hasMatchingClasses(nA, cR) || hasMatchingClasses(nR, cA);
+  });
+
+  this.$get = ['$$rAF', '$rootScope', '$rootElement', '$document', '$$Map',
+               '$$animation', '$$AnimateRunner', '$templateRequest', '$$jqLite', '$$forceReflow',
+               '$$isDocumentHidden',
+       function($$rAF,   $rootScope,   $rootElement,   $document,   $$Map,
+                $$animation,   $$AnimateRunner,   $templateRequest,   $$jqLite,   $$forceReflow,
+                $$isDocumentHidden) {
+
+    var activeAnimationsLookup = new $$Map();
+    var disabledElementsLookup = new $$Map();
+    var animationsEnabled = null;
+
+    function postDigestTaskFactory() {
+      var postDigestCalled = false;
+      return function(fn) {
+        // we only issue a call to postDigest before
+        // it has first passed. This prevents any callbacks
+        // from not firing once the animation has completed
+        // since it will be out of the digest cycle.
+        if (postDigestCalled) {
+          fn();
+        } else {
+          $rootScope.$$postDigest(function() {
+            postDigestCalled = true;
+            fn();
+          });
+        }
+      };
+    }
+
+    // Wait until all directive and route-related templates are downloaded and
+    // compiled. The $templateRequest.totalPendingRequests variable keeps track of
+    // all of the remote templates being currently downloaded. If there are no
+    // templates currently downloading then the watcher will still fire anyway.
+    var deregisterWatch = $rootScope.$watch(
+      function() { return $templateRequest.totalPendingRequests === 0; },
+      function(isEmpty) {
+        if (!isEmpty) return;
+        deregisterWatch();
+
+        // Now that all templates have been downloaded, $animate will wait until
+        // the post digest queue is empty before enabling animations. By having two
+        // calls to $postDigest calls we can ensure that the flag is enabled at the
+        // very end of the post digest queue. Since all of the animations in $animate
+        // use $postDigest, it's important that the code below executes at the end.
+        // This basically means that the page is fully downloaded and compiled before
+        // any animations are triggered.
+        $rootScope.$$postDigest(function() {
+          $rootScope.$$postDigest(function() {
+            // we check for null directly in the event that the application already called
+            // .enabled() with whatever arguments that it provided it with
+            if (animationsEnabled === null) {
+              animationsEnabled = true;
+            }
+          });
+        });
+      }
+    );
+
+    var callbackRegistry = Object.create(null);
+
+    // remember that the classNameFilter is set during the provider/config
+    // stage therefore we can optimize here and setup a helper function
+    var classNameFilter = $animateProvider.classNameFilter();
+    var isAnimatableClassName = !classNameFilter
+              ? function() { return true; }
+              : function(className) {
+                return classNameFilter.test(className);
+              };
+
+    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+    function normalizeAnimationDetails(element, animation) {
+      return mergeAnimationDetails(element, animation, {});
+    }
+
+    // IE9-11 has no method "contains" in SVG element and in Node.prototype. Bug #10259.
+    var contains = window.Node.prototype.contains || /** @this */ function(arg) {
+      // eslint-disable-next-line no-bitwise
+      return this === arg || !!(this.compareDocumentPosition(arg) & 16);
+    };
+
+    function findCallbacks(targetParentNode, targetNode, event) {
+      var matches = [];
+      var entries = callbackRegistry[event];
+      if (entries) {
+        forEach(entries, function(entry) {
+          if (contains.call(entry.node, targetNode)) {
+            matches.push(entry.callback);
+          } else if (event === 'leave' && contains.call(entry.node, targetParentNode)) {
+            matches.push(entry.callback);
+          }
+        });
+      }
+
+      return matches;
+    }
+
+    function filterFromRegistry(list, matchContainer, matchCallback) {
+      var containerNode = extractElementNode(matchContainer);
+      return list.filter(function(entry) {
+        var isMatch = entry.node === containerNode &&
+                        (!matchCallback || entry.callback === matchCallback);
+        return !isMatch;
+      });
+    }
+
+    function cleanupEventListeners(phase, node) {
+      if (phase === 'close' && !node.parentNode) {
+        // If the element is not attached to a parentNode, it has been removed by
+        // the domOperation, and we can safely remove the event callbacks
+        $animate.off(node);
+      }
+    }
+
+    var $animate = {
+      on: function(event, container, callback) {
+        var node = extractElementNode(container);
+        callbackRegistry[event] = callbackRegistry[event] || [];
+        callbackRegistry[event].push({
+          node: node,
+          callback: callback
+        });
+
+        // Remove the callback when the element is removed from the DOM
+        jqLite(container).on('$destroy', function() {
+          var animationDetails = activeAnimationsLookup.get(node);
+
+          if (!animationDetails) {
+            // If there's an animation ongoing, the callback calling code will remove
+            // the event listeners. If we'd remove here, the callbacks would be removed
+            // before the animation ends
+            $animate.off(event, container, callback);
+          }
+        });
+      },
+
+      off: function(event, container, callback) {
+        if (arguments.length === 1 && !isString(arguments[0])) {
+          container = arguments[0];
+          for (var eventType in callbackRegistry) {
+            callbackRegistry[eventType] = filterFromRegistry(callbackRegistry[eventType], container);
+          }
+
+          return;
+        }
+
+        var entries = callbackRegistry[event];
+        if (!entries) return;
+
+        callbackRegistry[event] = arguments.length === 1
+            ? null
+            : filterFromRegistry(entries, container, callback);
+      },
+
+      pin: function(element, parentElement) {
+        assertArg(isElement(element), 'element', 'not an element');
+        assertArg(isElement(parentElement), 'parentElement', 'not an element');
+        element.data(NG_ANIMATE_PIN_DATA, parentElement);
+      },
+
+      push: function(element, event, options, domOperation) {
+        options = options || {};
+        options.domOperation = domOperation;
+        return queueAnimation(element, event, options);
+      },
+
+      // this method has four signatures:
+      //  () - global getter
+      //  (bool) - global setter
+      //  (element) - element getter
+      //  (element, bool) - element setter<F37>
+      enabled: function(element, bool) {
+        var argCount = arguments.length;
+
+        if (argCount === 0) {
+          // () - Global getter
+          bool = !!animationsEnabled;
+        } else {
+          var hasElement = isElement(element);
+
+          if (!hasElement) {
+            // (bool) - Global setter
+            bool = animationsEnabled = !!element;
+          } else {
+            var node = getDomNode(element);
+
+            if (argCount === 1) {
+              // (element) - Element getter
+              bool = !disabledElementsLookup.get(node);
+            } else {
+              // (element, bool) - Element setter
+              disabledElementsLookup.set(node, !bool);
+            }
+          }
+        }
+
+        return bool;
+      }
+    };
+
+    return $animate;
+
+    function queueAnimation(originalElement, event, initialOptions) {
+      // we always make a copy of the options since
+      // there should never be any side effects on
+      // the input data when running `$animateCss`.
+      var options = copy(initialOptions);
+
+      var element = stripCommentsFromElement(originalElement);
+      var node = getDomNode(element);
+      var parentNode = node && node.parentNode;
+
+      options = prepareAnimationOptions(options);
+
+      // we create a fake runner with a working promise.
+      // These methods will become available after the digest has passed
+      var runner = new $$AnimateRunner();
+
+      // this is used to trigger callbacks in postDigest mode
+      var runInNextPostDigestOrNow = postDigestTaskFactory();
+
+      if (isArray(options.addClass)) {
+        options.addClass = options.addClass.join(' ');
+      }
+
+      if (options.addClass && !isString(options.addClass)) {
+        options.addClass = null;
+      }
+
+      if (isArray(options.removeClass)) {
+        options.removeClass = options.removeClass.join(' ');
+      }
+
+      if (options.removeClass && !isString(options.removeClass)) {
+        options.removeClass = null;
+      }
+
+      if (options.from && !isObject(options.from)) {
+        options.from = null;
+      }
+
+      if (options.to && !isObject(options.to)) {
+        options.to = null;
+      }
+
+      // there are situations where a directive issues an animation for
+      // a jqLite wrapper that contains only comment nodes... If this
+      // happens then there is no way we can perform an animation
+      if (!node) {
+        close();
+        return runner;
+      }
+
+      var className = [node.getAttribute('class'), options.addClass, options.removeClass].join(' ');
+      if (!isAnimatableClassName(className)) {
+        close();
+        return runner;
+      }
+
+      var isStructural = ['enter', 'move', 'leave'].indexOf(event) >= 0;
+
+      var documentHidden = $$isDocumentHidden();
+
+      // this is a hard disable of all animations for the application or on
+      // the element itself, therefore  there is no need to continue further
+      // past this point if not enabled
+      // Animations are also disabled if the document is currently hidden (page is not visible
+      // to the user), because browsers slow down or do not flush calls to requestAnimationFrame
+      var skipAnimations = !animationsEnabled || documentHidden || disabledElementsLookup.get(node);
+      var existingAnimation = (!skipAnimations && activeAnimationsLookup.get(node)) || {};
+      var hasExistingAnimation = !!existingAnimation.state;
+
+      // there is no point in traversing the same collection of parent ancestors if a followup
+      // animation will be run on the same element that already did all that checking work
+      if (!skipAnimations && (!hasExistingAnimation || existingAnimation.state !== PRE_DIGEST_STATE)) {
+        skipAnimations = !areAnimationsAllowed(node, parentNode, event);
+      }
+
+      if (skipAnimations) {
+        // Callbacks should fire even if the document is hidden (regression fix for issue #14120)
+        if (documentHidden) notifyProgress(runner, event, 'start');
+        close();
+        if (documentHidden) notifyProgress(runner, event, 'close');
+        return runner;
+      }
+
+      if (isStructural) {
+        closeChildAnimations(node);
+      }
+
+      var newAnimation = {
+        structural: isStructural,
+        element: element,
+        event: event,
+        addClass: options.addClass,
+        removeClass: options.removeClass,
+        close: close,
+        options: options,
+        runner: runner
+      };
+
+      if (hasExistingAnimation) {
+        var skipAnimationFlag = isAllowed('skip', newAnimation, existingAnimation);
+        if (skipAnimationFlag) {
+          if (existingAnimation.state === RUNNING_STATE) {
+            close();
+            return runner;
+          } else {
+            mergeAnimationDetails(element, existingAnimation, newAnimation);
+            return existingAnimation.runner;
+          }
+        }
+        var cancelAnimationFlag = isAllowed('cancel', newAnimation, existingAnimation);
+        if (cancelAnimationFlag) {
+          if (existingAnimation.state === RUNNING_STATE) {
+            // this will end the animation right away and it is safe
+            // to do so since the animation is already running and the
+            // runner callback code will run in async
+            existingAnimation.runner.end();
+          } else if (existingAnimation.structural) {
+            // this means that the animation is queued into a digest, but
+            // hasn't started yet. Therefore it is safe to run the close
+            // method which will call the runner methods in async.
+            existingAnimation.close();
+          } else {
+            // this will merge the new animation options into existing animation options
+            mergeAnimationDetails(element, existingAnimation, newAnimation);
+
+            return existingAnimation.runner;
+          }
+        } else {
+          // a joined animation means that this animation will take over the existing one
+          // so an example would involve a leave animation taking over an enter. Then when
+          // the postDigest kicks in the enter will be ignored.
+          var joinAnimationFlag = isAllowed('join', newAnimation, existingAnimation);
+          if (joinAnimationFlag) {
+            if (existingAnimation.state === RUNNING_STATE) {
+              normalizeAnimationDetails(element, newAnimation);
+            } else {
+              applyGeneratedPreparationClasses(element, isStructural ? event : null, options);
+
+              event = newAnimation.event = existingAnimation.event;
+              options = mergeAnimationDetails(element, existingAnimation, newAnimation);
+
+              //we return the same runner since only the option values of this animation will
+              //be fed into the `existingAnimation`.
+              return existingAnimation.runner;
+            }
+          }
+        }
+      } else {
+        // normalization in this case means that it removes redundant CSS classes that
+        // already exist (addClass) or do not exist (removeClass) on the element
+        normalizeAnimationDetails(element, newAnimation);
+      }
+
+      // when the options are merged and cleaned up we may end up not having to do
+      // an animation at all, therefore we should check this before issuing a post
+      // digest callback. Structural animations will always run no matter what.
+      var isValidAnimation = newAnimation.structural;
+      if (!isValidAnimation) {
+        // animate (from/to) can be quickly checked first, otherwise we check if any classes are present
+        isValidAnimation = (newAnimation.event === 'animate' && Object.keys(newAnimation.options.to || {}).length > 0)
+                            || hasAnimationClasses(newAnimation);
+      }
+
+      if (!isValidAnimation) {
+        close();
+        clearElementAnimationState(node);
+        return runner;
+      }
+
+      // the counter keeps track of cancelled animations
+      var counter = (existingAnimation.counter || 0) + 1;
+      newAnimation.counter = counter;
+
+      markElementAnimationState(node, PRE_DIGEST_STATE, newAnimation);
+
+      $rootScope.$$postDigest(function() {
+        // It is possible that the DOM nodes inside `originalElement` have been replaced. This can
+        // happen if the animated element is a transcluded clone and also has a `templateUrl`
+        // directive on it. Therefore, we must recreate `element` in order to interact with the
+        // actual DOM nodes.
+        // Note: We still need to use the old `node` for certain things, such as looking up in
+        //       HashMaps where it was used as the key.
+
+        element = stripCommentsFromElement(originalElement);
+
+        var animationDetails = activeAnimationsLookup.get(node);
+        var animationCancelled = !animationDetails;
+        animationDetails = animationDetails || {};
+
+        // if addClass/removeClass is called before something like enter then the
+        // registered parent element may not be present. The code below will ensure
+        // that a final value for parent element is obtained
+        var parentElement = element.parent() || [];
+
+        // animate/structural/class-based animations all have requirements. Otherwise there
+        // is no point in performing an animation. The parent node must also be set.
+        var isValidAnimation = parentElement.length > 0
+                                && (animationDetails.event === 'animate'
+                                    || animationDetails.structural
+                                    || hasAnimationClasses(animationDetails));
+
+        // this means that the previous animation was cancelled
+        // even if the follow-up animation is the same event
+        if (animationCancelled || animationDetails.counter !== counter || !isValidAnimation) {
+          // if another animation did not take over then we need
+          // to make sure that the domOperation and options are
+          // handled accordingly
+          if (animationCancelled) {
+            applyAnimationClasses(element, options);
+            applyAnimationStyles(element, options);
+          }
+
+          // if the event changed from something like enter to leave then we do
+          // it, otherwise if it's the same then the end result will be the same too
+          if (animationCancelled || (isStructural && animationDetails.event !== event)) {
+            options.domOperation();
+            runner.end();
+          }
+
+          // in the event that the element animation was not cancelled or a follow-up animation
+          // isn't allowed to animate from here then we need to clear the state of the element
+          // so that any future animations won't read the expired animation data.
+          if (!isValidAnimation) {
+            clearElementAnimationState(node);
+          }
+
+          return;
+        }
+
+        // this combined multiple class to addClass / removeClass into a setClass event
+        // so long as a structural event did not take over the animation
+        event = !animationDetails.structural && hasAnimationClasses(animationDetails, true)
+            ? 'setClass'
+            : animationDetails.event;
+
+        markElementAnimationState(node, RUNNING_STATE);
+        var realRunner = $$animation(element, event, animationDetails.options);
+
+        // this will update the runner's flow-control events based on
+        // the `realRunner` object.
+        runner.setHost(realRunner);
+        notifyProgress(runner, event, 'start', {});
+
+        realRunner.done(function(status) {
+          close(!status);
+          var animationDetails = activeAnimationsLookup.get(node);
+          if (animationDetails && animationDetails.counter === counter) {
+            clearElementAnimationState(node);
+          }
+          notifyProgress(runner, event, 'close', {});
+        });
+      });
+
+      return runner;
+
+      function notifyProgress(runner, event, phase, data) {
+        runInNextPostDigestOrNow(function() {
+          var callbacks = findCallbacks(parentNode, node, event);
+          if (callbacks.length) {
+            // do not optimize this call here to RAF because
+            // we don't know how heavy the callback code here will
+            // be and if this code is buffered then this can
+            // lead to a performance regression.
+            $$rAF(function() {
+              forEach(callbacks, function(callback) {
+                callback(element, phase, data);
+              });
+              cleanupEventListeners(phase, node);
+            });
+          } else {
+            cleanupEventListeners(phase, node);
+          }
+        });
+        runner.progress(event, phase, data);
+      }
+
+      function close(reject) {
+        clearGeneratedClasses(element, options);
+        applyAnimationClasses(element, options);
+        applyAnimationStyles(element, options);
+        options.domOperation();
+        runner.complete(!reject);
+      }
+    }
+
+    function closeChildAnimations(node) {
+      var children = node.querySelectorAll('[' + NG_ANIMATE_ATTR_NAME + ']');
+      forEach(children, function(child) {
+        var state = parseInt(child.getAttribute(NG_ANIMATE_ATTR_NAME), 10);
+        var animationDetails = activeAnimationsLookup.get(child);
+        if (animationDetails) {
+          switch (state) {
+            case RUNNING_STATE:
+              animationDetails.runner.end();
+              /* falls through */
+            case PRE_DIGEST_STATE:
+              activeAnimationsLookup.delete(child);
+              break;
+          }
+        }
+      });
+    }
+
+    function clearElementAnimationState(node) {
+      node.removeAttribute(NG_ANIMATE_ATTR_NAME);
+      activeAnimationsLookup.delete(node);
+    }
+
+    /**
+     * This fn returns false if any of the following is true:
+     * a) animations on any parent element are disabled, and animations on the element aren't explicitly allowed
+     * b) a parent element has an ongoing structural animation, and animateChildren is false
+     * c) the element is not a child of the body
+     * d) the element is not a child of the $rootElement
+     */
+    function areAnimationsAllowed(node, parentNode, event) {
+      var bodyNode = $document[0].body;
+      var rootNode = getDomNode($rootElement);
+
+      var bodyNodeDetected = (node === bodyNode) || node.nodeName === 'HTML';
+      var rootNodeDetected = (node === rootNode);
+      var parentAnimationDetected = false;
+      var elementDisabled = disabledElementsLookup.get(node);
+      var animateChildren;
+
+      var parentHost = jqLite.data(node, NG_ANIMATE_PIN_DATA);
+      if (parentHost) {
+        parentNode = getDomNode(parentHost);
+      }
+
+      while (parentNode) {
+        if (!rootNodeDetected) {
+          // angular doesn't want to attempt to animate elements outside of the application
+          // therefore we need to ensure that the rootElement is an ancestor of the current element
+          rootNodeDetected = (parentNode === rootNode);
+        }
+
+        if (parentNode.nodeType !== ELEMENT_NODE) {
+          // no point in inspecting the #document element
+          break;
+        }
+
+        var details = activeAnimationsLookup.get(parentNode) || {};
+        // either an enter, leave or move animation will commence
+        // therefore we can't allow any animations to take place
+        // but if a parent animation is class-based then that's ok
+        if (!parentAnimationDetected) {
+          var parentNodeDisabled = disabledElementsLookup.get(parentNode);
+
+          if (parentNodeDisabled === true && elementDisabled !== false) {
+            // disable animations if the user hasn't explicitly enabled animations on the
+            // current element
+            elementDisabled = true;
+            // element is disabled via parent element, no need to check anything else
+            break;
+          } else if (parentNodeDisabled === false) {
+            elementDisabled = false;
+          }
+          parentAnimationDetected = details.structural;
+        }
+
+        if (isUndefined(animateChildren) || animateChildren === true) {
+          var value = jqLite.data(parentNode, NG_ANIMATE_CHILDREN_DATA);
+          if (isDefined(value)) {
+            animateChildren = value;
+          }
+        }
+
+        // there is no need to continue traversing at this point
+        if (parentAnimationDetected && animateChildren === false) break;
+
+        if (!bodyNodeDetected) {
+          // we also need to ensure that the element is or will be a part of the body element
+          // otherwise it is pointless to even issue an animation to be rendered
+          bodyNodeDetected = (parentNode === bodyNode);
+        }
+
+        if (bodyNodeDetected && rootNodeDetected) {
+          // If both body and root have been found, any other checks are pointless,
+          // as no animation data should live outside the application
+          break;
+        }
+
+        if (!rootNodeDetected) {
+          // If `rootNode` is not detected, check if `parentNode` is pinned to another element
+          parentHost = jqLite.data(parentNode, NG_ANIMATE_PIN_DATA);
+          if (parentHost) {
+            // The pin target element becomes the next parent element
+            parentNode = getDomNode(parentHost);
+            continue;
+          }
+        }
+
+        parentNode = parentNode.parentNode;
+      }
+
+      var allowAnimation = (!parentAnimationDetected || animateChildren) && elementDisabled !== true;
+      return allowAnimation && rootNodeDetected && bodyNodeDetected;
+    }
+
+    function markElementAnimationState(node, state, details) {
+      details = details || {};
+      details.state = state;
+
+      node.setAttribute(NG_ANIMATE_ATTR_NAME, state);
+
+      var oldValue = activeAnimationsLookup.get(node);
+      var newValue = oldValue
+          ? extend(oldValue, details)
+          : details;
+      activeAnimationsLookup.set(node, newValue);
+    }
+  }];
+}];
+
+/* exported $$AnimationProvider */
+
+var $$AnimationProvider = ['$animateProvider', /** @this */ function($animateProvider) {
+  var NG_ANIMATE_REF_ATTR = 'ng-animate-ref';
+
+  var drivers = this.drivers = [];
+
+  var RUNNER_STORAGE_KEY = '$$animationRunner';
+
+  function setRunner(element, runner) {
+    element.data(RUNNER_STORAGE_KEY, runner);
+  }
+
+  function removeRunner(element) {
+    element.removeData(RUNNER_STORAGE_KEY);
+  }
+
+  function getRunner(element) {
+    return element.data(RUNNER_STORAGE_KEY);
+  }
+
+  this.$get = ['$$jqLite', '$rootScope', '$injector', '$$AnimateRunner', '$$Map', '$$rAFScheduler',
+       function($$jqLite,   $rootScope,   $injector,   $$AnimateRunner,   $$Map,   $$rAFScheduler) {
+
+    var animationQueue = [];
+    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+    function sortAnimations(animations) {
+      var tree = { children: [] };
+      var i, lookup = new $$Map();
+
+      // this is done first beforehand so that the map
+      // is filled with a list of the elements that will be animated
+      for (i = 0; i < animations.length; i++) {
+        var animation = animations[i];
+        lookup.set(animation.domNode, animations[i] = {
+          domNode: animation.domNode,
+          fn: animation.fn,
+          children: []
+        });
+      }
+
+      for (i = 0; i < animations.length; i++) {
+        processNode(animations[i]);
+      }
+
+      return flatten(tree);
+
+      function processNode(entry) {
+        if (entry.processed) return entry;
+        entry.processed = true;
+
+        var elementNode = entry.domNode;
+        var parentNode = elementNode.parentNode;
+        lookup.set(elementNode, entry);
+
+        var parentEntry;
+        while (parentNode) {
+          parentEntry = lookup.get(parentNode);
+          if (parentEntry) {
+            if (!parentEntry.processed) {
+              parentEntry = processNode(parentEntry);
+            }
+            break;
+          }
+          parentNode = parentNode.parentNode;
+        }
+
+        (parentEntry || tree).children.push(entry);
+        return entry;
+      }
+
+      function flatten(tree) {
+        var result = [];
+        var queue = [];
+        var i;
+
+        for (i = 0; i < tree.children.length; i++) {
+          queue.push(tree.children[i]);
+        }
+
+        var remainingLevelEntries = queue.length;
+        var nextLevelEntries = 0;
+        var row = [];
+
+        for (i = 0; i < queue.length; i++) {
+          var entry = queue[i];
+          if (remainingLevelEntries <= 0) {
+            remainingLevelEntries = nextLevelEntries;
+            nextLevelEntries = 0;
+            result.push(row);
+            row = [];
+          }
+          row.push(entry.fn);
+          entry.children.forEach(function(childEntry) {
+            nextLevelEntries++;
+            queue.push(childEntry);
+          });
+          remainingLevelEntries--;
+        }
+
+        if (row.length) {
+          result.push(row);
+        }
+
+        return result;
+      }
+    }
+
+    // TODO(matsko): document the signature in a better way
+    return function(element, event, options) {
+      options = prepareAnimationOptions(options);
+      var isStructural = ['enter', 'move', 'leave'].indexOf(event) >= 0;
+
+      // there is no animation at the current moment, however
+      // these runner methods will get later updated with the
+      // methods leading into the driver's end/cancel methods
+      // for now they just stop the animation from starting
+      var runner = new $$AnimateRunner({
+        end: function() { close(); },
+        cancel: function() { close(true); }
+      });
+
+      if (!drivers.length) {
+        close();
+        return runner;
+      }
+
+      setRunner(element, runner);
+
+      var classes = mergeClasses(element.attr('class'), mergeClasses(options.addClass, options.removeClass));
+      var tempClasses = options.tempClasses;
+      if (tempClasses) {
+        classes += ' ' + tempClasses;
+        options.tempClasses = null;
+      }
+
+      var prepareClassName;
+      if (isStructural) {
+        prepareClassName = 'ng-' + event + PREPARE_CLASS_SUFFIX;
+        $$jqLite.addClass(element, prepareClassName);
+      }
+
+      animationQueue.push({
+        // this data is used by the postDigest code and passed into
+        // the driver step function
+        element: element,
+        classes: classes,
+        event: event,
+        structural: isStructural,
+        options: options,
+        beforeStart: beforeStart,
+        close: close
+      });
+
+      element.on('$destroy', handleDestroyedElement);
+
+      // we only want there to be one function called within the post digest
+      // block. This way we can group animations for all the animations that
+      // were apart of the same postDigest flush call.
+      if (animationQueue.length > 1) return runner;
+
+      $rootScope.$$postDigest(function() {
+        var animations = [];
+        forEach(animationQueue, function(entry) {
+          // the element was destroyed early on which removed the runner
+          // form its storage. This means we can't animate this element
+          // at all and it already has been closed due to destruction.
+          if (getRunner(entry.element)) {
+            animations.push(entry);
+          } else {
+            entry.close();
+          }
+        });
+
+        // now any future animations will be in another postDigest
+        animationQueue.length = 0;
+
+        var groupedAnimations = groupAnimations(animations);
+        var toBeSortedAnimations = [];
+
+        forEach(groupedAnimations, function(animationEntry) {
+          toBeSortedAnimations.push({
+            domNode: getDomNode(animationEntry.from ? animationEntry.from.element : animationEntry.element),
+            fn: function triggerAnimationStart() {
+              // it's important that we apply the `ng-animate` CSS class and the
+              // temporary classes before we do any driver invoking since these
+              // CSS classes may be required for proper CSS detection.
+              animationEntry.beforeStart();
+
+              var startAnimationFn, closeFn = animationEntry.close;
+
+              // in the event that the element was removed before the digest runs or
+              // during the RAF sequencing then we should not trigger the animation.
+              var targetElement = animationEntry.anchors
+                  ? (animationEntry.from.element || animationEntry.to.element)
+                  : animationEntry.element;
+
+              if (getRunner(targetElement)) {
+                var operation = invokeFirstDriver(animationEntry);
+                if (operation) {
+                  startAnimationFn = operation.start;
+                }
+              }
+
+              if (!startAnimationFn) {
+                closeFn();
+              } else {
+                var animationRunner = startAnimationFn();
+                animationRunner.done(function(status) {
+                  closeFn(!status);
+                });
+                updateAnimationRunners(animationEntry, animationRunner);
+              }
+            }
+          });
+        });
+
+        // we need to sort each of the animations in order of parent to child
+        // relationships. This ensures that the child classes are applied at the
+        // right time.
+        $$rAFScheduler(sortAnimations(toBeSortedAnimations));
+      });
+
+      return runner;
+
+      // TODO(matsko): change to reference nodes
+      function getAnchorNodes(node) {
+        var SELECTOR = '[' + NG_ANIMATE_REF_ATTR + ']';
+        var items = node.hasAttribute(NG_ANIMATE_REF_ATTR)
+              ? [node]
+              : node.querySelectorAll(SELECTOR);
+        var anchors = [];
+        forEach(items, function(node) {
+          var attr = node.getAttribute(NG_ANIMATE_REF_ATTR);
+          if (attr && attr.length) {
+            anchors.push(node);
+          }
+        });
+        return anchors;
+      }
+
+      function groupAnimations(animations) {
+        var preparedAnimations = [];
+        var refLookup = {};
+        forEach(animations, function(animation, index) {
+          var element = animation.element;
+          var node = getDomNode(element);
+          var event = animation.event;
+          var enterOrMove = ['enter', 'move'].indexOf(event) >= 0;
+          var anchorNodes = animation.structural ? getAnchorNodes(node) : [];
+
+          if (anchorNodes.length) {
+            var direction = enterOrMove ? 'to' : 'from';
+
+            forEach(anchorNodes, function(anchor) {
+              var key = anchor.getAttribute(NG_ANIMATE_REF_ATTR);
+              refLookup[key] = refLookup[key] || {};
+              refLookup[key][direction] = {
+                animationID: index,
+                element: jqLite(anchor)
+              };
+            });
+          } else {
+            preparedAnimations.push(animation);
+          }
+        });
+
+        var usedIndicesLookup = {};
+        var anchorGroups = {};
+        forEach(refLookup, function(operations, key) {
+          var from = operations.from;
+          var to = operations.to;
+
+          if (!from || !to) {
+            // only one of these is set therefore we can't have an
+            // anchor animation since all three pieces are required
+            var index = from ? from.animationID : to.animationID;
+            var indexKey = index.toString();
+            if (!usedIndicesLookup[indexKey]) {
+              usedIndicesLookup[indexKey] = true;
+              preparedAnimations.push(animations[index]);
+            }
+            return;
+          }
+
+          var fromAnimation = animations[from.animationID];
+          var toAnimation = animations[to.animationID];
+          var lookupKey = from.animationID.toString();
+          if (!anchorGroups[lookupKey]) {
+            var group = anchorGroups[lookupKey] = {
+              structural: true,
+              beforeStart: function() {
+                fromAnimation.beforeStart();
+                toAnimation.beforeStart();
+              },
+              close: function() {
+                fromAnimation.close();
+                toAnimation.close();
+              },
+              classes: cssClassesIntersection(fromAnimation.classes, toAnimation.classes),
+              from: fromAnimation,
+              to: toAnimation,
+              anchors: [] // TODO(matsko): change to reference nodes
+            };
+
+            // the anchor animations require that the from and to elements both have at least
+            // one shared CSS class which effectively marries the two elements together to use
+            // the same animation driver and to properly sequence the anchor animation.
+            if (group.classes.length) {
+              preparedAnimations.push(group);
+            } else {
+              preparedAnimations.push(fromAnimation);
+              preparedAnimations.push(toAnimation);
+            }
+          }
+
+          anchorGroups[lookupKey].anchors.push({
+            'out': from.element, 'in': to.element
+          });
+        });
+
+        return preparedAnimations;
+      }
+
+      function cssClassesIntersection(a,b) {
+        a = a.split(' ');
+        b = b.split(' ');
+        var matches = [];
+
+        for (var i = 0; i < a.length; i++) {
+          var aa = a[i];
+          if (aa.substring(0,3) === 'ng-') continue;
+
+          for (var j = 0; j < b.length; j++) {
+            if (aa === b[j]) {
+              matches.push(aa);
+              break;
+            }
+          }
+        }
+
+        return matches.join(' ');
+      }
+
+      function invokeFirstDriver(animationDetails) {
+        // we loop in reverse order since the more general drivers (like CSS and JS)
+        // may attempt more elements, but custom drivers are more particular
+        for (var i = drivers.length - 1; i >= 0; i--) {
+          var driverName = drivers[i];
+          var factory = $injector.get(driverName);
+          var driver = factory(animationDetails);
+          if (driver) {
+            return driver;
+          }
+        }
+      }
+
+      function beforeStart() {
+        element.addClass(NG_ANIMATE_CLASSNAME);
+        if (tempClasses) {
+          $$jqLite.addClass(element, tempClasses);
+        }
+        if (prepareClassName) {
+          $$jqLite.removeClass(element, prepareClassName);
+          prepareClassName = null;
+        }
+      }
+
+      function updateAnimationRunners(animation, newRunner) {
+        if (animation.from && animation.to) {
+          update(animation.from.element);
+          update(animation.to.element);
+        } else {
+          update(animation.element);
+        }
+
+        function update(element) {
+          var runner = getRunner(element);
+          if (runner) runner.setHost(newRunner);
+        }
+      }
+
+      function handleDestroyedElement() {
+        var runner = getRunner(element);
+        if (runner && (event !== 'leave' || !options.$$domOperationFired)) {
+          runner.end();
+        }
+      }
+
+      function close(rejected) {
+        element.off('$destroy', handleDestroyedElement);
+        removeRunner(element);
+
+        applyAnimationClasses(element, options);
+        applyAnimationStyles(element, options);
+        options.domOperation();
+
+        if (tempClasses) {
+          $$jqLite.removeClass(element, tempClasses);
+        }
+
+        element.removeClass(NG_ANIMATE_CLASSNAME);
+        runner.complete(!rejected);
+      }
+    };
+  }];
+}];
+
+/**
+ * @ngdoc directive
+ * @name ngAnimateSwap
+ * @restrict A
+ * @scope
+ *
+ * @description
+ *
+ * ngAnimateSwap is a animation-oriented directive that allows for the container to
+ * be removed and entered in whenever the associated expression changes. A
+ * common usecase for this directive is a rotating banner or slider component which
+ * contains one image being present at a time. When the active image changes
+ * then the old image will perform a `leave` animation and the new element
+ * will be inserted via an `enter` animation.
+ *
+ * @animations
+ * | Animation                        | Occurs                               |
+ * |----------------------------------|--------------------------------------|
+ * | {@link ng.$animate#enter enter}  | when the new element is inserted to the DOM  |
+ * | {@link ng.$animate#leave leave}  | when the old element is removed from the DOM |
+ *
+ * @example
+ * <example name="ngAnimateSwap-directive" module="ngAnimateSwapExample"
+ *          deps="angular-animate.js"
+ *          animations="true" fixBase="true">
+ *   <file name="index.html">
+ *     <div class="container" ng-controller="AppCtrl">
+ *       <div ng-animate-swap="number" class="cell swap-animation" ng-class="colorClass(number)">
+ *         {{ number }}
+ *       </div>
+ *     </div>
+ *   </file>
+ *   <file name="script.js">
+ *     angular.module('ngAnimateSwapExample', ['ngAnimate'])
+ *       .controller('AppCtrl', ['$scope', '$interval', function($scope, $interval) {
+ *         $scope.number = 0;
+ *         $interval(function() {
+ *           $scope.number++;
+ *         }, 1000);
+ *
+ *         var colors = ['red','blue','green','yellow','orange'];
+ *         $scope.colorClass = function(number) {
+ *           return colors[number % colors.length];
+ *         };
+ *       }]);
+ *   </file>
+ *  <file name="animations.css">
+ *  .container {
+ *    height:250px;
+ *    width:250px;
+ *    position:relative;
+ *    overflow:hidden;
+ *    border:2px solid black;
+ *  }
+ *  .container .cell {
+ *    font-size:150px;
+ *    text-align:center;
+ *    line-height:250px;
+ *    position:absolute;
+ *    top:0;
+ *    left:0;
+ *    right:0;
+ *    border-bottom:2px solid black;
+ *  }
+ *  .swap-animation.ng-enter, .swap-animation.ng-leave {
+ *    transition:0.5s linear all;
+ *  }
+ *  .swap-animation.ng-enter {
+ *    top:-250px;
+ *  }
+ *  .swap-animation.ng-enter-active {
+ *    top:0px;
+ *  }
+ *  .swap-animation.ng-leave {
+ *    top:0px;
+ *  }
+ *  .swap-animation.ng-leave-active {
+ *    top:250px;
+ *  }
+ *  .red { background:red; }
+ *  .green { background:green; }
+ *  .blue { background:blue; }
+ *  .yellow { background:yellow; }
+ *  .orange { background:orange; }
+ *  </file>
+ * </example>
+ */
+var ngAnimateSwapDirective = ['$animate', '$rootScope', function($animate, $rootScope) {
+  return {
+    restrict: 'A',
+    transclude: 'element',
+    terminal: true,
+    priority: 600, // we use 600 here to ensure that the directive is caught before others
+    link: function(scope, $element, attrs, ctrl, $transclude) {
+      var previousElement, previousScope;
+      scope.$watchCollection(attrs.ngAnimateSwap || attrs['for'], function(value) {
+        if (previousElement) {
+          $animate.leave(previousElement);
+        }
+        if (previousScope) {
+          previousScope.$destroy();
+          previousScope = null;
+        }
+        if (value || value === 0) {
+          previousScope = scope.$new();
+          $transclude(previousScope, function(element) {
+            previousElement = element;
+            $animate.enter(element, null, $element);
+          });
+        }
+      });
+    }
+  };
+}];
+
+/**
+ * @ngdoc module
+ * @name ngAnimate
+ * @description
+ *
+ * The `ngAnimate` module provides support for CSS-based animations (keyframes and transitions) as well as JavaScript-based animations via
+ * callback hooks. Animations are not enabled by default, however, by including `ngAnimate` the animation hooks are enabled for an Angular app.
+ *
+ * <div doc-module-components="ngAnimate"></div>
+ *
+ * # Usage
+ * Simply put, there are two ways to make use of animations when ngAnimate is used: by using **CSS** and **JavaScript**. The former works purely based
+ * using CSS (by using matching CSS selectors/styles) and the latter triggers animations that are registered via `module.animation()`. For
+ * both CSS and JS animations the sole requirement is to have a matching `CSS class` that exists both in the registered animation and within
+ * the HTML element that the animation will be triggered on.
+ *
+ * ## Directive Support
+ * The following directives are "animation aware":
+ *
+ * | Directive                                                                                                | Supported Animations                                                     |
+ * |----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+ * | {@link ng.directive:ngRepeat#animations ngRepeat}                                                        | enter, leave and move                                                    |
+ * | {@link ngRoute.directive:ngView#animations ngView}                                                       | enter and leave                                                          |
+ * | {@link ng.directive:ngInclude#animations ngInclude}                                                      | enter and leave                                                          |
+ * | {@link ng.directive:ngSwitch#animations ngSwitch}                                                        | enter and leave                                                          |
+ * | {@link ng.directive:ngIf#animations ngIf}                                                                | enter and leave                                                          |
+ * | {@link ng.directive:ngClass#animations ngClass}                                                          | add and remove (the CSS class(es) present)                               |
+ * | {@link ng.directive:ngShow#animations ngShow} & {@link ng.directive:ngHide#animations ngHide}            | add and remove (the ng-hide class value)                                 |
+ * | {@link ng.directive:form#animation-hooks form} & {@link ng.directive:ngModel#animation-hooks ngModel}    | add and remove (dirty, pristine, valid, invalid & all other validations) |
+ * | {@link module:ngMessages#animations ngMessages}                                                          | add and remove (ng-active & ng-inactive)                                 |
+ * | {@link module:ngMessages#animations ngMessage}                                                           | enter and leave                                                          |
+ *
+ * (More information can be found by visiting each the documentation associated with each directive.)
+ *
+ * ## CSS-based Animations
+ *
+ * CSS-based animations with ngAnimate are unique since they require no JavaScript code at all. By using a CSS class that we reference between our HTML
+ * and CSS code we can create an animation that will be picked up by Angular when an underlying directive performs an operation.
+ *
+ * The example below shows how an `enter` animation can be made possible on an element using `ng-if`:
+ *
+ * ```html
+ * <div ng-if="bool" class="fade">
+ *    Fade me in out
+ * </div>
+ * <button ng-click="bool=true">Fade In!</button>
+ * <button ng-click="bool=false">Fade Out!</button>
+ * ```
+ *
+ * Notice the CSS class **fade**? We can now create the CSS transition code that references this class:
+ *
+ * ```css
+ * /&#42; The starting CSS styles for the enter animation &#42;/
+ * .fade.ng-enter {
+ *   transition:0.5s linear all;
+ *   opacity:0;
+ * }
+ *
+ * /&#42; The finishing CSS styles for the enter animation &#42;/
+ * .fade.ng-enter.ng-enter-active {
+ *   opacity:1;
+ * }
+ * ```
+ *
+ * The key thing to remember here is that, depending on the animation event (which each of the directives above trigger depending on what's going on) two
+ * generated CSS classes will be applied to the element; in the example above we have `.ng-enter` and `.ng-enter-active`. For CSS transitions, the transition
+ * code **must** be defined within the starting CSS class (in this case `.ng-enter`). The destination class is what the transition will animate towards.
+ *
+ * If for example we wanted to create animations for `leave` and `move` (ngRepeat triggers move) then we can do so using the same CSS naming conventions:
+ *
+ * ```css
+ * /&#42; now the element will fade out before it is removed from the DOM &#42;/
+ * .fade.ng-leave {
+ *   transition:0.5s linear all;
+ *   opacity:1;
+ * }
+ * .fade.ng-leave.ng-leave-active {
+ *   opacity:0;
+ * }
+ * ```
+ *
+ * We can also make use of **CSS Keyframes** by referencing the keyframe animation within the starting CSS class:
+ *
+ * ```css
+ * /&#42; there is no need to define anything inside of the destination
+ * CSS class since the keyframe will take charge of the animation &#42;/
+ * .fade.ng-leave {
+ *   animation: my_fade_animation 0.5s linear;
+ *   -webkit-animation: my_fade_animation 0.5s linear;
+ * }
+ *
+ * @keyframes my_fade_animation {
+ *   from { opacity:1; }
+ *   to { opacity:0; }
+ * }
+ *
+ * @-webkit-keyframes my_fade_animation {
+ *   from { opacity:1; }
+ *   to { opacity:0; }
+ * }
+ * ```
+ *
+ * Feel free also mix transitions and keyframes together as well as any other CSS classes on the same element.
+ *
+ * ### CSS Class-based Animations
+ *
+ * Class-based animations (animations that are triggered via `ngClass`, `ngShow`, `ngHide` and some other directives) have a slightly different
+ * naming convention. Class-based animations are basic enough that a standard transition or keyframe can be referenced on the class being added
+ * and removed.
+ *
+ * For example if we wanted to do a CSS animation for `ngHide` then we place an animation on the `.ng-hide` CSS class:
+ *
+ * ```html
+ * <div ng-show="bool" class="fade">
+ *   Show and hide me
+ * </div>
+ * <button ng-click="bool=!bool">Toggle</button>
+ *
+ * <style>
+ * .fade.ng-hide {
+ *   transition:0.5s linear all;
+ *   opacity:0;
+ * }
+ * </style>
+ * ```
+ *
+ * All that is going on here with ngShow/ngHide behind the scenes is the `.ng-hide` class is added/removed (when the hidden state is valid). Since
+ * ngShow and ngHide are animation aware then we can match up a transition and ngAnimate handles the rest.
+ *
+ * In addition the addition and removal of the CSS class, ngAnimate also provides two helper methods that we can use to further decorate the animation
+ * with CSS styles.
+ *
+ * ```html
+ * <div ng-class="{on:onOff}" class="highlight">
+ *   Highlight this box
+ * </div>
+ * <button ng-click="onOff=!onOff">Toggle</button>
+ *
+ * <style>
+ * .highlight {
+ *   transition:0.5s linear all;
+ * }
+ * .highlight.on-add {
+ *   background:white;
+ * }
+ * .highlight.on {
+ *   background:yellow;
+ * }
+ * .highlight.on-remove {
+ *   background:black;
+ * }
+ * </style>
+ * ```
+ *
+ * We can also make use of CSS keyframes by placing them within the CSS classes.
+ *
+ *
+ * ### CSS Staggering Animations
+ * A Staggering animation is a collection of animations that are issued with a slight delay in between each successive operation resulting in a
+ * curtain-like effect. The ngAnimate module (versions >=1.2) supports staggering animations and the stagger effect can be
+ * performed by creating a **ng-EVENT-stagger** CSS class and attaching that class to the base CSS class used for
+ * the animation. The style property expected within the stagger class can either be a **transition-delay** or an
+ * **animation-delay** property (or both if your animation contains both transitions and keyframe animations).
+ *
+ * ```css
+ * .my-animation.ng-enter {
+ *   /&#42; standard transition code &#42;/
+ *   transition: 1s linear all;
+ *   opacity:0;
+ * }
+ * .my-animation.ng-enter-stagger {
+ *   /&#42; this will have a 100ms delay between each successive leave animation &#42;/
+ *   transition-delay: 0.1s;
+ *
+ *   /&#42; As of 1.4.4, this must always be set: it signals ngAnimate
+ *     to not accidentally inherit a delay property from another CSS class &#42;/
+ *   transition-duration: 0s;
+ *
+ *   /&#42; if you are using animations instead of transitions you should configure as follows:
+ *     animation-delay: 0.1s;
+ *     animation-duration: 0s; &#42;/
+ * }
+ * .my-animation.ng-enter.ng-enter-active {
+ *   /&#42; standard transition styles &#42;/
+ *   opacity:1;
+ * }
+ * ```
+ *
+ * Staggering animations work by default in ngRepeat (so long as the CSS class is defined). Outside of ngRepeat, to use staggering animations
+ * on your own, they can be triggered by firing multiple calls to the same event on $animate. However, the restrictions surrounding this
+ * are that each of the elements must have the same CSS className value as well as the same parent element. A stagger operation
+ * will also be reset if one or more animation frames have passed since the multiple calls to `$animate` were fired.
+ *
+ * The following code will issue the **ng-leave-stagger** event on the element provided:
+ *
+ * ```js
+ * var kids = parent.children();
+ *
+ * $animate.leave(kids[0]); //stagger index=0
+ * $animate.leave(kids[1]); //stagger index=1
+ * $animate.leave(kids[2]); //stagger index=2
+ * $animate.leave(kids[3]); //stagger index=3
+ * $animate.leave(kids[4]); //stagger index=4
+ *
+ * window.requestAnimationFrame(function() {
+ *   //stagger has reset itself
+ *   $animate.leave(kids[5]); //stagger index=0
+ *   $animate.leave(kids[6]); //stagger index=1
+ *
+ *   $scope.$digest();
+ * });
+ * ```
+ *
+ * Stagger animations are currently only supported within CSS-defined animations.
+ *
+ * ### The `ng-animate` CSS class
+ *
+ * When ngAnimate is animating an element it will apply the `ng-animate` CSS class to the element for the duration of the animation.
+ * This is a temporary CSS class and it will be removed once the animation is over (for both JavaScript and CSS-based animations).
+ *
+ * Therefore, animations can be applied to an element using this temporary class directly via CSS.
+ *
+ * ```css
+ * .zipper.ng-animate {
+ *   transition:0.5s linear all;
+ * }
+ * .zipper.ng-enter {
+ *   opacity:0;
+ * }
+ * .zipper.ng-enter.ng-enter-active {
+ *   opacity:1;
+ * }
+ * .zipper.ng-leave {
+ *   opacity:1;
+ * }
+ * .zipper.ng-leave.ng-leave-active {
+ *   opacity:0;
+ * }
+ * ```
+ *
+ * (Note that the `ng-animate` CSS class is reserved and it cannot be applied on an element directly since ngAnimate will always remove
+ * the CSS class once an animation has completed.)
+ *
+ *
+ * ### The `ng-[event]-prepare` class
+ *
+ * This is a special class that can be used to prevent unwanted flickering / flash of content before
+ * the actual animation starts. The class is added as soon as an animation is initialized, but removed
+ * before the actual animation starts (after waiting for a $digest).
+ * It is also only added for *structural* animations (`enter`, `move`, and `leave`).
+ *
+ * In practice, flickering can appear when nesting elements with structural animations such as `ngIf`
+ * into elements that have class-based animations such as `ngClass`.
+ *
+ * ```html
+ * <div ng-class="{red: myProp}">
+ *   <div ng-class="{blue: myProp}">
+ *     <div class="message" ng-if="myProp"></div>
+ *   </div>
+ * </div>
+ * ```
+ *
+ * It is possible that during the `enter` animation, the `.message` div will be briefly visible before it starts animating.
+ * In that case, you can add styles to the CSS that make sure the element stays hidden before the animation starts:
+ *
+ * ```css
+ * .message.ng-enter-prepare {
+ *   opacity: 0;
+ * }
+ *
+ * ```
+ *
+ * ## JavaScript-based Animations
+ *
+ * ngAnimate also allows for animations to be consumed by JavaScript code. The approach is similar to CSS-based animations (where there is a shared
+ * CSS class that is referenced in our HTML code) but in addition we need to register the JavaScript animation on the module. By making use of the
+ * `module.animation()` module function we can register the animation.
+ *
+ * Let's see an example of a enter/leave animation using `ngRepeat`:
+ *
+ * ```html
+ * <div ng-repeat="item in items" class="slide">
+ *   {{ item }}
+ * </div>
+ * ```
+ *
+ * See the **slide** CSS class? Let's use that class to define an animation that we'll structure in our module code by using `module.animation`:
+ *
+ * ```js
+ * myModule.animation('.slide', [function() {
+ *   return {
+ *     // make note that other events (like addClass/removeClass)
+ *     // have different function input parameters
+ *     enter: function(element, doneFn) {
+ *       jQuery(element).fadeIn(1000, doneFn);
+ *
+ *       // remember to call doneFn so that angular
+ *       // knows that the animation has concluded
+ *     },
+ *
+ *     move: function(element, doneFn) {
+ *       jQuery(element).fadeIn(1000, doneFn);
+ *     },
+ *
+ *     leave: function(element, doneFn) {
+ *       jQuery(element).fadeOut(1000, doneFn);
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * The nice thing about JS-based animations is that we can inject other services and make use of advanced animation libraries such as
+ * greensock.js and velocity.js.
+ *
+ * If our animation code class-based (meaning that something like `ngClass`, `ngHide` and `ngShow` triggers it) then we can still define
+ * our animations inside of the same registered animation, however, the function input arguments are a bit different:
+ *
+ * ```html
+ * <div ng-class="color" class="colorful">
+ *   this box is moody
+ * </div>
+ * <button ng-click="color='red'">Change to red</button>
+ * <button ng-click="color='blue'">Change to blue</button>
+ * <button ng-click="color='green'">Change to green</button>
+ * ```
+ *
+ * ```js
+ * myModule.animation('.colorful', [function() {
+ *   return {
+ *     addClass: function(element, className, doneFn) {
+ *       // do some cool animation and call the doneFn
+ *     },
+ *     removeClass: function(element, className, doneFn) {
+ *       // do some cool animation and call the doneFn
+ *     },
+ *     setClass: function(element, addedClass, removedClass, doneFn) {
+ *       // do some cool animation and call the doneFn
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * ## CSS + JS Animations Together
+ *
+ * AngularJS 1.4 and higher has taken steps to make the amalgamation of CSS and JS animations more flexible. However, unlike earlier versions of Angular,
+ * defining CSS and JS animations to work off of the same CSS class will not work anymore. Therefore the example below will only result in **JS animations taking
+ * charge of the animation**:
+ *
+ * ```html
+ * <div ng-if="bool" class="slide">
+ *   Slide in and out
+ * </div>
+ * ```
+ *
+ * ```js
+ * myModule.animation('.slide', [function() {
+ *   return {
+ *     enter: function(element, doneFn) {
+ *       jQuery(element).slideIn(1000, doneFn);
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * ```css
+ * .slide.ng-enter {
+ *   transition:0.5s linear all;
+ *   transform:translateY(-100px);
+ * }
+ * .slide.ng-enter.ng-enter-active {
+ *   transform:translateY(0);
+ * }
+ * ```
+ *
+ * Does this mean that CSS and JS animations cannot be used together? Do JS-based animations always have higher priority? We can make up for the
+ * lack of CSS animations by using the `$animateCss` service to trigger our own tweaked-out, CSS-based animations directly from
+ * our own JS-based animation code:
+ *
+ * ```js
+ * myModule.animation('.slide', ['$animateCss', function($animateCss) {
+ *   return {
+ *     enter: function(element) {
+*        // this will trigger `.slide.ng-enter` and `.slide.ng-enter-active`.
+ *       return $animateCss(element, {
+ *         event: 'enter',
+ *         structural: true
+ *       });
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * The nice thing here is that we can save bandwidth by sticking to our CSS-based animation code and we don't need to rely on a 3rd-party animation framework.
+ *
+ * The `$animateCss` service is very powerful since we can feed in all kinds of extra properties that will be evaluated and fed into a CSS transition or
+ * keyframe animation. For example if we wanted to animate the height of an element while adding and removing classes then we can do so by providing that
+ * data into `$animateCss` directly:
+ *
+ * ```js
+ * myModule.animation('.slide', ['$animateCss', function($animateCss) {
+ *   return {
+ *     enter: function(element) {
+ *       return $animateCss(element, {
+ *         event: 'enter',
+ *         structural: true,
+ *         addClass: 'maroon-setting',
+ *         from: { height:0 },
+ *         to: { height: 200 }
+ *       });
+ *     }
+ *   }
+ * }]);
+ * ```
+ *
+ * Now we can fill in the rest via our transition CSS code:
+ *
+ * ```css
+ * /&#42; the transition tells ngAnimate to make the animation happen &#42;/
+ * .slide.ng-enter { transition:0.5s linear all; }
+ *
+ * /&#42; this extra CSS class will be absorbed into the transition
+ * since the $animateCss code is adding the class &#42;/
+ * .maroon-setting { background:red; }
+ * ```
+ *
+ * And `$animateCss` will figure out the rest. Just make sure to have the `done()` callback fire the `doneFn` function to signal when the animation is over.
+ *
+ * To learn more about what's possible be sure to visit the {@link ngAnimate.$animateCss $animateCss service}.
+ *
+ * ## Animation Anchoring (via `ng-animate-ref`)
+ *
+ * ngAnimate in AngularJS 1.4 comes packed with the ability to cross-animate elements between
+ * structural areas of an application (like views) by pairing up elements using an attribute
+ * called `ng-animate-ref`.
+ *
+ * Let's say for example we have two views that are managed by `ng-view` and we want to show
+ * that there is a relationship between two components situated in within these views. By using the
+ * `ng-animate-ref` attribute we can identify that the two components are paired together and we
+ * can then attach an animation, which is triggered when the view changes.
+ *
+ * Say for example we have the following template code:
+ *
+ * ```html
+ * <!-- index.html -->
+ * <div ng-view class="view-animation">
+ * </div>
+ *
+ * <!-- home.html -->
+ * <a href="#/banner-page">
+ *   <img src="./banner.jpg" class="banner" ng-animate-ref="banner">
+ * </a>
+ *
+ * <!-- banner-page.html -->
+ * <img src="./banner.jpg" class="banner" ng-animate-ref="banner">
+ * ```
+ *
+ * Now, when the view changes (once the link is clicked), ngAnimate will examine the
+ * HTML contents to see if there is a match reference between any components in the view
+ * that is leaving and the view that is entering. It will scan both the view which is being
+ * removed (leave) and inserted (enter) to see if there are any paired DOM elements that
+ * contain a matching ref value.
+ *
+ * The two images match since they share the same ref value. ngAnimate will now create a
+ * transport element (which is a clone of the first image element) and it will then attempt
+ * to animate to the position of the second image element in the next view. For the animation to
+ * work a special CSS class called `ng-anchor` will be added to the transported element.
+ *
+ * We can now attach a transition onto the `.banner.ng-anchor` CSS class and then
+ * ngAnimate will handle the entire transition for us as well as the addition and removal of
+ * any changes of CSS classes between the elements:
+ *
+ * ```css
+ * .banner.ng-anchor {
+ *   /&#42; this animation will last for 1 second since there are
+ *          two phases to the animation (an `in` and an `out` phase) &#42;/
+ *   transition:0.5s linear all;
+ * }
+ * ```
+ *
+ * We also **must** include animations for the views that are being entered and removed
+ * (otherwise anchoring wouldn't be possible since the new view would be inserted right away).
+ *
+ * ```css
+ * .view-animation.ng-enter, .view-animation.ng-leave {
+ *   transition:0.5s linear all;
+ *   position:fixed;
+ *   left:0;
+ *   top:0;
+ *   width:100%;
+ * }
+ * .view-animation.ng-enter {
+ *   transform:translateX(100%);
+ * }
+ * .view-animation.ng-leave,
+ * .view-animation.ng-enter.ng-enter-active {
+ *   transform:translateX(0%);
+ * }
+ * .view-animation.ng-leave.ng-leave-active {
+ *   transform:translateX(-100%);
+ * }
+ * ```
+ *
+ * Now we can jump back to the anchor animation. When the animation happens, there are two stages that occur:
+ * an `out` and an `in` stage. The `out` stage happens first and that is when the element is animated away
+ * from its origin. Once that animation is over then the `in` stage occurs which animates the
+ * element to its destination. The reason why there are two animations is to give enough time
+ * for the enter animation on the new element to be ready.
+ *
+ * The example above sets up a transition for both the in and out phases, but we can also target the out or
+ * in phases directly via `ng-anchor-out` and `ng-anchor-in`.
+ *
+ * ```css
+ * .banner.ng-anchor-out {
+ *   transition: 0.5s linear all;
+ *
+ *   /&#42; the scale will be applied during the out animation,
+ *          but will be animated away when the in animation runs &#42;/
+ *   transform: scale(1.2);
+ * }
+ *
+ * .banner.ng-anchor-in {
+ *   transition: 1s linear all;
+ * }
+ * ```
+ *
+ *
+ *
+ *
+ * ### Anchoring Demo
+ *
+  <example module="anchoringExample"
+           name="anchoringExample"
+           id="anchoringExample"
+           deps="angular-animate.js;angular-route.js"
+           animations="true">
+    <file name="index.html">
+      <a href="#!/">Home</a>
+      <hr />
+      <div class="view-container">
+        <div ng-view class="view"></div>
+      </div>
+    </file>
+    <file name="script.js">
+      angular.module('anchoringExample', ['ngAnimate', 'ngRoute'])
+        .config(['$routeProvider', function($routeProvider) {
+          $routeProvider.when('/', {
+            templateUrl: 'home.html',
+            controller: 'HomeController as home'
+          });
+          $routeProvider.when('/profile/:id', {
+            templateUrl: 'profile.html',
+            controller: 'ProfileController as profile'
+          });
+        }])
+        .run(['$rootScope', function($rootScope) {
+          $rootScope.records = [
+            { id: 1, title: 'Miss Beulah Roob' },
+            { id: 2, title: 'Trent Morissette' },
+            { id: 3, title: 'Miss Ava Pouros' },
+            { id: 4, title: 'Rod Pouros' },
+            { id: 5, title: 'Abdul Rice' },
+            { id: 6, title: 'Laurie Rutherford Sr.' },
+            { id: 7, title: 'Nakia McLaughlin' },
+            { id: 8, title: 'Jordon Blanda DVM' },
+            { id: 9, title: 'Rhoda Hand' },
+            { id: 10, title: 'Alexandrea Sauer' }
+          ];
+        }])
+        .controller('HomeController', [function() {
+          //empty
+        }])
+        .controller('ProfileController', ['$rootScope', '$routeParams',
+            function ProfileController($rootScope, $routeParams) {
+          var index = parseInt($routeParams.id, 10);
+          var record = $rootScope.records[index - 1];
+
+          this.title = record.title;
+          this.id = record.id;
+        }]);
+    </file>
+    <file name="home.html">
+      <h2>Welcome to the home page</h1>
+      <p>Please click on an element</p>
+      <a class="record"
+         ng-href="#!/profile/{{ record.id }}"
+         ng-animate-ref="{{ record.id }}"
+         ng-repeat="record in records">
+        {{ record.title }}
+      </a>
+    </file>
+    <file name="profile.html">
+      <div class="profile record" ng-animate-ref="{{ profile.id }}">
+        {{ profile.title }}
+      </div>
+    </file>
+    <file name="animations.css">
+      .record {
+        display:block;
+        font-size:20px;
+      }
+      .profile {
+        background:black;
+        color:white;
+        font-size:100px;
+      }
+      .view-container {
+        position:relative;
+      }
+      .view-container > .view.ng-animate {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        min-height:500px;
+      }
+      .view.ng-enter, .view.ng-leave,
+      .record.ng-anchor {
+        transition:0.5s linear all;
+      }
+      .view.ng-enter {
+        transform:translateX(100%);
+      }
+      .view.ng-enter.ng-enter-active, .view.ng-leave {
+        transform:translateX(0%);
+      }
+      .view.ng-leave.ng-leave-active {
+        transform:translateX(-100%);
+      }
+      .record.ng-anchor-out {
+        background:red;
+      }
+    </file>
+  </example>
+ *
+ * ### How is the element transported?
+ *
+ * When an anchor animation occurs, ngAnimate will clone the starting element and position it exactly where the starting
+ * element is located on screen via absolute positioning. The cloned element will be placed inside of the root element
+ * of the application (where ng-app was defined) and all of the CSS classes of the starting element will be applied. The
+ * element will then animate into the `out` and `in` animations and will eventually reach the coordinates and match
+ * the dimensions of the destination element. During the entire animation a CSS class of `.ng-animate-shim` will be applied
+ * to both the starting and destination elements in order to hide them from being visible (the CSS styling for the class
+ * is: `visibility:hidden`). Once the anchor reaches its destination then it will be removed and the destination element
+ * will become visible since the shim class will be removed.
+ *
+ * ### How is the morphing handled?
+ *
+ * CSS Anchoring relies on transitions and keyframes and the internal code is intelligent enough to figure out
+ * what CSS classes differ between the starting element and the destination element. These different CSS classes
+ * will be added/removed on the anchor element and a transition will be applied (the transition that is provided
+ * in the anchor class). Long story short, ngAnimate will figure out what classes to add and remove which will
+ * make the transition of the element as smooth and automatic as possible. Be sure to use simple CSS classes that
+ * do not rely on DOM nesting structure so that the anchor element appears the same as the starting element (since
+ * the cloned element is placed inside of root element which is likely close to the body element).
+ *
+ * Note that if the root element is on the `<html>` element then the cloned node will be placed inside of body.
+ *
+ *
+ * ## Using $animate in your directive code
+ *
+ * So far we've explored how to feed in animations into an Angular application, but how do we trigger animations within our own directives in our application?
+ * By injecting the `$animate` service into our directive code, we can trigger structural and class-based hooks which can then be consumed by animations. Let's
+ * imagine we have a greeting box that shows and hides itself when the data changes
+ *
+ * ```html
+ * <greeting-box active="onOrOff">Hi there</greeting-box>
+ * ```
+ *
+ * ```js
+ * ngModule.directive('greetingBox', ['$animate', function($animate) {
+ *   return function(scope, element, attrs) {
+ *     attrs.$observe('active', function(value) {
+ *       value ? $animate.addClass(element, 'on') : $animate.removeClass(element, 'on');
+ *     });
+ *   });
+ * }]);
+ * ```
+ *
+ * Now the `on` CSS class is added and removed on the greeting box component. Now if we add a CSS class on top of the greeting box element
+ * in our HTML code then we can trigger a CSS or JS animation to happen.
+ *
+ * ```css
+ * /&#42; normally we would create a CSS class to reference on the element &#42;/
+ * greeting-box.on { transition:0.5s linear all; background:green; color:white; }
+ * ```
+ *
+ * The `$animate` service contains a variety of other methods like `enter`, `leave`, `animate` and `setClass`. To learn more about what's
+ * possible be sure to visit the {@link ng.$animate $animate service API page}.
+ *
+ *
+ * ## Callbacks and Promises
+ *
+ * When `$animate` is called it returns a promise that can be used to capture when the animation has ended. Therefore if we were to trigger
+ * an animation (within our directive code) then we can continue performing directive and scope related activities after the animation has
+ * ended by chaining onto the returned promise that animation method returns.
+ *
+ * ```js
+ * // somewhere within the depths of the directive
+ * $animate.enter(element, parent).then(function() {
+ *   //the animation has completed
+ * });
+ * ```
+ *
+ * (Note that earlier versions of Angular prior to v1.4 required the promise code to be wrapped using `$scope.$apply(...)`. This is not the case
+ * anymore.)
+ *
+ * In addition to the animation promise, we can also make use of animation-related callbacks within our directives and controller code by registering
+ * an event listener using the `$animate` service. Let's say for example that an animation was triggered on our view
+ * routing controller to hook into that:
+ *
+ * ```js
+ * ngModule.controller('HomePageController', ['$animate', function($animate) {
+ *   $animate.on('enter', ngViewElement, function(element) {
+ *     // the animation for this route has completed
+ *   }]);
+ * }])
+ * ```
+ *
+ * (Note that you will need to trigger a digest within the callback to get angular to notice any scope-related changes.)
+ */
+
+var copy;
+var extend;
+var forEach;
+var isArray;
+var isDefined;
+var isElement;
+var isFunction;
+var isObject;
+var isString;
+var isUndefined;
+var jqLite;
+var noop;
+
+/**
+ * @ngdoc service
+ * @name $animate
+ * @kind object
+ *
+ * @description
+ * The ngAnimate `$animate` service documentation is the same for the core `$animate` service.
+ *
+ * Click here {@link ng.$animate to learn more about animations with `$animate`}.
+ */
+angular.module('ngAnimate', [], function initAngularHelpers() {
+  // Access helpers from angular core.
+  // Do it inside a `config` block to ensure `window.angular` is available.
+  noop        = angular.noop;
+  copy        = angular.copy;
+  extend      = angular.extend;
+  jqLite      = angular.element;
+  forEach     = angular.forEach;
+  isArray     = angular.isArray;
+  isString    = angular.isString;
+  isObject    = angular.isObject;
+  isUndefined = angular.isUndefined;
+  isDefined   = angular.isDefined;
+  isFunction  = angular.isFunction;
+  isElement   = angular.isElement;
+})
+  .info({ angularVersion: '1.6.3' })
+  .directive('ngAnimateSwap', ngAnimateSwapDirective)
+
+  .directive('ngAnimateChildren', $$AnimateChildrenDirective)
+  .factory('$$rAFScheduler', $$rAFSchedulerFactory)
+
+  .provider('$$animateQueue', $$AnimateQueueProvider)
+  .provider('$$animation', $$AnimationProvider)
+
+  .provider('$animateCss', $AnimateCssProvider)
+  .provider('$$animateCssDriver', $$AnimateCssDriverProvider)
+
+  .provider('$$animateJs', $$AnimateJsProvider)
+  .provider('$$animateJsDriver', $$AnimateJsDriverProvider);
+
+
+})(window, window.angular);
+
+
+/***/ }),
+/* 36 */
 /***/ (function(module, exports) {
 
 /*
@@ -52506,10 +56689,7149 @@ angular.module('ui.bootstrap.timepicker').run(function() {!angular.$$csp().noInl
 angular.module('ui.bootstrap.typeahead').run(function() {!angular.$$csp().noInlineStyle && !angular.$$uibTypeaheadCss && angular.element(document).find('head').prepend('<style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style>'); angular.$$uibTypeaheadCss = true; });
 
 /***/ }),
-/* 35 */
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(38);
+module.exports = 'ui.tree';
+
+
+/***/ }),
+/* 38 */
 /***/ (function(module, exports) {
 
+/**
+ * @license Angular UI Tree v2.22.6
+ * (c) 2010-2017. https://github.com/angular-ui-tree/angular-ui-tree
+ * License: MIT
+ */
+(function () {
+  'use strict';
 
+  angular.module('ui.tree', [])
+    .constant('treeConfig', {
+      treeClass: 'angular-ui-tree',
+      emptyTreeClass: 'angular-ui-tree-empty',
+      dropzoneClass: 'angular-ui-tree-dropzone',
+      hiddenClass: 'angular-ui-tree-hidden',
+      nodesClass: 'angular-ui-tree-nodes',
+      nodeClass: 'angular-ui-tree-node',
+      handleClass: 'angular-ui-tree-handle',
+      placeholderClass: 'angular-ui-tree-placeholder',
+      dragClass: 'angular-ui-tree-drag',
+      dragThreshold: 3,
+      defaultCollapsed: false,
+      appendChildOnHover: true
+    });
+
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+
+    .controller('TreeHandleController', ['$scope', '$element',
+      function ($scope, $element) {
+        this.scope = $scope;
+
+        $scope.$element = $element;
+        $scope.$nodeScope = null;
+        $scope.$type = 'uiTreeHandle';
+
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+    .controller('TreeNodeController', ['$scope', '$element',
+      function ($scope, $element) {
+        this.scope = $scope;
+
+        $scope.$element = $element;
+        $scope.$modelValue = null; // Model value for node;
+        $scope.$parentNodeScope = null; // uiTreeNode Scope of parent node;
+        $scope.$childNodesScope = null; // uiTreeNodes Scope of child nodes.
+        $scope.$parentNodesScope = null; // uiTreeNodes Scope of parent nodes.
+        $scope.$treeScope = null; // uiTree scope
+        $scope.$handleScope = null; // it's handle scope
+        $scope.$type = 'uiTreeNode';
+        $scope.$$allowNodeDrop = false;
+        $scope.collapsed = false;
+        $scope.expandOnHover = false;
+
+        //Called by uiTreeNode Directive on load.
+        $scope.init = function (controllersArr) {
+          var treeNodesCtrl = controllersArr[0];
+          $scope.$treeScope = controllersArr[1] ? controllersArr[1].scope : null;
+
+          //Find the scope of it's parent node.
+          $scope.$parentNodeScope = treeNodesCtrl.scope.$nodeScope;
+
+          //modelValue for current node.
+          $scope.$modelValue = treeNodesCtrl.scope.$modelValue[$scope.$index];
+          $scope.$parentNodesScope = treeNodesCtrl.scope;
+
+          //Init sub nodes.
+          treeNodesCtrl.scope.initSubNode($scope);
+
+          $element.on('$destroy', function () {
+
+            //Destroy sub nodes.
+            treeNodesCtrl.scope.destroySubNode($scope);
+          });
+        };
+
+        //Return the index of child node in parent node (nodesScope).
+        $scope.index = function () {
+          return $scope.$parentNodesScope.$modelValue.indexOf($scope.$modelValue);
+        };
+
+        $scope.dragEnabled = function () {
+          return !($scope.$treeScope && !$scope.$treeScope.dragEnabled);
+        };
+
+        $scope.isSibling = function (targetNode) {
+          return $scope.$parentNodesScope == targetNode.$parentNodesScope;
+        };
+
+        $scope.isChild = function (targetNode) {
+          var nodes = $scope.childNodes();
+          return nodes && nodes.indexOf(targetNode) > -1;
+        };
+
+        //TODO(jcarter): This method is on uiTreeHelper already.
+        $scope.prev = function () {
+          var index = $scope.index();
+          if (index > 0) {
+            return $scope.siblings()[index - 1];
+          }
+          return null;
+        };
+
+        //Calls childNodes on parent.
+        $scope.siblings = function () {
+          return $scope.$parentNodesScope.childNodes();
+        };
+
+        $scope.childNodesCount = function () {
+          return $scope.childNodes() ? $scope.childNodes().length : 0;
+        };
+
+        $scope.hasChild = function () {
+          return $scope.childNodesCount() > 0;
+        };
+
+        $scope.childNodes = function () {
+          return $scope.$childNodesScope && $scope.$childNodesScope.$modelValue ?
+            $scope.$childNodesScope.childNodes() :
+            null;
+        };
+
+        $scope.accept = function (sourceNode, destIndex) {
+          return $scope.$childNodesScope &&
+            $scope.$childNodesScope.$modelValue &&
+            $scope.$childNodesScope.accept(sourceNode, destIndex);
+        };
+
+        $scope.remove = function () {
+          return $scope.$parentNodesScope.removeNode($scope);
+        };
+
+        $scope.toggle = function () {
+          $scope.collapsed = !$scope.collapsed;
+          $scope.$treeScope.$callbacks.toggle($scope.collapsed, $scope);
+        };
+
+        $scope.collapse = function () {
+          $scope.collapsed = true;
+        };
+
+        $scope.expand = function () {
+          $scope.collapsed = false;
+        };
+
+        $scope.depth = function () {
+          var parentNode = $scope.$parentNodeScope;
+          if (parentNode) {
+            return parentNode.depth() + 1;
+          }
+          return 1;
+        };
+
+        /**
+        * Returns the depth of the deepest subtree under this node
+        * @param scope a TreeNodesController scope object
+        * @returns Depth of all nodes *beneath* this node. If scope belongs to a leaf node, the
+        *   result is 0 (it has no subtree).
+        */
+        function countSubTreeDepth(scope) {
+          if (!scope) {
+            return 0;
+          }
+          var thisLevelDepth = 0,
+              childNodes = scope.childNodes(),
+              childNode,
+              childDepth,
+              i;
+          if (!childNodes || childNodes.length === 0) {
+            return 0;
+          }
+          for (i = childNodes.length - 1; i >= 0 ; i--) {
+            childNode = childNodes[i],
+            childDepth = 1 + countSubTreeDepth(childNode);
+            thisLevelDepth = Math.max(thisLevelDepth, childDepth);
+          }
+          return thisLevelDepth;
+        }
+
+        $scope.maxSubDepth = function () {
+          return $scope.$childNodesScope ? countSubTreeDepth($scope.$childNodesScope) : 0;
+        };
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+
+    .controller('TreeNodesController', ['$scope', '$element', '$timeout',
+      function ($scope, $element, $timeout) {
+        this.scope = $scope;
+
+        $scope.$element = $element;
+        $scope.$modelValue = null;
+        $scope.$nodeScope = null; // the scope of node which the nodes belongs to
+        $scope.$treeScope = null;
+        $scope.$type = 'uiTreeNodes';
+        $scope.$nodesMap = {};
+
+        $scope.nodropEnabled = false;
+        $scope.maxDepth = 0;
+        $scope.cloneEnabled = false;
+
+        $scope.initSubNode = function (subNode) {
+          if (!subNode.$modelValue) {
+            return null;
+          }
+          $scope.$nodesMap[subNode.$modelValue.$$hashKey] = subNode;
+        };
+
+        $scope.destroySubNode = function (subNode) {
+          if (!subNode.$modelValue) {
+            return null;
+          }
+          $scope.$nodesMap[subNode.$modelValue.$$hashKey] = null;
+        };
+
+        $scope.accept = function (sourceNode, destIndex) {
+          return $scope.$treeScope.$callbacks.accept(sourceNode, $scope, destIndex);
+        };
+
+        $scope.beforeDrag = function (sourceNode) {
+          return $scope.$treeScope.$callbacks.beforeDrag(sourceNode);
+        };
+
+        $scope.isParent = function (node) {
+          return node.$parentNodesScope == $scope;
+        };
+
+        $scope.hasChild = function () {
+          return $scope.$modelValue.length > 0;
+        };
+
+        //Called in apply method of UiTreeHelper.dragInfo.
+        $scope.removeNode = function (node) {
+          var index = $scope.$modelValue.indexOf(node.$modelValue);
+          if (index > -1) {
+            $timeout(function () {
+              $scope.$modelValue.splice(index, 1)[0];
+            });
+            return $scope.$treeScope.$callbacks.removed(node);
+          }
+          return null;
+        };
+
+        //Called in apply method of UiTreeHelper.dragInfo.
+        $scope.insertNode = function (index, nodeData) {
+          $timeout(function () {
+            $scope.$modelValue.splice(index, 0, nodeData);
+          });
+        };
+
+        $scope.childNodes = function () {
+          var i, nodes = [];
+          if ($scope.$modelValue) {
+            for (i = 0; i < $scope.$modelValue.length; i++) {
+              nodes.push($scope.$nodesMap[$scope.$modelValue[i].$$hashKey]);
+            }
+          }
+          return nodes;
+        };
+
+        $scope.depth = function () {
+          if ($scope.$nodeScope) {
+            return $scope.$nodeScope.depth();
+          }
+          return 0; // if it has no $nodeScope, it's root
+        };
+
+        // check if depth limit has reached
+        $scope.outOfDepth = function (sourceNode) {
+          var maxDepth = $scope.maxDepth || $scope.$treeScope.maxDepth;
+          if (maxDepth > 0) {
+            return $scope.depth() + sourceNode.maxSubDepth() + 1 > maxDepth;
+          }
+          return false;
+        };
+
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+
+    .controller('TreeController', ['$scope', '$element',
+      function ($scope, $element) {
+        this.scope = $scope;
+
+        $scope.$element = $element;
+        $scope.$nodesScope = null; // root nodes
+        $scope.$type = 'uiTree';
+        $scope.$emptyElm = null;
+        $scope.$dropzoneElm = null;
+        $scope.$callbacks = null;
+
+        $scope.dragEnabled = true;
+        $scope.emptyPlaceholderEnabled = true;
+        $scope.maxDepth = 0;
+        $scope.dragDelay = 0;
+        $scope.cloneEnabled = false;
+        $scope.nodropEnabled = false;
+        $scope.dropzoneEnabled = false;
+
+        // Check if it's a empty tree
+        $scope.isEmpty = function () {
+          return ($scope.$nodesScope && $scope.$nodesScope.$modelValue
+          && $scope.$nodesScope.$modelValue.length === 0);
+        };
+
+        // add placeholder to empty tree
+        $scope.place = function (placeElm) {
+          $scope.$nodesScope.$element.append(placeElm);
+          $scope.$emptyElm.remove();
+        };
+
+        this.resetEmptyElement = function () {
+          if ((!$scope.$nodesScope.$modelValue || $scope.$nodesScope.$modelValue.length === 0) &&
+            $scope.emptyPlaceholderEnabled) {
+            $element.append($scope.$emptyElm);
+          } else {
+            $scope.$emptyElm.remove();
+          }
+        };
+
+        this.resetDropzoneElement = function () {
+          if ((!$scope.$nodesScope.$modelValue || $scope.$nodesScope.$modelValue.length !== 0) &&
+            $scope.dropzoneEnabled) {
+            $element.append($scope.$dropzoneElm);
+          } else {
+            $scope.$dropzoneElm.remove();
+          }
+        };
+
+        $scope.resetEmptyElement = this.resetEmptyElement;
+        $scope.resetDropzoneElement = this.resetDropzoneElement;
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+    .directive('uiTree', ['treeConfig', '$window',
+      function (treeConfig, $window) {
+        return {
+          restrict: 'A',
+          scope: true,
+          controller: 'TreeController',
+          link: function (scope, element, attrs, ctrl) {
+            var callbacks = {
+              accept: null,
+              beforeDrag: null
+            },
+            config = {},
+            tdElm,
+            $trElm,
+            emptyElmColspan;
+
+            //Adding configured class to uiTree.
+            angular.extend(config, treeConfig);
+
+            if (config.treeClass) {
+              element.addClass(config.treeClass);
+            }
+
+            //Determining if uiTree is on a table.
+            if (element.prop('tagName').toLowerCase() === 'table') {
+              scope.$emptyElm = angular.element($window.document.createElement('tr'));
+              $trElm = element.find('tr');
+              
+              //If we can find a tr, then we can use its td children as the empty element colspan.
+              if ($trElm.length > 0) {
+                emptyElmColspan = angular.element($trElm).children().length;
+              } else {
+                
+                //If not, by setting a huge colspan we make sure it takes full width.
+                //TODO(jcarter): Check for negative side effects.
+                emptyElmColspan = 1000000;
+              }
+              tdElm = angular.element($window.document.createElement('td'))
+                .attr('colspan', emptyElmColspan);
+              scope.$emptyElm.append(tdElm);
+            } else {
+              scope.$emptyElm = angular.element($window.document.createElement('div'));
+              scope.$dropzoneElm = angular.element($window.document.createElement('div'));
+            }
+
+            if (config.emptyTreeClass) {
+              scope.$emptyElm.addClass(config.emptyTreeClass);
+            }
+            if (config.dropzoneClass) {
+              scope.$dropzoneElm.addClass(config.dropzoneClass);
+            }
+
+            scope.$watch('$nodesScope.$modelValue.length', function (val) {
+              if (!angular.isNumber(val)) {
+                return;
+              }
+
+              ctrl.resetEmptyElement();
+              ctrl.resetDropzoneElement();
+            }, true);
+
+            scope.$watch(attrs.dragEnabled, function (val) {
+              if ((typeof val) == 'boolean') {
+                scope.dragEnabled = val;
+              }
+            });
+
+            scope.$watch(attrs.emptyPlaceholderEnabled, function (val) {
+              if ((typeof val) == 'boolean') {
+                scope.emptyPlaceholderEnabled = val;
+                ctrl.resetEmptyElement();
+              }
+            });
+
+            scope.$watch(attrs.nodropEnabled, function (val) {
+              if ((typeof val) == 'boolean') {
+                scope.nodropEnabled = val;
+              }
+            });
+
+            scope.$watch(attrs.dropzoneEnabled, function (val) {
+              if ((typeof val) == 'boolean') {
+                scope.dropzoneEnabled = val;
+                ctrl.resetDropzoneElement();
+              }
+            });
+
+            scope.$watch(attrs.cloneEnabled, function (val) {
+              if ((typeof val) == 'boolean') {
+                scope.cloneEnabled = val;
+              }
+            });
+
+            scope.$watch(attrs.maxDepth, function (val) {
+              if ((typeof val) == 'number') {
+                scope.maxDepth = val;
+              }
+            });
+
+            scope.$watch(attrs.dragDelay, function (val) {
+              if ((typeof val) == 'number') {
+                scope.dragDelay = val;
+              }
+            });
+
+            /**
+             * Callback checks if the destination node can accept the dragged node.
+             * By default, ui-tree will check that 'data-nodrop-enabled' is not set for the
+             * destination ui-tree-nodes, and that the 'max-depth' attribute will not be exceeded
+             * if it is set on the ui-tree or ui-tree-nodes.
+             * This callback can be overridden, but callers must manually enforce nodrop and max-depth
+             * themselves if they need those to be enforced.
+             * @param sourceNodeScope Scope of the ui-tree-node being dragged
+             * @param destNodesScope Scope of the ui-tree-nodes where the node is hovering
+             * @param destIndex Index in the destination nodes array where the source node will drop
+             * @returns {boolean} True if the node is permitted to be dropped here
+             */
+            callbacks.accept = function (sourceNodeScope, destNodesScope, destIndex) {
+              return !(destNodesScope.nodropEnabled || destNodesScope.$treeScope.nodropEnabled || destNodesScope.outOfDepth(sourceNodeScope));
+            };
+
+            callbacks.beforeDrag = function (sourceNodeScope) {
+              return true;
+            };
+
+            callbacks.expandTimeoutStart = function()
+            {
+
+            };
+
+            callbacks.expandTimeoutCancel = function()
+            {
+
+            };
+
+            callbacks.expandTimeoutEnd = function()
+            {
+
+            };
+
+            callbacks.removed = function (node) {
+
+            };
+
+            /**
+             * Callback is fired when a node is successfully dropped in a new location
+             * @param event
+             */
+            callbacks.dropped = function (event) {
+
+            };
+
+            /**
+             * Callback is fired each time the user starts dragging a node
+             * @param event
+             */
+            callbacks.dragStart = function (event) {
+
+            };
+
+            /**
+             * Callback is fired each time a dragged node is moved with the mouse/touch.
+             * @param event
+             */
+            callbacks.dragMove = function (event) {
+
+            };
+
+            /**
+             * Callback is fired when the tree exits drag mode. If the user dropped a node, the drop may have been
+             * accepted or reverted.
+             * @param event
+             */
+            callbacks.dragStop = function (event) {
+
+            };
+
+            /**
+             * Callback is fired when a user drops a node (but prior to processing the drop action)
+             * beforeDrop can return a Promise, truthy, or falsy (returning nothing is falsy).
+             * If it returns falsy, or a resolve Promise, the node move is accepted
+             * If it returns truthy, or a rejected Promise, the node move is reverted
+             * @param event
+             * @returns {Boolean|Promise} Truthy (or rejected Promise) to cancel node move; falsy (or resolved promise)
+             */
+            callbacks.beforeDrop = function (event) {
+
+            };
+
+            /**
+             * Callback is fired when a user toggles node (but after processing the toggle action)
+             * @param sourceNodeScope
+             * @param collapsed
+             */
+            callbacks.toggle = function (collapsed, sourceNodeScope) {
+
+            };
+
+            scope.$watch(attrs.uiTree, function (newVal, oldVal) {
+              angular.forEach(newVal, function (value, key) {
+                if (callbacks[key]) {
+                  if (typeof value === 'function') {
+                    callbacks[key] = value;
+                  }
+                }
+              });
+
+              scope.$callbacks = callbacks;
+            }, true);
+
+
+          }
+        };
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+    .directive('uiTreeHandle', ['treeConfig',
+      function (treeConfig) {
+        return {
+          require: '^uiTreeNode',
+          restrict: 'A',
+          scope: true,
+          controller: 'TreeHandleController',
+          link: function (scope, element, attrs, treeNodeCtrl) {
+            var config = {};
+            angular.extend(config, treeConfig);
+            if (config.handleClass) {
+              element.addClass(config.handleClass);
+            }
+            // connect with the tree node.
+            if (scope != treeNodeCtrl.scope) {
+              scope.$nodeScope = treeNodeCtrl.scope;
+              treeNodeCtrl.scope.$handleScope = scope;
+            }
+          }
+        };
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+
+    .directive('uiTreeNode', ['treeConfig', 'UiTreeHelper', '$window', '$document', '$timeout', '$q',
+      function (treeConfig, UiTreeHelper, $window, $document, $timeout, $q) {
+        return {
+          require: ['^uiTreeNodes', '^uiTree'],
+          restrict: 'A',
+          controller: 'TreeNodeController',
+          link: function (scope, element, attrs, controllersArr) {
+            var config = {},
+              hasTouch = 'ontouchstart' in window,
+              firstMoving,
+              dragInfo,
+              pos,
+              placeElm,
+              hiddenPlaceElm,
+              dragElm,
+              scrollContainerElm,
+              unhover,
+              treeScope = null,
+              elements, // As a parameter for callbacks
+              dragDelaying = true,
+              dragStarted = false,
+              dragTimer = null,
+              body = document.body,
+              html = document.documentElement,
+              document_height,
+              document_width,
+              dragStart,
+              tagName,
+              dragMove,
+              dragEnd,
+              dragStartEvent,
+              dragMoveEvent,
+              dragEndEvent,
+              dragCancelEvent,
+              dragDelay,
+              bindDragStartEvents,
+              bindDragMoveEvents,
+              unbindDragMoveEvents,
+              keydownHandler,
+              isHandleChild,
+              el,
+              isUiTreeRoot,
+              treeOfOrigin;
+
+            //Adding configured class to ui-tree-node.
+            angular.extend(config, treeConfig);
+
+            if (config.nodeClass) {
+              element.addClass(config.nodeClass);
+            }
+
+            //Call init function in nodeCtrl, sets parent node and sets up sub nodes.
+            scope.init(controllersArr);
+
+            scope.collapsed = !!UiTreeHelper.getNodeAttribute(scope, 'collapsed') || treeConfig.defaultCollapsed;
+            scope.expandOnHover = !!UiTreeHelper.getNodeAttribute(scope, 'expandOnHover');
+            scope.scrollContainer = UiTreeHelper.getNodeAttribute(scope, 'scrollContainer') || attrs.scrollContainer || null;
+            scope.sourceOnly = scope.nodropEnabled || scope.$treeScope.nodropEnabled;
+
+            scope.$watch(attrs.collapsed, function (val) {
+              if ((typeof val) == 'boolean') {
+                scope.collapsed = val;
+              }
+            });
+
+            //Watches to trigger behavior based on actions and settings.
+            scope.$watch('collapsed', function (val) {
+              UiTreeHelper.setNodeAttribute(scope, 'collapsed', val);
+              attrs.$set('collapsed', val);
+            });
+
+            scope.$watch(attrs.expandOnHover, function(val) {
+              if ((typeof val) === 'boolean' || (typeof val) === 'number') {
+                scope.expandOnHover = val;
+              }
+            });
+
+            scope.$watch('expandOnHover', function (val) {
+              UiTreeHelper.setNodeAttribute(scope, 'expandOnHover', val);
+              attrs.$set('expandOnHover', val);
+            });
+
+            attrs.$observe('scrollContainer', function(val) {
+              if ((typeof val) === 'string') {
+                scope.scrollContainer = val;
+              }
+            });
+
+            scope.$watch('scrollContainer', function(val) {
+              UiTreeHelper.setNodeAttribute(scope, 'scrollContainer', val);
+              attrs.$set('scrollContainer', val);
+              scrollContainerElm = document.querySelector(val);
+            });
+
+            scope.$on('angular-ui-tree:collapse-all', function () {
+              scope.collapsed = true;
+            });
+
+            scope.$on('angular-ui-tree:expand-all', function () {
+              scope.collapsed = false;
+            });
+
+            /**
+             * Called when the user has grabbed a node and started dragging it.
+             *
+             * @param {MouseEvent} e event that is triggered by DOM.
+             * @return undefined?
+             */
+            dragStart = function (e) {
+
+              //Disable right click.
+              if (!hasTouch && (e.button === 2 || e.which === 3)) {
+                return;
+              }
+
+              //Event has already fired in other scope.
+              if (e.uiTreeDragging || (e.originalEvent && e.originalEvent.uiTreeDragging)) {
+                return;
+              }
+
+              //The node being dragged.
+              var eventElm = angular.element(e.target),
+                isHandleChild,
+                cloneElm,
+                eventElmTagName,
+                tagName,
+                eventObj,
+                tdElm,
+                hStyle,
+                isTreeNode,
+                isTreeNodeHandle;
+
+              //If the target element is a child element of a ui-tree-handle,
+              // use the containing handle element as target element.
+              isHandleChild = UiTreeHelper.treeNodeHandlerContainerOfElement(eventElm);
+              if (isHandleChild) {
+                eventElm = angular.element(isHandleChild);
+              }
+
+              cloneElm = element.clone();
+              isTreeNode = UiTreeHelper.elementIsTreeNode(eventElm);
+              isTreeNodeHandle = UiTreeHelper.elementIsTreeNodeHandle(eventElm);
+
+              //If we are not triggering mousedown on our uiTree or any of it's parts, return.
+              if (!isTreeNode && !isTreeNodeHandle) {
+                return;
+              }
+
+              //If we are not triggering mousedown on our uiTree or any of it's parts, return.
+              if (isTreeNode && UiTreeHelper.elementContainsTreeNodeHandler(eventElm)) {
+                return;
+              }
+
+              //Dragging not allowed on inputs or buttons.
+              eventElmTagName = eventElm.prop('tagName').toLowerCase();
+              if (eventElmTagName == 'input' ||
+                  eventElmTagName == 'textarea' ||
+                  eventElmTagName == 'button' ||
+                  eventElmTagName == 'select') {
+                return;
+              }
+
+              //Check if it or it's parents has a 'data-nodrag' attribute
+              el = angular.element(e.target);
+              isUiTreeRoot = el[0].attributes['ui-tree'];
+              while (el && el[0] && el[0] !== element && !isUiTreeRoot) {
+
+                //Checking that I can access attributes.
+                if (el[0].attributes) {
+                  isUiTreeRoot = el[0].attributes['ui-tree'];
+                }
+
+                //If the node mark as `nodrag`, DONOT drag it.
+                if (UiTreeHelper.nodrag(el)) {
+                  return;
+                }
+                el = el.parent();
+              }
+
+              //If users beforeDrag calback returns falsey, do not initiate.
+              if (!scope.beforeDrag(scope)) {
+                return;
+              }
+
+              //Set property checked at start of function to prevent running logic again.
+              e.uiTreeDragging = true;
+              if (e.originalEvent) {
+                e.originalEvent.uiTreeDragging = true;
+              }
+              e.preventDefault();
+
+              //Get original event if TouchEvent.
+              eventObj = UiTreeHelper.eventObj(e);
+
+              //Set boolean used to specify beginning of move.
+              firstMoving = true;
+
+              //Setting drag info properties and methods in scope of node being moved.
+              dragInfo = UiTreeHelper.dragInfo(scope);
+
+              //Setting original tree to adjust horizontal behavior in drag move.
+              treeOfOrigin = dragInfo.source.$treeScope.$id;
+
+              //Determine tage name of element ui-tree-node is on.
+              tagName = element.prop('tagName');
+
+              if (tagName.toLowerCase() === 'tr') {
+
+                //Create a new table column as placeholder.
+                placeElm = angular.element($window.document.createElement(tagName));
+
+                //Create a column placeholder and set colspan to whole row length.
+                tdElm = angular.element($window.document.createElement('td'))
+                    .addClass(config.placeholderClass)
+                    .attr('colspan', element[0].children.length);
+                placeElm.append(tdElm);
+              } else {
+
+                //If not a table just duplicate element and add placeholder class.
+                placeElm = angular.element($window.document.createElement(tagName))
+                    .addClass(config.placeholderClass);
+              }
+
+              //Create a hidden placeholder and add class from config.
+              hiddenPlaceElm = angular.element($window.document.createElement(tagName));
+              if (config.hiddenClass) {
+                hiddenPlaceElm.addClass(config.hiddenClass);
+              }
+
+              //Getting starting position of element being moved.
+              pos = UiTreeHelper.positionStarted(eventObj, element);
+              placeElm.css('height', element.prop('offsetHeight') + 'px');
+
+              //Creating drag element to represent node.
+              dragElm = angular.element($window.document.createElement(scope.$parentNodesScope.$element.prop('tagName')))
+                  .addClass(scope.$parentNodesScope.$element.attr('class')).addClass(config.dragClass);
+              dragElm.css('width', UiTreeHelper.width(element) + 'px');
+              dragElm.css('z-index', 9999);
+
+              //Prevents cursor to change rapidly in Opera 12.16 and IE when dragging an element.
+              hStyle = (element[0].querySelector('.angular-ui-tree-handle') || element[0]).currentStyle;
+              if (hStyle) {
+                document.body.setAttribute('ui-tree-cursor', $document.find('body').css('cursor') || '');
+                $document.find('body').css({'cursor': hStyle.cursor + '!important'});
+              }
+
+              //If tree is sourceOnly (noDragDrop) don't show placeholder when moving about it.
+              if (scope.sourceOnly) {
+                placeElm.css('display', 'none');
+              }
+
+              //Insert placeholder.
+              element.after(placeElm);
+              element.after(hiddenPlaceElm);
+              if (dragInfo.isClone() && scope.sourceOnly) {
+                dragElm.append(cloneElm);
+              } else {
+                dragElm.append(element);
+              }
+
+              //Create drag element.
+              $document.find('body').append(dragElm);
+
+              //Set drag elements position on screen.
+              dragElm.css({
+                'left': eventObj.pageX - pos.offsetX + 'px',
+                'top': eventObj.pageY - pos.offsetY + 'px'
+              });
+              elements = {
+                placeholder: placeElm,
+                dragging: dragElm
+              };
+
+              //Create all drag/move bindings.
+              bindDragMoveEvents();
+
+              //Fire dragStart callback.
+              scope.$apply(function () {
+                scope.$treeScope.$callbacks.dragStart(dragInfo.eventArgs(elements, pos));
+              });
+
+              //Get bounds of document.
+              document_height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+              document_width = Math.max(body.scrollWidth, body.offsetWidth, html.clientWidth, html.scrollWidth, html.offsetWidth);
+            };
+
+            dragMove = function (e) {
+              var eventObj = UiTreeHelper.eventObj(e),
+                prev,
+                next,
+                leftElmPos,
+                topElmPos,
+                top_scroll,
+                bottom_scroll,
+                scrollContainerElmRect,
+                target,
+                targetX,
+                targetY,
+                displayElm,
+                targetNode,
+                targetElm,
+                isEmpty,
+                scrollDownBy,
+                scrollUpBy,
+                targetOffset,
+                targetBefore,
+                moveWithinTree,
+                targetBeforeBuffer,
+                targetHeight,
+                targetChildElm,
+                targetChildHeight,
+                isDropzone;
+
+              //If check ensures that drag element was created.
+              if (dragElm) {
+                e.preventDefault();
+
+                //Deselect anything (text, etc.) that was selected when move began.
+                if ($window.getSelection) {
+                  $window.getSelection().removeAllRanges();
+                } else if ($window.document.selection) {
+                  $window.document.selection.empty();
+                }
+
+                //Get top left positioning of element being moved.
+                leftElmPos = eventObj.pageX - pos.offsetX;
+                topElmPos = eventObj.pageY - pos.offsetY;
+
+                //dragElm can't leave the screen on the left.
+                if (leftElmPos < 0) {
+                  leftElmPos = 0;
+                }
+
+                //dragElm can't leave the screen on the top.
+                if (topElmPos < 0) {
+                  topElmPos = 0;
+                }
+
+                //dragElm can't leave the screen on the bottom.
+                if ((topElmPos + 10) > document_height) {
+                  topElmPos = document_height - 10;
+                }
+
+                //dragElm can't leave the screen on the right.
+                if ((leftElmPos + 10) > document_width) {
+                  leftElmPos = document_width - 10;
+                }
+
+                //Updating element being moved css.
+                dragElm.css({
+                  'left': leftElmPos + 'px',
+                  'top': topElmPos + 'px'
+                });
+
+                if (scrollContainerElm) {
+                  //Getting position to top and bottom of container element.
+                  scrollContainerElmRect = scrollContainerElm.getBoundingClientRect();
+                  top_scroll = scrollContainerElm.scrollTop;
+                  bottom_scroll = top_scroll + scrollContainerElm.clientHeight;
+
+                  //To scroll down if cursor y-position is greater than the bottom position of the container vertical scroll
+                  if (scrollContainerElmRect.bottom < eventObj.clientY && bottom_scroll < scrollContainerElm.scrollHeight) {
+                    scrollDownBy = Math.min(scrollContainerElm.scrollHeight - bottom_scroll, 10);
+                    scrollContainerElm.scrollTop += scrollDownBy;
+                  }
+
+                  //To scroll top if cursor y-position is less than the top position of the container vertical scroll
+                  if (scrollContainerElmRect.top > eventObj.clientY && top_scroll > 0) {
+                    scrollUpBy = Math.min(top_scroll, 10);
+                    scrollContainerElm.scrollTop -= scrollUpBy;
+                  }
+                } else {
+                  //Getting position to top and bottom of page.
+                  top_scroll = window.pageYOffset || $window.document.documentElement.scrollTop;
+                  bottom_scroll = top_scroll + (window.innerHeight || $window.document.clientHeight || $window.document.clientHeight);
+
+                  //To scroll down if cursor y-position is greater than the bottom position of the window vertical scroll
+                  if (bottom_scroll < eventObj.pageY && bottom_scroll < document_height) {
+                    scrollDownBy = Math.min(document_height - bottom_scroll, 10);
+                    window.scrollBy(0, scrollDownBy);
+                  }
+
+                  //To scroll top if cursor y-position is less than the top position of the window vertical scroll
+                  if (top_scroll > eventObj.pageY) {
+                    scrollUpBy = Math.min(top_scroll, 10);
+                    window.scrollBy(0, -scrollUpBy);
+                  }
+                }
+
+                //Calling service to update position coordinates based on move.
+                UiTreeHelper.positionMoved(e, pos, firstMoving);
+                if (firstMoving) {
+                  firstMoving = false;
+                  return;
+                }
+
+                //Setting X point for elementFromPoint.
+                targetX = eventObj.pageX - ($window.pageXOffset ||
+                    $window.document.body.scrollLeft ||
+                    $window.document.documentElement.scrollLeft) -
+                    ($window.document.documentElement.clientLeft || 0);
+
+                targetY = eventObj.pageY - ($window.pageYOffset ||
+                    $window.document.body.scrollTop ||
+                    $window.document.documentElement.scrollTop) -
+                    ($window.document.documentElement.clientTop || 0);
+
+                //Select the drag target. Because IE does not support CSS 'pointer-events: none', it will always
+                // pick the drag element itself as the target. To prevent this, we hide the drag element while
+                // selecting the target.
+                if (angular.isFunction(dragElm.hide)) {
+                  dragElm.hide();
+                } else {
+                  displayElm = dragElm[0].style.display;
+                  dragElm[0].style.display = 'none';
+                }
+
+                //When using elementFromPoint() inside an iframe, you have to call
+                // elementFromPoint() twice to make sure IE8 returns the correct value
+                //MDN: The elementFromPoint() method of the Document interface returns the topmost element at the specified coordinates.
+                $window.document.elementFromPoint(targetX, targetY);
+
+                //Set target element (element in specified x/y coordinates).
+                targetElm = angular.element($window.document.elementFromPoint(targetX, targetY));
+
+                //If the target element is a child element of a ui-tree-handle,
+                // use the containing handle element as target element
+                isHandleChild = UiTreeHelper.treeNodeHandlerContainerOfElement(targetElm);
+                if (isHandleChild) {
+                  targetElm = angular.element(isHandleChild);
+                }
+
+                if (angular.isFunction(dragElm.show)) {
+                  dragElm.show();
+                } else {
+                  dragElm[0].style.display = displayElm;
+                }
+
+                //Assigning scope to target you are moving draggable over.
+                if (UiTreeHelper.elementIsTree(targetElm)) {
+                  targetNode = targetElm.controller('uiTree').scope;
+                } else if (UiTreeHelper.elementIsTreeNodeHandle(targetElm)) {
+                  targetNode = targetElm.controller('uiTreeHandle').scope;
+                } else if (UiTreeHelper.elementIsTreeNode(targetElm)) {
+                  targetNode = targetElm.controller('uiTreeNode').scope;
+                } else if (UiTreeHelper.elementIsTreeNodes(targetElm)) {
+                  targetNode = targetElm.controller('uiTreeNodes').scope;
+                } else if (UiTreeHelper.elementIsPlaceholder(targetElm)) {
+                  targetNode = targetElm.controller('uiTreeNodes').scope;
+                } else if (UiTreeHelper.elementIsDropzone(targetElm)) {
+                  targetNode = targetElm.controller('uiTree').scope;
+                  isDropzone = true;
+                } else if (targetElm.controller('uiTreeNode')) {
+                  //Is a child element of a node.
+                  targetNode = targetElm.controller('uiTreeNode').scope;
+                }
+
+                moveWithinTree =  (targetNode && targetNode.$treeScope && targetNode.$treeScope.$id && targetNode.$treeScope.$id === treeOfOrigin);
+
+                /* (jcarter) Notes to developers:
+                 *  pos.dirAx is either 0 or 1
+                 *  1 means horizontal movement is happening
+                 *  0 means vertical movement is happening
+                 */
+
+                // Move nodes up and down in nesting level.
+                if (moveWithinTree && pos.dirAx) {
+
+                  // increase horizontal level if previous sibling exists and is not collapsed
+                  // example 1.1.1 becomes 1.2
+                  if (pos.distX > 0) {
+                    prev = dragInfo.prev();
+                    if (prev && !prev.collapsed
+                      && prev.accept(scope, prev.childNodesCount())) {
+                      prev.$childNodesScope.$element.append(placeElm);
+                      dragInfo.moveTo(prev.$childNodesScope, prev.childNodes(), prev.childNodesCount());
+                    }
+                  }
+
+                  // decrease horizontal level
+                  // example 1.2 become 1.1.1
+                  if (pos.distX < 0) {
+                    // we can't decrease a level if an item preceeds the current one
+                    next = dragInfo.next();
+                    if (!next) {
+                      target = dragInfo.parentNode(); // As a sibling of it's parent node
+                      if (target
+                        && target.$parentNodesScope.accept(scope, target.index() + 1)) {
+                        target.$element.after(placeElm);
+                        dragInfo.moveTo(target.$parentNodesScope, target.siblings(), target.index() + 1);
+                      }
+                    }
+                  }
+                } else { //Either in origin tree and moving horizontally OR you are moving within a new tree.
+
+                  //Check it's new position.
+                  isEmpty = false;
+
+                  //Exit if target is not a uiTree or child of one.
+                  if (!targetNode) {
+                    return;
+                  }
+
+                  //Show the placeholder if it was hidden for nodrop-enabled and this is a new tree
+                  if (targetNode.$treeScope && !targetNode.$parent.nodropEnabled && !targetNode.$treeScope.nodropEnabled) {
+                    placeElm.css('display', '');
+                  }
+
+                  //Set whether target tree is empty or not.
+                  if (targetNode.$type === 'uiTree' && targetNode.dragEnabled) {
+                    isEmpty = targetNode.isEmpty();
+                  }
+
+                  //If target is a handle set new target to handle's node.
+                  if (targetNode.$type === 'uiTreeHandle') {
+                    targetNode = targetNode.$nodeScope;
+                  }
+
+                  //Check if it is a uiTreeNode or it's an empty tree or it's a dropzone.
+                  if (targetNode.$type !== 'uiTreeNode' && !isEmpty && !isDropzone) {
+
+                    // Allow node to return to its original position if no longer hovering over target
+                    if (config.appendChildOnHover) {
+                      next = dragInfo.next();
+                      if (!next && unhover) {
+                        target = dragInfo.parentNode();
+                        target.$element.after(placeElm);
+                        dragInfo.moveTo(target.$parentNodesScope, target.siblings(), target.index() + 1);
+                        unhover = false;
+                      }
+                    }
+                    return;
+                  }
+
+                  //If placeholder move from empty tree, reset it.
+                  if (treeScope && placeElm.parent()[0] != treeScope.$element[0]) {
+                    treeScope.resetEmptyElement();
+                    treeScope.resetDropzoneElement();
+                    treeScope = null;
+                  }
+
+                  //It's an empty tree
+                  if (isEmpty) {
+                    treeScope = targetNode;
+                    if (targetNode.$nodesScope.accept(scope, 0)) {
+                      dragInfo.moveTo(targetNode.$nodesScope, targetNode.$nodesScope.childNodes(), 0);
+                    }
+                  //It's a dropzone
+                  } else if (isDropzone) {
+                    treeScope = targetNode;
+                    if (targetNode.$nodesScope.accept(scope, targetNode.$nodesScope.childNodes().length)) {
+                      dragInfo.moveTo(targetNode.$nodesScope, targetNode.$nodesScope.childNodes(), targetNode.$nodesScope.childNodes().length);
+                    }
+                  //Not empty and drag enabled.
+                  } else if (targetNode.dragEnabled()) {
+
+                      //Setting/Resetting data for exanding on hover.
+                      if (angular.isDefined(scope.expandTimeoutOn) && scope.expandTimeoutOn !== targetNode.id) {
+                        $timeout.cancel(scope.expandTimeout);
+                        delete scope.expandTimeout;
+                        delete scope.expandTimeoutOn;
+
+                        scope.$callbacks.expandTimeoutCancel();
+                      }
+
+                      //Determining if expansion is needed.
+                      if (targetNode.collapsed) {
+                        if (scope.expandOnHover === true || (angular.isNumber(scope.expandOnHover) && scope.expandOnHover === 0)) {
+                          targetNode.collapsed = false;
+                          targetNode.$treeScope.$callbacks.toggle(false, targetNode);
+                        } else if (scope.expandOnHover !== false && angular.isNumber(scope.expandOnHover) && scope.expandOnHover > 0) {
+
+                          //Triggering expansion.
+                          if (angular.isUndefined(scope.expandTimeoutOn)) {
+                            scope.expandTimeoutOn = targetNode.$id;
+
+                            scope.$callbacks.expandTimeoutStart();
+                            scope.expandTimeout = $timeout(function()
+                            {
+                              scope.$callbacks.expandTimeoutEnd();
+                              targetNode.collapsed = false;
+                              targetNode.$treeScope.$callbacks.toggle(false, targetNode);
+                            }, scope.expandOnHover);
+                          }
+                        }
+                      }
+
+                    //Get the element of ui-tree-node
+                    targetElm = targetNode.$element;
+                    targetOffset = UiTreeHelper.offset(targetElm);
+                    targetHeight = UiTreeHelper.height(targetElm);
+                    targetChildElm = targetNode.$childNodesScope ? targetNode.$childNodesScope.$element : null;
+                    targetChildHeight = targetChildElm ? UiTreeHelper.height(targetChildElm) : 0;
+                    targetHeight -= targetChildHeight;
+                    targetBeforeBuffer = config.appendChildOnHover ? targetHeight * 0.25 : UiTreeHelper.height(targetElm) / 2;
+                    targetBefore = eventObj.pageY < (targetOffset.top + targetBeforeBuffer);
+
+                    if (targetNode.$parentNodesScope.accept(scope, targetNode.index())) {
+                      if (targetBefore) {
+                        targetElm[0].parentNode.insertBefore(placeElm[0], targetElm[0]);
+                        dragInfo.moveTo(targetNode.$parentNodesScope, targetNode.siblings(), targetNode.index());
+                      } else {
+                        // Try to append as a child if dragged upwards onto targetNode
+                        if (config.appendChildOnHover && targetNode.accept(scope, targetNode.childNodesCount())) {
+                          targetNode.$childNodesScope.$element.prepend(placeElm);
+                          dragInfo.moveTo(targetNode.$childNodesScope, targetNode.childNodes(), 0);
+                          unhover = true;
+                        } else {
+                          targetElm.after(placeElm);
+                          dragInfo.moveTo(targetNode.$parentNodesScope, targetNode.siblings(), targetNode.index() + 1);
+                        }
+                      }
+
+                    //We have to check if it can add the dragging node as a child.
+                    } else if (!targetBefore && targetNode.accept(scope, targetNode.childNodesCount())) {
+                      targetNode.$childNodesScope.$element.append(placeElm);
+                      dragInfo.moveTo(targetNode.$childNodesScope, targetNode.childNodes(), targetNode.childNodesCount());
+                    }
+                  }
+                }
+
+                //Triggering dragMove callback.
+                scope.$apply(function () {
+                  scope.$treeScope.$callbacks.dragMove(dragInfo.eventArgs(elements, pos));
+                });
+              }
+            };
+
+            dragEnd = function (e) {
+
+              var dragEventArgs = dragInfo.eventArgs(elements, pos);
+
+              e.preventDefault();
+
+              //TODO(jcarter): Is dragStart need to be unbound?
+              unbindDragMoveEvents();
+
+              //This cancel the collapse/expand login running.
+              $timeout.cancel(scope.expandTimeout);
+
+              scope.$treeScope.$apply(function () {
+                $q.when(scope.$treeScope.$callbacks.beforeDrop(dragEventArgs))
+
+                     //Promise resolved (or callback didn't return false)
+                    .then(function (allowDrop) {
+                      if (allowDrop !== false && scope.$$allowNodeDrop) {
+                        //Node drop accepted.
+                        dragInfo.apply();
+
+                        //Fire the dropped callback only if the move was successful.
+                        scope.$treeScope.$callbacks.dropped(dragEventArgs);
+                      } else {
+                        //Drop canceled - revert the node to its original position.
+                        bindDragStartEvents();
+                      }
+                    })
+
+                    //Promise rejected - revert the node to its original position.
+                    .catch(function () {
+                      bindDragStartEvents();
+                    })
+                    .finally(function () {
+
+                      //Replace placeholder with newly dropped element.
+                      hiddenPlaceElm.replaceWith(scope.$element);
+                      placeElm.remove();
+
+                      //Remove drag element if still in DOM.
+                      if (dragElm) {
+                        dragElm.remove();
+                        dragElm = null;
+                      }
+
+                      //Fire dragStope callback.
+                      scope.$treeScope.$callbacks.dragStop(dragEventArgs);
+                      scope.$$allowNodeDrop = false;
+                      dragInfo = null;
+
+                      //Restore cursor in Opera 12.16 and IE
+                      var oldCur = document.body.getAttribute('ui-tree-cursor');
+                      if (oldCur !== null) {
+                        $document.find('body').css({'cursor': oldCur});
+                        document.body.removeAttribute('ui-tree-cursor');
+                      }
+                    });
+              });
+            };
+
+            dragStartEvent = function (e) {
+              if (scope.dragEnabled()) {
+                dragStart(e);
+              }
+            };
+
+            dragMoveEvent = function (e) {
+              dragMove(e);
+            };
+
+            dragEndEvent = function (e) {
+              scope.$$allowNodeDrop = true;
+              dragEnd(e);
+            };
+
+            dragCancelEvent = function (e) {
+              dragEnd(e);
+            };
+
+            dragDelay = (function () {
+              var to;
+
+              return {
+                exec: function (fn, ms) {
+                  if (!ms) {
+                    ms = 0;
+                  }
+                  this.cancel();
+                  to = $timeout(fn, ms);
+                },
+                cancel: function () {
+                  $timeout.cancel(to);
+                }
+              };
+            })();
+
+            keydownHandler = function (e) {
+              if (e.keyCode === 27) {
+                dragEndEvent(e);
+              }
+            };
+
+            /**
+             * Binds the mouse/touch events to enable drag start for this node.
+             */
+            //This is outside of bindDragMoveEvents because of the potential for a delay setting.
+            bindDragStartEvents = function () {
+              element.bind('touchstart mousedown', function (e) {
+                //Don't call drag delay if no delay was specified.
+                if (scope.dragDelay > 0) {
+                  dragDelay.exec(function () {
+                    dragStartEvent(e);
+                  }, scope.dragDelay);
+                } else {
+                  dragStartEvent(e);
+                }
+              });
+              element.bind('touchend touchcancel mouseup', function () {
+                if (scope.dragDelay > 0) {
+                  dragDelay.cancel();
+                }
+              });
+            };
+            bindDragStartEvents();
+
+            /**
+             * Binds mouse/touch events that handle moving/dropping this dragged node
+             */
+            bindDragMoveEvents = function () {
+              angular.element($document).bind('touchend', dragEndEvent);
+              angular.element($document).bind('touchcancel', dragEndEvent);
+              angular.element($document).bind('touchmove', dragMoveEvent);
+              angular.element($document).bind('mouseup', dragEndEvent);
+              angular.element($document).bind('mousemove', dragMoveEvent);
+              angular.element($document).bind('mouseleave', dragCancelEvent);
+              angular.element($document).bind('keydown', keydownHandler);
+            };
+
+            /**
+             * Unbinds mouse/touch events that handle moving/dropping this dragged node.
+             */
+            unbindDragMoveEvents = function () {
+              angular.element($document).unbind('touchend', dragEndEvent);
+              angular.element($document).unbind('touchcancel', dragEndEvent);
+              angular.element($document).unbind('touchmove', dragMoveEvent);
+              angular.element($document).unbind('mouseup', dragEndEvent);
+              angular.element($document).unbind('mousemove', dragMoveEvent);
+              angular.element($document).unbind('mouseleave', dragCancelEvent);
+              angular.element($document).unbind('keydown', keydownHandler);
+            };
+          }
+        };
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+    .directive('uiTreeNodes', ['treeConfig', '$window',
+      function (treeConfig) {
+        return {
+          require: ['ngModel', '?^uiTreeNode', '^uiTree'],
+          restrict: 'A',
+          scope: true,
+          controller: 'TreeNodesController',
+          link: function (scope, element, attrs, controllersArr) {
+
+            var config = {},
+                ngModel = controllersArr[0],
+                treeNodeCtrl = controllersArr[1],
+                treeCtrl = controllersArr[2];
+
+            angular.extend(config, treeConfig);
+            if (config.nodesClass) {
+              element.addClass(config.nodesClass);
+            }
+
+            if (treeNodeCtrl) {
+              treeNodeCtrl.scope.$childNodesScope = scope;
+              scope.$nodeScope = treeNodeCtrl.scope;
+            } else {
+              // find the root nodes if there is no parent node and have a parent ui-tree
+              treeCtrl.scope.$nodesScope = scope;
+            }
+            scope.$treeScope = treeCtrl.scope;
+
+            if (ngModel) {
+              ngModel.$render = function () {
+                scope.$modelValue = ngModel.$modelValue;
+              };
+            }
+
+            scope.$watch(function () {
+              return attrs.maxDepth;
+            }, function (val) {
+              if ((typeof val) == 'number') {
+                scope.maxDepth = val;
+              }
+            });
+
+            scope.$watch(function () {
+              return attrs.nodropEnabled;
+            }, function (newVal) {
+              if ((typeof newVal) != 'undefined') {
+                scope.nodropEnabled = true;
+              }
+            }, true);
+
+          }
+        };
+      }
+    ]);
+})();
+
+(function () {
+  'use strict';
+
+  angular.module('ui.tree')
+
+  /**
+   * @ngdoc service
+   * @name ui.tree.service:UiTreeHelper
+   * @requires ng.$document
+   * @requires ng.$window
+   *
+   * @description
+   * angular-ui-tree.
+   */
+    .factory('UiTreeHelper', ['$document', '$window', 'treeConfig',
+      function ($document, $window, treeConfig) {
+        return {
+
+          /**
+           * A hashtable used to storage data of nodes
+           * @type {Object}
+           */
+          nodesData: {},
+
+          setNodeAttribute: function (scope, attrName, val) {
+            if (!scope.$modelValue) {
+              return null;
+            }
+            var data = this.nodesData[scope.$modelValue.$$hashKey];
+            if (!data) {
+              data = {};
+              this.nodesData[scope.$modelValue.$$hashKey] = data;
+            }
+            data[attrName] = val;
+          },
+
+          getNodeAttribute: function (scope, attrName) {
+            if (!scope.$modelValue) {
+              return null;
+            }
+            var data = this.nodesData[scope.$modelValue.$$hashKey];
+            if (data) {
+              return data[attrName];
+            }
+            return null;
+          },
+
+          /**
+           * @ngdoc method
+           * @methodOf ui.tree.service:$nodrag
+           * @param  {Object} targetElm angular element
+           * @return {Bool} check if the node can be dragged.
+           */
+          nodrag: function (targetElm) {
+            if (typeof targetElm.attr('data-nodrag') != 'undefined') {
+              return targetElm.attr('data-nodrag') !== 'false';
+            }
+            return false;
+          },
+
+          /**
+           * Get the event object for touches.
+           * 
+           * @param  {MouseEvent|TouchEvent} e MouseEvent or TouchEvent that kicked off dragX method.
+           * @return {MouseEvent|TouchEvent} Object returned as original event object.
+           */
+          eventObj: function (e) {
+            var obj = e;
+            if (e.targetTouches !== undefined) {
+              //Set obj equal to the first Touch object in the TouchList.
+              obj = e.targetTouches.item(0);
+            //Logic to set obj to original TouchEvent.
+            } else if (e.originalEvent !== undefined && e.originalEvent.targetTouches !== undefined) {
+              obj = e.originalEvent.targetTouches.item(0);
+            }
+            return obj;
+          },
+
+          /**
+           * Generate object used to store data about node being moved.
+           * 
+           * {angular.$scope} node Scope of the node that is being moved.
+           */
+          dragInfo: function (node) {
+            return {
+              source: node,
+              sourceInfo: {
+                cloneModel: node.$treeScope.cloneEnabled === true ? angular.copy(node.$modelValue) : undefined,
+                nodeScope: node,
+                index: node.index(),
+                nodesScope: node.$parentNodesScope
+              },
+              index: node.index(),
+
+              //Slice(0) just duplicates an array.
+              siblings: node.siblings().slice(0),
+              parent: node.$parentNodesScope,
+
+              //Reset parent to source parent.
+              resetParent: function() {
+                this.parent = node.$parentNodesScope;
+              },
+
+              //Move the node to a new position, determining where the node will be inserted to when dropped happens here.
+              moveTo: function (parent, siblings, index) {
+                this.parent = parent;
+
+                //Duplicate siblings array.
+                this.siblings = siblings.slice(0);
+
+                //If source node is in the target nodes
+                var i = this.siblings.indexOf(this.source);
+                if (i > -1) {
+                  this.siblings.splice(i, 1);
+                  if (this.source.index() < index) {
+                    index--;
+                  }
+                }
+
+                this.siblings.splice(index, 0, this.source);
+                this.index = index;
+              },
+
+              //Get parent nodes nodeScope.
+              parentNode: function () {
+                return this.parent.$nodeScope;
+              },
+
+              //Get previous sibling node.
+              prev: function () {
+                if (this.index > 0) {
+                  return this.siblings[this.index - 1];
+                }
+
+                return null;
+              },
+
+              //Get next sibling node.
+              next: function () {
+                if (this.index < this.siblings.length - 1) {
+                  return this.siblings[this.index + 1];
+                }
+
+                return null;
+              },
+
+              //Return what cloneEnabled is set to on uiTree.
+              isClone: function () {
+                return this.source.$treeScope.cloneEnabled === true;
+              },
+
+              //Returns a copy of node passed in.
+              clonedNode: function (node) {
+                return angular.copy(node);
+              },
+
+              //Returns true if parent or index have changed (move happened within any uiTree).
+              isDirty: function () {
+                return this.source.$parentNodesScope != this.parent ||
+                  this.source.index() != this.index;
+              },
+
+              //Return whether node has a new parent (set on moveTo method).
+              isForeign: function () {
+                return this.source.$treeScope !== this.parent.$treeScope;
+              },
+
+              //Sets arguments passed to user callbacks.
+              eventArgs: function (elements, pos) {
+                return {
+                  source: this.sourceInfo,
+                  dest: {
+                    index: this.index,
+                    nodesScope: this.parent
+                  },
+                  elements: elements,
+                  pos: pos
+                };
+              },
+
+              //Method that actually manipulates the node being moved.
+              apply: function () {
+
+                var nodeData = this.source.$modelValue;
+
+                //Nodrop enabled on tree or parent
+                if (this.parent.nodropEnabled || this.parent.$treeScope.nodropEnabled) {
+                  return;
+                }
+
+                //Node was dropped in the same place - do nothing.
+                if (!this.isDirty()) {
+                  return;
+                }
+
+                //CloneEnabled and cross-tree so copy and do not remove from source.
+                if (this.isClone() && this.isForeign()) {
+                  this.parent.insertNode(this.index, this.sourceInfo.cloneModel);
+                //Any other case, remove and reinsert.
+                } else {
+                  this.source.remove();
+                  this.parent.insertNode(this.index, nodeData);
+                }
+              }
+            };
+          },
+
+          /**
+           * @ngdoc method
+           * @name ui.tree#height
+           * @methodOf ui.tree.service:UiTreeHelper
+           *
+           * @description
+           * Get the height of an element.
+           *
+           * @param {Object} element Angular element.
+           * @returns {String} Height
+           */
+          height: function (element) {
+            return element.prop('scrollHeight');
+          },
+
+          /**
+           * @ngdoc method
+           * @name ui.tree#width
+           * @methodOf ui.tree.service:UiTreeHelper
+           *
+           * @description
+           * Get the width of an element.
+           *
+           * @param {Object} element Angular element.
+           * @returns {String} Width
+           */
+          width: function (element) {
+            return element.prop('scrollWidth');
+          },
+
+          /**
+           * @ngdoc method
+           * @name ui.tree#offset
+           * @methodOf ui.nestedSortable.service:UiTreeHelper
+           *
+           * @description
+           * Get the offset values of an element.
+           *
+           * @param {Object} element Angular element.
+           * @returns {Object} Object with properties width, height, top and left
+           */
+          offset: function (element) {
+            var boundingClientRect = element[0].getBoundingClientRect();
+
+            return {
+              width: element.prop('offsetWidth'),
+              height: element.prop('offsetHeight'),
+              top: boundingClientRect.top + ($window.pageYOffset || $document[0].body.scrollTop || $document[0].documentElement.scrollTop),
+              left: boundingClientRect.left + ($window.pageXOffset || $document[0].body.scrollLeft || $document[0].documentElement.scrollLeft)
+            };
+          },
+
+          /**
+           * @ngdoc method
+           * @name ui.tree#positionStarted
+           * @methodOf ui.tree.service:UiTreeHelper
+           *
+           * @description
+           * Get the start position of the target element according to the provided event properties.
+           *
+           * @param {Object} e Event
+           * @param {Object} target Target element
+           * @returns {Object} Object with properties offsetX, offsetY, startX, startY, nowX and dirX.
+           */
+          positionStarted: function (e, target) {
+            var pos = {},
+            pageX = e.pageX,
+            pageY = e.pageY;
+
+            //Check to set correct data for TouchEvents
+            if (e.originalEvent && e.originalEvent.touches && (e.originalEvent.touches.length > 0)) {
+              pageX = e.originalEvent.touches[0].pageX;
+              pageY = e.originalEvent.touches[0].pageY;
+            }
+            pos.offsetX = pageX - this.offset(target).left;
+            pos.offsetY = pageY - this.offset(target).top;
+            pos.startX = pos.lastX = pageX;
+            pos.startY = pos.lastY = pageY;
+            pos.nowX = pos.nowY = pos.distX = pos.distY = pos.dirAx = 0;
+            pos.dirX = pos.dirY = pos.lastDirX = pos.lastDirY = pos.distAxX = pos.distAxY = 0;
+            return pos;
+          },
+
+          positionMoved: function (e, pos, firstMoving) {
+
+            var pageX = e.pageX,
+            pageY = e.pageY,
+            newAx;
+
+            //If there are multiple touch points, choose one to use as X and Y.
+            if (e.originalEvent && e.originalEvent.touches && (e.originalEvent.touches.length > 0)) {
+              pageX = e.originalEvent.touches[0].pageX;
+              pageY = e.originalEvent.touches[0].pageY;
+            }
+
+            //Mouse position last event.
+            pos.lastX = pos.nowX;
+            pos.lastY = pos.nowY;
+
+            //Mouse position this event.
+            pos.nowX = pageX;
+            pos.nowY = pageY;
+
+            //Distance mouse moved between events.          
+            pos.distX = pos.nowX - pos.lastX;
+            pos.distY = pos.nowY - pos.lastY;
+
+            //Direction mouse was moving.           
+            pos.lastDirX = pos.dirX;
+            pos.lastDirY = pos.dirY;
+
+            //Direction mouse is now moving (on both axis).          
+            pos.dirX = pos.distX === 0 ? 0 : pos.distX > 0 ? 1 : -1;
+            pos.dirY = pos.distY === 0 ? 0 : pos.distY > 0 ? 1 : -1;
+
+            //Axis mouse is now moving on.         
+            newAx = Math.abs(pos.distX) > Math.abs(pos.distY) ? 1 : 0;
+
+            //Do nothing on first move.
+            if (firstMoving) {
+              pos.dirAx = newAx;
+              pos.moving = true;
+              return;
+            }
+
+            //Calc distance moved on this axis (and direction).          
+            if (pos.dirAx !== newAx) {
+              pos.distAxX = 0;
+              pos.distAxY = 0;
+            } else {
+              pos.distAxX += Math.abs(pos.distX);
+              if (pos.dirX !== 0 && pos.dirX !== pos.lastDirX) {
+                pos.distAxX = 0;
+              }
+              pos.distAxY += Math.abs(pos.distY);
+              if (pos.dirY !== 0 && pos.dirY !== pos.lastDirY) {
+                pos.distAxY = 0;
+              }
+            }
+            pos.dirAx = newAx;
+          },
+
+          elementIsTreeNode: function (element) {
+            return typeof element.attr('ui-tree-node') !== 'undefined';
+          },
+
+          elementIsTreeNodeHandle: function (element) {
+            return typeof element.attr('ui-tree-handle') !== 'undefined';
+          },
+          elementIsTree: function (element) {
+            return typeof element.attr('ui-tree') !== 'undefined';
+          },
+          elementIsTreeNodes: function (element) {
+            return typeof element.attr('ui-tree-nodes') !== 'undefined';
+          },
+          elementIsPlaceholder: function (element) {
+            return element.hasClass(treeConfig.placeholderClass);
+          },
+          elementIsDropzone: function (element) {
+            return element.hasClass(treeConfig.dropzoneClass);
+          },
+          elementContainsTreeNodeHandler: function (element) {
+            return element[0].querySelectorAll('[ui-tree-handle]').length >= 1;
+          },
+          treeNodeHandlerContainerOfElement: function (element) {
+            return findFirstParentElementWithAttribute('ui-tree-handle', element[0]);
+          }
+        };
+      }
+    ]);
+
+  // TODO: optimize this loop
+  //(Jcarter): Suggest adding a parent element property on uiTree, then all these bubble
+  // to <html> can trigger to stop when they reach the parent.
+  function findFirstParentElementWithAttribute(attributeName, childObj) {
+    //Undefined if the mouse leaves the browser window
+    if (childObj === undefined) {
+      return null;
+    }
+    var testObj = childObj.parentNode,
+    count = 1,
+    //Check for setAttribute due to exception thrown by Firefox when a node is dragged outside the browser window
+    res = (typeof testObj.setAttribute === 'function' && testObj.hasAttribute(attributeName)) ? testObj : null;
+    while (testObj && typeof testObj.setAttribute === 'function' && !testObj.hasAttribute(attributeName)) {
+      testObj = testObj.parentNode;
+      res = testObj;
+      //Stop once we reach top of page.
+      if (testObj === document.documentElement) {
+        res = null;
+        break;
+      }
+      count++;
+    }
+    return res;
+  }
+
+})();
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+/**
+ * State-based routing for AngularJS 1.x
+ * NOTICE: This monolithic bundle also bundles the @uirouter/core code.
+ *         This causes it to be incompatible with plugins that depend on @uirouter/core.
+ *         We recommend switching to the ui-router-core.js and ui-router-angularjs.js bundles instead.
+ *         For more information, see https://ui-router.github.io/blog/uirouter-for-angularjs-umd-bundles
+ * @version v1.0.11
+ * @link https://ui-router.github.io
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+!function (t, e) {
+  "object" == ( false ? "undefined" : _typeof(exports)) && "undefined" != typeof module ? e(exports, __webpack_require__(1)) :  true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(1)], __WEBPACK_AMD_DEFINE_FACTORY__ = (e),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : e(t["@uirouter/angularjs"] = {}, t.angular);
+}(this, function (t, e) {
+  "use strict";
+
+  function r(t) {
+    function e(r) {
+      return r.length >= n ? t.apply(null, r) : function () {
+        return e(r.concat([].slice.apply(arguments)));
+      };
+    }
+
+    var r = [].slice.apply(arguments, [1]),
+        n = t.length;
+    return e(r);
+  }
+
+  function n() {
+    var t = arguments,
+        e = t.length - 1;
+    return function () {
+      for (var r = e, n = t[e].apply(this, arguments); r--;) {
+        n = t[r].call(this, n);
+      }
+
+      return n;
+    };
+  }
+
+  function i() {
+    for (var t = [], e = 0; e < arguments.length; e++) {
+      t[e] = arguments[e];
+    }
+
+    return n.apply(null, [].slice.call(arguments).reverse());
+  }
+
+  function o(t, e) {
+    return function () {
+      for (var r = [], n = 0; n < arguments.length; n++) {
+        r[n] = arguments[n];
+      }
+
+      return t.apply(null, r) && e.apply(null, r);
+    };
+  }
+
+  function a(t, e) {
+    return function () {
+      for (var r = [], n = 0; n < arguments.length; n++) {
+        r[n] = arguments[n];
+      }
+
+      return t.apply(null, r) || e.apply(null, r);
+    };
+  }
+
+  function u(t, e) {
+    return function (r) {
+      return r[t].apply(r, e);
+    };
+  }
+
+  function s(t) {
+    return function (e) {
+      for (var r = 0; r < t.length; r++) {
+        if (t[r][0](e)) return t[r][1](e);
+      }
+    };
+  }
+
+  function c(t) {
+    if (te(t) && t.length) {
+      var e = t.slice(0, -1),
+          r = t.slice(-1);
+      return !(e.filter(Ht(Zt)).length || r.filter(Ht(Kt)).length);
+    }
+
+    return Kt(t);
+  }
+
+  function f(t) {
+    return t;
+  }
+
+  function l() {}
+
+  function h(t, e, r, n, i) {
+    void 0 === i && (i = !1);
+
+    var o = function o(e) {
+      return t()[e].bind(r());
+    },
+        a = function a(t) {
+      return function () {
+        return e[t] = o(t), e[t].apply(null, arguments);
+      };
+    };
+
+    return (n = n || Object.keys(t())).reduce(function (t, e) {
+      return t[e] = i ? a(e) : o(e), t;
+    }, e);
+  }
+
+  function p(t, e) {
+    return -1 !== t.indexOf(e);
+  }
+
+  function d(t, e) {
+    var r = t.indexOf(e);
+    return r >= 0 && t.splice(r, 1), t;
+  }
+
+  function v(t, e) {
+    return t.push(e), e;
+  }
+
+  function m(t) {
+    for (var e = [], r = 1; r < arguments.length; r++) {
+      e[r - 1] = arguments[r];
+    }
+
+    var n = e.concat({}).reverse(),
+        i = he.apply(null, n);
+    return he({}, i, g(t || {}, Object.keys(i)));
+  }
+
+  function y(t, e) {
+    var r = [];
+
+    for (var n in t.path) {
+      if (t.path[n] !== e.path[n]) break;
+      r.push(t.path[n]);
+    }
+
+    return r;
+  }
+
+  function g(t, e) {
+    var r = {};
+
+    for (var n in t) {
+      -1 !== e.indexOf(n) && (r[n] = t[n]);
+    }
+
+    return r;
+  }
+
+  function _(t, e) {
+    return Object.keys(t).filter(Ht(ve(e))).reduce(function (e, r) {
+      return e[r] = t[r], e;
+    }, {});
+  }
+
+  function w(t, e) {
+    return b(t, jt(e));
+  }
+
+  function $(t, e) {
+    var r = te(t),
+        n = r ? [] : {},
+        i = r ? function (t) {
+      return n.push(t);
+    } : function (t, e) {
+      return n[e] = t;
+    };
+    return le(t, function (t, r) {
+      e(t, r) && i(t, r);
+    }), n;
+  }
+
+  function S(t, e) {
+    var r;
+    return le(t, function (t, n) {
+      r || e(t, n) && (r = t);
+    }), r;
+  }
+
+  function b(t, e) {
+    var r = te(t) ? [] : {};
+    return le(t, function (t, n) {
+      return r[n] = e(t, n);
+    }), r;
+  }
+
+  function R(t, e) {
+    return t.push(e), t;
+  }
+
+  function E(t, e) {
+    return void 0 === e && (e = "assert failure"), function (r) {
+      var n = t(r);
+      if (!n) throw new Error(Kt(e) ? e(r) : e);
+      return n;
+    };
+  }
+
+  function T() {
+    for (var t = [], e = 0; e < arguments.length; e++) {
+      t[e] = arguments[e];
+    }
+
+    if (0 === t.length) return [];
+    var r,
+        n = t.reduce(function (t, e) {
+      return Math.min(e.length, t);
+    }, 9007199254740991),
+        i = [];
+
+    for (r = 0; r < n; r++) {
+      switch (t.length) {
+        case 1:
+          i.push([t[0][r]]);
+          break;
+
+        case 2:
+          i.push([t[0][r], t[1][r]]);
+          break;
+
+        case 3:
+          i.push([t[0][r], t[1][r], t[2][r]]);
+          break;
+
+        case 4:
+          i.push([t[0][r], t[1][r], t[2][r], t[3][r]]);
+          break;
+
+        default:
+          i.push(t.map(function (t) {
+            return t[r];
+          }));
+      }
+    }
+
+    return i;
+  }
+
+  function C(t, e) {
+    var r, n;
+    if (te(e) && (r = e[0], n = e[1]), !Zt(r)) throw new Error("invalid parameters to applyPairs");
+    return t[r] = n, t;
+  }
+
+  function P(t) {
+    return t.length && t[t.length - 1] || void 0;
+  }
+
+  function k(t, e) {
+    return e && Object.keys(e).forEach(function (t) {
+      return delete e[t];
+    }), e || (e = {}), he(e, t);
+  }
+
+  function O(t) {
+    for (var e = 1; e < arguments.length; e++) {
+      var r = arguments[e];
+      if (r) for (var n = Object.keys(r), i = 0; i < n.length; i++) {
+        t[n[i]] = r[n[i]];
+      }
+    }
+
+    return t;
+  }
+
+  function x(t, e) {
+    if (t === e) return !0;
+    if (null === t || null === e) return !1;
+    if (t !== t && e !== e) return !0;
+
+    var r = _typeof(t);
+
+    if (r !== _typeof(e) || "object" !== r) return !1;
+    var n = [t, e];
+    if (qt(te)(n)) return I(t, e);
+    if (qt(ee)(n)) return t.getTime() === e.getTime();
+    if (qt(re)(n)) return t.toString() === e.toString();
+    if (qt(Kt)(n)) return !0;
+    if ([Kt, te, ee, re].map(Dt).reduce(function (t, e) {
+      return t || !!e(n);
+    }, !1)) return !1;
+    var i,
+        o = {};
+
+    for (i in t) {
+      if (!x(t[i], e[i])) return !1;
+      o[i] = !0;
+    }
+
+    for (i in e) {
+      if (!o[i]) return !1;
+    }
+
+    return !0;
+  }
+
+  function I(t, e) {
+    return t.length === e.length && T(t, e).reduce(function (t, e) {
+      return t && x(e[0], e[1]);
+    }, !0);
+  }
+
+  function j(t) {
+    if (!t) return "ui-view (defunct)";
+    var e = t.creationContext ? t.creationContext.name || "(root)" : "(none)";
+    return "[ui-view#" + t.id + " " + t.$type + ":" + t.fqn + " (" + t.name + "@" + e + ")]";
+  }
+
+  function V(e) {
+    return Yt(e) ? t.Category[e] : t.Category[t.Category[e]];
+  }
+
+  function A(t, e) {
+    var r = Zt(e) ? [e] : e;
+    return !!(Kt(r) ? r : function (t) {
+      for (var e = r, n = 0; n < e.length; n++) {
+        var i = new Lt(e[n]);
+        if (i && i.matches(t.name) || !i && e[n] === t.name) return !0;
+      }
+
+      return !1;
+    })(t);
+  }
+
+  function H(t, e, r) {
+    function n(t, n, a) {
+      void 0 === a && (a = {});
+      var u = new Je(e, r, n, t, o, a);
+      return i.push(u), u.deregister.bind(u);
+    }
+
+    var i = (t._registeredHooks = t._registeredHooks || {})[r.name] = [],
+        o = me(i);
+    return t[r.name] = n, n;
+  }
+
+  function q(t) {
+    return void 0 === t && (t = !1), function (e, r) {
+      var n = t ? -1 : 1,
+          i = (e.node.state.path.length - r.node.state.path.length) * n;
+      return 0 !== i ? i : r.hook.priority - e.hook.priority;
+    };
+  }
+
+  function D(t, e) {
+    function r(t) {
+      return te(t) ? t : zt(t) ? [t] : [];
+    }
+
+    function n(t) {
+      switch (t.length) {
+        case 0:
+          return;
+
+        case 1:
+          return "auto" === e ? t[0] : t;
+
+        default:
+          return t;
+      }
+    }
+
+    function i(t, e) {
+      return function (i) {
+        if (te(i) && 0 === i.length) return i;
+        var o = b(r(i), t);
+        return !0 === e ? 0 === $(o, function (t) {
+          return !t;
+        }).length : n(o);
+      };
+    }
+
+    function o(t) {
+      return function (e, n) {
+        var i = r(e),
+            o = r(n);
+        if (i.length !== o.length) return !1;
+
+        for (var a = 0; a < i.length; a++) {
+          if (!t(i[a], o[a])) return !1;
+        }
+
+        return !0;
+      };
+    }
+
+    var a = this;
+    ["encode", "decode", "equals", "$normalize"].forEach(function (e) {
+      var r = t[e].bind(t),
+          n = "equals" === e ? o : i;
+      a[e] = n(r);
+    }), he(this, {
+      dynamic: t.dynamic,
+      name: t.name,
+      pattern: t.pattern,
+      inherit: t.inherit,
+      is: i(t.is.bind(t), !0),
+      $arrayMode: e
+    });
+  }
+
+  function F(t) {
+    function e() {
+      return t.value;
+    }
+
+    return t = Ze(t) && {
+      value: t
+    } || t, e.__cacheable = !0, he(t, {
+      $$fn: c(t.value) ? t.value : e
+    });
+  }
+
+  function N(e, r, n, i, o) {
+    if (e.type && r && "string" !== r.name) throw new Error("Param '" + i + "' has two type configurations.");
+    if (e.type && r && "string" === r.name && o.type(e.type)) return o.type(e.type);
+    if (r) return r;
+
+    if (!e.type) {
+      var a = n === t.DefType.CONFIG ? "any" : n === t.DefType.PATH ? "path" : n === t.DefType.SEARCH ? "query" : "string";
+      return o.type(a);
+    }
+
+    return e.type instanceof Ke ? e.type : o.type(e.type);
+  }
+
+  function U(t, e, r) {
+    var n = t.squash;
+    if (!e || !1 === n) return !1;
+    if (!zt(n) || null == n) return r;
+    if (!0 === n || Zt(n)) return n;
+    throw new Error("Invalid squash policy: '" + n + "'. Valid policies: false, true, or arbitrary string");
+  }
+
+  function L(t, e, r, n) {
+    var i,
+        o,
+        a = [{
+      from: "",
+      to: r || e ? void 0 : ""
+    }, {
+      from: null,
+      to: r || e ? void 0 : ""
+    }];
+    return i = te(t.replace) ? t.replace : [], Zt(n) && i.push({
+      from: n,
+      to: void 0
+    }), o = b(i, jt("from")), $(a, function (t) {
+      return -1 === o.indexOf(t.from);
+    }).concat(i);
+  }
+
+  function M(t, e) {
+    return e.length <= t ? e : e.substr(0, t - 3) + "...";
+  }
+
+  function B(t, e) {
+    for (; e.length < t;) {
+      e += " ";
+    }
+
+    return e;
+  }
+
+  function G(t) {
+    return t.replace(/^([A-Z])/, function (t) {
+      return t.toLowerCase();
+    }).replace(/([A-Z])/g, function (t) {
+      return "-" + t.toLowerCase();
+    });
+  }
+
+  function W(t) {
+    var e = z(t),
+        r = e.match(/^(function [^ ]+\([^)]*\))/),
+        n = r ? r[1] : e,
+        i = t.name || "";
+    return i && n.match(/function \(/) ? "function " + i + n.substr(9) : n;
+  }
+
+  function z(t) {
+    var e = te(t) ? t.slice(-1)[0] : t;
+    return e && e.toString() || "undefined";
+  }
+
+  function J(t) {
+    function e(t) {
+      if (Xt(t)) {
+        if (-1 !== r.indexOf(t)) return "[circular ref]";
+        r.push(t);
+      }
+
+      return dr(t);
+    }
+
+    var r = [];
+    return JSON.stringify(t, function (t, r) {
+      return e(r);
+    }).replace(/\\"/g, '"');
+  }
+
+  function Q(t) {
+    var e = new RegExp("(" + t + ")", "g");
+    return function (t) {
+      return t.split(e).filter(f);
+    };
+  }
+
+  function K(t, e) {
+    return Zt(P(t)) && Zt(e) ? t.slice(0, -1).concat(P(t) + e) : R(t, e);
+  }
+
+  function Y(t) {
+    return t.name;
+  }
+
+  function Z(t) {
+    return t.self.$$state = function () {
+      return t;
+    }, t.self;
+  }
+
+  function X(t) {
+    return t.parent && t.parent.data && (t.data = t.self.data = de(t.parent.data, t.data)), t.data;
+  }
+
+  function tt(t) {
+    return t.parent ? t.parent.path.concat(t) : [t];
+  }
+
+  function et(t) {
+    var e = t.parent ? he({}, t.parent.includes) : {};
+    return e[t.name] = !0, e;
+  }
+
+  function rt(t) {
+    var e = function e(t) {
+      var e = ae.$injector;
+      return t.$inject || e && e.annotate(t, e.strictDi) || "deferred";
+    },
+        r = function r(t) {
+      return t.provide || t.token;
+    },
+        n = s([[jt("resolveFn"), function (t) {
+      return new nr(r(t), t.resolveFn, t.deps, t.policy);
+    }], [jt("useFactory"), function (t) {
+      return new nr(r(t), t.useFactory, t.deps || t.dependencies, t.policy);
+    }], [jt("useClass"), function (t) {
+      return new nr(r(t), function () {
+        return new t.useClass();
+      }, [], t.policy);
+    }], [jt("useValue"), function (t) {
+      return new nr(r(t), function () {
+        return t.useValue;
+      }, [], t.policy, t.useValue);
+    }], [jt("useExisting"), function (t) {
+      return new nr(r(t), f, [t.useExisting], t.policy);
+    }]]),
+        o = s([[i(jt("val"), Zt), function (t) {
+      return new nr(t.token, f, [t.val], t.policy);
+    }], [i(jt("val"), te), function (t) {
+      return new nr(t.token, P(t.val), t.val.slice(0, -1), t.policy);
+    }], [i(jt("val"), Kt), function (t) {
+      return new nr(t.token, t.val, e(t.val), t.policy);
+    }]]),
+        a = s([[Ft(nr), function (t) {
+      return t;
+    }], [function (t) {
+      return !(!t.token || !t.resolveFn);
+    }, n], [function (t) {
+      return !(!t.provide && !t.token || !(t.useValue || t.useFactory || t.useExisting || t.useClass));
+    }, n], [function (t) {
+      return !!(t && t.val && (Zt(t.val) || te(t.val) || Kt(t.val)));
+    }, o], [Ut(!0), function (t) {
+      throw new Error("Invalid resolve value: " + J(t));
+    }]]),
+        u = t.resolve;
+
+    return (te(u) ? u : function (t, e) {
+      return Object.keys(t || {}).map(function (r) {
+        return {
+          token: r,
+          val: t[r],
+          deps: void 0,
+          policy: e[r]
+        };
+      });
+    }(u, t.resolvePolicy || {})).map(a);
+  }
+
+  function nt(t, e) {
+    var r = ["", ""],
+        n = t.replace(/[\\\[\]\^$*+?.()|{}]/g, "\\$&");
+    if (!e) return n;
+
+    switch (e.squash) {
+      case !1:
+        r = ["(", ")" + (e.isOptional ? "?" : "")];
+        break;
+
+      case !0:
+        n = n.replace(/\/$/, ""), r = ["(?:/(", ")|/)?"];
+        break;
+
+      default:
+        r = ["(" + e.squash + "|", ")?"];
+    }
+
+    return n + r[0] + e.type.pattern.source + r[1];
+  }
+
+  function it(t, e, r, n) {
+    return "/" === n ? t : e ? yr(n) + t : r ? n.slice(1) + t : t;
+  }
+
+  function ot(t) {
+    if (!(Kt(t) || Zt(t) || Ft(Ge)(t) || Ge.isDef(t))) throw new Error("'handler' must be a string, function, TargetState, or have a state: 'newtarget' property");
+    return Kt(t) ? t : Ut(t);
+  }
+
+  function at(t) {
+    t.addResolvable({
+      token: tn,
+      deps: [],
+      resolveFn: function resolveFn() {
+        return t.router;
+      },
+      data: t.router
+    }, ""), t.addResolvable({
+      token: hr,
+      deps: [],
+      resolveFn: function resolveFn() {
+        return t;
+      },
+      data: t
+    }, ""), t.addResolvable({
+      token: "$transition$",
+      deps: [],
+      resolveFn: function resolveFn() {
+        return t;
+      },
+      data: t
+    }, ""), t.addResolvable({
+      token: "$stateParams",
+      deps: [],
+      resolveFn: function resolveFn() {
+        return t.params();
+      },
+      data: t.params()
+    }, ""), t.entering().forEach(function (e) {
+      t.addResolvable({
+        token: "$state$",
+        deps: [],
+        resolveFn: function resolveFn() {
+          return e;
+        },
+        data: e
+      }, e);
+    });
+  }
+
+  function ut(t) {
+    return function (e, r) {
+      return (0, r.$$state()[t])(e, r);
+    };
+  }
+
+  function st(t, e) {
+    var r = e.$$state().lazyLoad,
+        n = r._promise;
+
+    if (!n) {
+      n = r._promise = ae.$q.when(r(t, e)).then(function (e) {
+        return e && Array.isArray(e.states) && e.states.forEach(function (e) {
+          return t.router.stateRegistry.register(e);
+        }), e;
+      }).then(function (t) {
+        return delete e.lazyLoad, delete e.$$state().lazyLoad, delete r._promise, t;
+      }, function (t) {
+        return delete r._promise, ae.$q.reject(t);
+      });
+    }
+
+    return n;
+  }
+
+  function ct(t) {
+    var e = t._ignoredReason();
+
+    if (e) {
+      Be.traceTransitionIgnored(t);
+      var r = t.router.globals.transition;
+      return "SameAsCurrent" === e && r && r.abort(), He.ignored().toPromise();
+    }
+  }
+
+  function ft(t) {
+    if (!t.valid()) throw new Error(t.error());
+  }
+
+  function lt(t) {
+    var e = function e(t) {
+      return t || "";
+    },
+        r = gr(t).map(e),
+        n = r[0],
+        i = r[1],
+        o = _r(n).map(e);
+
+    return {
+      path: o[0],
+      search: o[1],
+      hash: i,
+      url: t
+    };
+  }
+
+  function ht(t, e, r, n) {
+    return function (i) {
+      var o = i.locationService = new r(i),
+          a = i.locationConfig = new n(i, e);
+      return {
+        name: t,
+        service: o,
+        configuration: a,
+        dispose: function dispose(t) {
+          t.dispose(o), t.dispose(a);
+        }
+      };
+    };
+  }
+
+  function pt(t) {
+    return ae.$injector = An, ae.$q = xn, {
+      name: "vanilla.services",
+      $q: xn,
+      $injector: An,
+      dispose: function dispose() {
+        return null;
+      }
+    };
+  }
+
+  function dt() {
+    var t = null;
+    return function (e, r) {
+      return t = t || ae.$injector.get("$templateFactory"), [new ei(e, r, t)];
+    };
+  }
+
+  function vt(t) {
+    if (!t.parent) return {};
+    var e = ["controller", "controllerProvider", "controllerAs", "resolveAs"],
+        r = ["component", "bindings", "componentProvider"],
+        n = ["templateProvider", "templateUrl", "template", "notify", "async"].concat(e),
+        i = r.concat(n);
+    if (zt(t.views) && Xn(i, t)) throw new Error("State '" + t.name + "' has a 'views' object. It cannot also have \"view properties\" at the state level.  Move the following properties into a view (in the 'views' object):  " + i.filter(function (e) {
+      return zt(t[e]);
+    }).join(", "));
+    var o = {},
+        a = t.views || {
+      $default: g(t, i)
+    };
+    return le(a, function (e, i) {
+      if (i = i || "$default", Zt(e) && (e = {
+        component: e
+      }), e = he({}, e), Xn(r, e) && Xn(n, e)) throw new Error("Cannot combine: " + r.join("|") + " with: " + n.join("|") + " in stateview: '" + i + "@" + t.name + "'");
+      e.resolveAs = e.resolveAs || "$resolve", e.$type = "ng1", e.$context = t, e.$name = i;
+      var a = Br.normalizeUIViewTarget(e.$context, e.$name);
+      e.$uiViewName = a.uiViewName, e.$uiViewContextAnchor = a.uiViewContextAnchor, o[i] = e;
+    }), o;
+  }
+
+  function mt(t) {
+    var e = ae.$injector.get(t + "Directive");
+    if (!e || !e.length) throw new Error("Unable to find component named '" + t + "'");
+    return e.map(ni).reduce(Re, []);
+  }
+
+  function yt(t) {
+    function e(t, e, n, i, o, a) {
+      return r._runtimeServices(i, t, n, e), delete di.router, delete di.$get, di;
+    }
+
+    (di = this.router = new tn()).stateProvider = new oi(di.stateRegistry, di.stateService), di.stateRegistry.decorator("views", vt), di.stateRegistry.decorator("onExit", ai("onExit")), di.stateRegistry.decorator("onRetain", ai("onRetain")), di.stateRegistry.decorator("onEnter", ai("onEnter")), di.viewService._pluginapi._viewConfigFactory("ng1", dt());
+    var r = di.locationService = di.locationConfig = new ui(t);
+    return ui.monkeyPatchPathParameterType(di), di.router = di, di.$get = e, e.$inject = ["$location", "$browser", "$sniffer", "$rootScope", "$http", "$templateCache"], di;
+  }
+
+  function gt(t, e, r) {
+    ae.$injector = t, ae.$q = e, r.stateRegistry.get().map(function (t) {
+      return t.$$state().resolvables;
+    }).reduce(Re, []).filter(function (t) {
+      return "deferred" === t.deps;
+    }).forEach(function (e) {
+      return e.deps = t.annotate(e.resolveFn, t.strictDi);
+    });
+  }
+
+  function _t(t) {
+    t.$watch(function () {
+      Be.approximateDigests++;
+    });
+  }
+
+  function wt(t) {
+    var e,
+        r = t.match(/^\s*({[^}]*})\s*$/);
+    if (r && (t = "(" + r[1] + ")"), !(e = t.replace(/\n/g, " ").match(/^\s*([^(]*?)\s*(\((.*)\))?\s*$/)) || 4 !== e.length) throw new Error("Invalid state ref '" + t + "'");
+    return {
+      state: e[1] || null,
+      paramExpr: e[3] || null
+    };
+  }
+
+  function $t(t) {
+    var e = t.parent().inheritedData("$uiView"),
+        r = At("$cfg.path")(e);
+    return r ? P(r).state.name : void 0;
+  }
+
+  function St(t, e, r) {
+    var n = r.uiState || t.current.name,
+        i = he(Et(e, t), r.uiStateOpts || {}),
+        o = t.href(n, r.uiStateParams, i);
+    return {
+      uiState: n,
+      uiStateParams: r.uiStateParams,
+      uiStateOpts: i,
+      href: o
+    };
+  }
+
+  function bt(t) {
+    var e = "[object SVGAnimatedString]" === Object.prototype.toString.call(t.prop("href")),
+        r = "FORM" === t[0].nodeName;
+    return {
+      attr: r ? "action" : e ? "xlink:href" : "href",
+      isAnchor: "A" === t.prop("tagName").toUpperCase(),
+      clickable: !r
+    };
+  }
+
+  function Rt(t, e, r, n, i) {
+    return function (o) {
+      var a = o.which || o.button,
+          u = i();
+
+      if (!(a > 1 || o.ctrlKey || o.metaKey || o.shiftKey || t.attr("target"))) {
+        var s = r(function () {
+          e.go(u.uiState, u.uiStateParams, u.uiStateOpts);
+        });
+        o.preventDefault();
+        var c = n.isAnchor && !u.href ? 1 : 0;
+
+        o.preventDefault = function () {
+          c-- <= 0 && r.cancel(s);
+        };
+      }
+    };
+  }
+
+  function Et(t, e) {
+    return {
+      relative: $t(t) || e.$current,
+      inherit: !0,
+      source: "sref"
+    };
+  }
+
+  function Tt(t, e, r, n) {
+    var i;
+    n && (i = n.events), te(i) || (i = ["click"]);
+
+    for (var o = t.on ? "on" : "bind", a = 0, u = i; a < u.length; a++) {
+      var s = u[a];
+      t[o](s, r);
+    }
+
+    e.$on("$destroy", function () {
+      for (var e = t.off ? "off" : "unbind", n = 0, o = i; n < o.length; n++) {
+        var a = o[n];
+        t[e](a, r);
+      }
+    });
+  }
+
+  function Ct(t) {
+    var e = function e(_e2, r, n) {
+      return t.is(_e2, r, n);
+    };
+
+    return e.$stateful = !0, e;
+  }
+
+  function Pt(t) {
+    var e = function e(_e3, r, n) {
+      return t.includes(_e3, r, n);
+    };
+
+    return e.$stateful = !0, e;
+  }
+
+  function kt(t, e, r, n, i, o) {
+    var a = At("viewDecl.controllerAs"),
+        u = At("viewDecl.resolveAs");
+    return {
+      restrict: "ECA",
+      priority: -400,
+      compile: function compile(n) {
+        var o = n.html();
+        return n.empty(), function (n, s) {
+          var c = s.data("$uiView");
+          if (!c) return s.html(o), void t(s.contents())(n);
+          var f = c.$cfg || {
+            viewDecl: {},
+            getTemplate: l
+          },
+              h = f.path && new cr(f.path);
+          s.html(f.getTemplate(s, h) || o), Be.traceUIViewFill(c.$uiView, s.html());
+          var p = t(s.contents()),
+              d = f.controller,
+              v = a(f),
+              m = u(f),
+              y = h && yi(h);
+
+          if (n[m] = y, d) {
+            var g = e(d, he({}, y, {
+              $scope: n,
+              $element: s
+            }));
+            v && (n[v] = g, n[v][m] = y), s.data("$ngControllerController", g), s.children().data("$ngControllerController", g), Ot(i, r, g, n, f);
+          }
+
+          if (Zt(f.viewDecl.component)) var _ = f.viewDecl.component,
+              w = G(_),
+              $ = new RegExp("^(x-|data-)?" + w + "$", "i"),
+              S = n.$watch(function () {
+            var t = [].slice.call(s[0].children).filter(function (t) {
+              return t && t.tagName && $.exec(t.tagName);
+            });
+            return t && It.element(t).data("$" + _ + "Controller");
+          }, function (t) {
+            t && (Ot(i, r, t, n, f), S());
+          });
+          p(n);
+        };
+      }
+    };
+  }
+
+  function Ot(t, e, r, n, i) {
+    !Kt(r.$onInit) || i.viewDecl.component && $i || r.$onInit();
+    var o = P(i.path).state.self,
+        a = {
+      bind: r
+    };
+
+    if (Kt(r.uiOnParamsChanged)) {
+      var u = new cr(i.path).getResolvable("$transition$").data;
+      n.$on("$destroy", e.onSuccess({}, function (t) {
+        if (t !== u && -1 === t.exiting().indexOf(o)) {
+          var e = t.params("to"),
+              n = t.params("from"),
+              i = t.treeChanges().to.map(function (t) {
+            return t.paramSchema;
+          }).reduce(Re, []),
+              a = t.treeChanges().from.map(function (t) {
+            return t.paramSchema;
+          }).reduce(Re, []),
+              s = i.filter(function (t) {
+            var r = a.indexOf(t);
+            return -1 === r || !a[r].type.equals(e[t.id], n[t.id]);
+          });
+
+          if (s.length) {
+            var c = s.map(function (t) {
+              return t.id;
+            }),
+                f = $(e, function (t, e) {
+              return -1 !== c.indexOf(e);
+            });
+            r.uiOnParamsChanged(f, t);
+          }
+        }
+      }, a));
+    }
+
+    if (Kt(r.uiCanExit)) {
+      var s = Si++,
+          c = function c(t) {
+        return !!t && (t._uiCanExitIds && !0 === t._uiCanExitIds[s] || c(t.redirectedFrom()));
+      },
+          f = {
+        exiting: o.name
+      };
+
+      n.$on("$destroy", e.onBefore(f, function (e) {
+        var n,
+            i = e._uiCanExitIds = e._uiCanExitIds || {};
+        return c(e) || (n = t.when(r.uiCanExit(e))).then(function (t) {
+          return i[s] = !1 !== t;
+        }), n;
+      }, a));
+    }
+  }
+
+  var xt = angular,
+      It = e && e.module ? e : xt,
+      jt = function jt(t) {
+    return function (e) {
+      return e && e[t];
+    };
+  },
+      Vt = r(function (t, e, r) {
+    return r && r[t] === e;
+  }),
+      At = function At(t) {
+    return i.apply(null, t.split(".").map(jt));
+  },
+      Ht = function Ht(t) {
+    return function () {
+      for (var e = [], r = 0; r < arguments.length; r++) {
+        e[r] = arguments[r];
+      }
+
+      return !t.apply(null, e);
+    };
+  },
+      qt = function qt(t) {
+    return function (e) {
+      return e.reduce(function (e, r) {
+        return e && !!t(r);
+      }, !0);
+    };
+  },
+      Dt = function Dt(t) {
+    return function (e) {
+      return e.reduce(function (e, r) {
+        return e || !!t(r);
+      }, !1);
+    };
+  },
+      Ft = function Ft(t) {
+    return function (e) {
+      return null != e && e.constructor === t || e instanceof t;
+    };
+  },
+      Nt = function Nt(t) {
+    return function (e) {
+      return t === e;
+    };
+  },
+      Ut = function Ut(t) {
+    return function () {
+      return t;
+    };
+  },
+      Lt = function () {
+    function t(t) {
+      this.text = t, this.glob = t.split(".");
+      var e = this.text.split(".").map(function (t) {
+        return "**" === t ? "(?:|(?:\\.[^.]*)*)" : "*" === t ? "\\.[^.]*" : "\\." + t;
+      }).join("");
+      this.regexp = new RegExp("^" + e + "$");
+    }
+
+    return t.prototype.matches = function (t) {
+      return this.regexp.test("." + t);
+    }, t.is = function (t) {
+      return !!/[!,*]+/.exec(t);
+    }, t.fromString = function (e) {
+      return t.is(e) ? new t(e) : null;
+    }, t;
+  }(),
+      Mt = function () {
+    function t(e) {
+      return t.create(e || {});
+    }
+
+    return t.create = function (e) {
+      e = t.isStateClass(e) ? new e() : e;
+      var r = de(de(e, t.prototype));
+      return e.$$state = function () {
+        return r;
+      }, r.self = e, r.__stateObjectCache = {
+        nameGlob: Lt.fromString(r.name)
+      }, r;
+    }, t.prototype.is = function (t) {
+      return this === t || this.self === t || this.fqn() === t;
+    }, t.prototype.fqn = function () {
+      if (!(this.parent && this.parent instanceof this.constructor)) return this.name;
+      var t = this.parent.fqn();
+      return t ? t + "." + this.name : this.name;
+    }, t.prototype.root = function () {
+      return this.parent && this.parent.root() || this;
+    }, t.prototype.parameters = function (t) {
+      return ((t = m(t, {
+        inherit: !0,
+        matchingKeys: null
+      })).inherit && this.parent && this.parent.parameters() || []).concat($e(this.params)).filter(function (e) {
+        return !t.matchingKeys || t.matchingKeys.hasOwnProperty(e.id);
+      });
+    }, t.prototype.parameter = function (t, e) {
+      return void 0 === e && (e = {}), this.url && this.url.parameter(t, e) || S($e(this.params), Vt("id", t)) || e.inherit && this.parent && this.parent.parameter(t);
+    }, t.prototype.toString = function () {
+      return this.fqn();
+    }, t.isStateClass = function (t) {
+      return Kt(t) && !0 === t.__uiRouterState;
+    }, t.isState = function (t) {
+      return Xt(t.__stateObjectCache);
+    }, t;
+  }(),
+      Bt = Object.prototype.toString,
+      Gt = function Gt(t) {
+    return function (e) {
+      return _typeof(e) === t;
+    };
+  },
+      Wt = Gt("undefined"),
+      zt = Ht(Wt),
+      Jt = function Jt(t) {
+    return null === t;
+  },
+      Qt = a(Jt, Wt),
+      Kt = Gt("function"),
+      Yt = Gt("number"),
+      Zt = Gt("string"),
+      Xt = function Xt(t) {
+    return null !== t && "object" == _typeof(t);
+  },
+      te = Array.isArray,
+      ee = function ee(t) {
+    return "[object Date]" === Bt.call(t);
+  },
+      re = function re(t) {
+    return "[object RegExp]" === Bt.call(t);
+  },
+      ne = Mt.isState,
+      ie = o(Xt, i(jt("then"), Kt)),
+      oe = function oe(t) {
+    return function () {
+      throw new Error(t + "(): No coreservices implementation for UI-Router is loaded.");
+    };
+  },
+      ae = {
+    $q: void 0,
+    $injector: void 0
+  },
+      ue = "object" == (typeof self === "undefined" ? "undefined" : _typeof(self)) && self.self === self && self || "object" == (typeof global === "undefined" ? "undefined" : _typeof(global)) && global.global === global && global || void 0,
+      se = ue.angular || {},
+      ce = se.fromJson || JSON.parse.bind(JSON),
+      fe = se.toJson || JSON.stringify.bind(JSON),
+      le = se.forEach || function (t, e, r) {
+    if (te(t)) return t.forEach(e, r);
+    Object.keys(t).forEach(function (r) {
+      return e(t[r], r);
+    });
+  },
+      he = Object.assign || O,
+      pe = se.equals || x,
+      de = function de(t, e) {
+    return he(Object.create(t), e);
+  },
+      ve = r(p),
+      me = r(d),
+      ye = r(v),
+      ge = function ge(t) {
+    return t.slice().forEach(function (e) {
+      "function" == typeof e && e(), me(t, e);
+    });
+  },
+      _e = function _e(t, e) {
+    return he(t, e);
+  },
+      we = b,
+      $e = function $e(t) {
+    return Object.keys(t).map(function (e) {
+      return t[e];
+    });
+  },
+      Se = function Se(t, e) {
+    return t && e;
+  },
+      be = function be(t, e) {
+    return t || e;
+  },
+      Re = function Re(t, e) {
+    return t.concat(e);
+  },
+      Ee = function Ee(t, e) {
+    return te(e) ? t.concat(e.reduce(Ee, [])) : R(t, e);
+  },
+      Te = function Te(t, e) {
+    return ve(t, e) ? t : R(t, e);
+  },
+      Ce = function Ce(t) {
+    return t.reduce(Re, []);
+  },
+      Pe = function Pe(t) {
+    return t.reduce(Ee, []);
+  },
+      ke = E,
+      Oe = E,
+      xe = function xe(t) {
+    return Object.keys(t).map(function (e) {
+      return [e, t[e]];
+    });
+  },
+      Ie = function Ie(t) {
+    return t.catch(function (t) {
+      return 0;
+    }) && t;
+  },
+      je = function je(t) {
+    return Ie(ae.$q.reject(t));
+  },
+      Ve = function () {
+    function t(t, e) {
+      void 0 === t && (t = []), void 0 === e && (e = null), this._items = t, this._limit = e;
+    }
+
+    return t.prototype.enqueue = function (t) {
+      var e = this._items;
+      return e.push(t), this._limit && e.length > this._limit && e.shift(), t;
+    }, t.prototype.dequeue = function () {
+      if (this.size()) return this._items.splice(0, 1)[0];
+    }, t.prototype.clear = function () {
+      var t = this._items;
+      return this._items = [], t;
+    }, t.prototype.size = function () {
+      return this._items.length;
+    }, t.prototype.remove = function (t) {
+      var e = this._items.indexOf(t);
+
+      return e > -1 && this._items.splice(e, 1)[0];
+    }, t.prototype.peekTail = function () {
+      return this._items[this._items.length - 1];
+    }, t.prototype.peekHead = function () {
+      if (this.size()) return this._items[0];
+    }, t;
+  }();
+
+  !function (t) {
+    t[t.SUPERSEDED = 2] = "SUPERSEDED", t[t.ABORTED = 3] = "ABORTED", t[t.INVALID = 4] = "INVALID", t[t.IGNORED = 5] = "IGNORED", t[t.ERROR = 6] = "ERROR";
+  }(t.RejectType || (t.RejectType = {}));
+
+  var Ae = 0,
+      He = function () {
+    function e(t, e, r) {
+      this.$id = Ae++, this.type = t, this.message = e, this.detail = r;
+    }
+
+    return e.prototype.toString = function () {
+      var t = function (t) {
+        return t && t.toString !== Object.prototype.toString ? t.toString() : J(t);
+      }(this.detail),
+          e = this;
+
+      return "Transition Rejection($id: " + e.$id + " type: " + e.type + ", message: " + e.message + ", detail: " + t + ")";
+    }, e.prototype.toPromise = function () {
+      return he(je(this), {
+        _transitionRejection: this
+      });
+    }, e.isRejectionPromise = function (t) {
+      return t && "function" == typeof t.then && Ft(e)(t._transitionRejection);
+    }, e.superseded = function (r, n) {
+      var i = new e(t.RejectType.SUPERSEDED, "The transition has been superseded by a different transition", r);
+      return n && n.redirected && (i.redirected = !0), i;
+    }, e.redirected = function (t) {
+      return e.superseded(t, {
+        redirected: !0
+      });
+    }, e.invalid = function (r) {
+      return new e(t.RejectType.INVALID, "This transition is invalid", r);
+    }, e.ignored = function (r) {
+      return new e(t.RejectType.IGNORED, "The transition was ignored", r);
+    }, e.aborted = function (r) {
+      return new e(t.RejectType.ABORTED, "The transition has been aborted", r);
+    }, e.errored = function (r) {
+      return new e(t.RejectType.ERROR, "The transition errored", r);
+    }, e.normalize = function (t) {
+      return Ft(e)(t) ? t : e.errored(t);
+    }, e;
+  }(),
+      qe = function qe(t) {
+    var e = t.viewDecl,
+        r = e.$context.name || "(root)";
+    return "[View#" + t.$id + " from '" + r + "' state]: target ui-view: '" + e.$uiViewName + "@" + e.$uiViewContextAnchor + "'";
+  },
+      De = Function.prototype.bind.call(console.log, console),
+      Fe = Kt(console.table) ? console.table.bind(console) : De.bind(console);
+
+  !function (t) {
+    t[t.RESOLVE = 0] = "RESOLVE", t[t.TRANSITION = 1] = "TRANSITION", t[t.HOOK = 2] = "HOOK", t[t.UIVIEW = 3] = "UIVIEW", t[t.VIEWCONFIG = 4] = "VIEWCONFIG";
+  }(t.Category || (t.Category = {}));
+
+  var Ne = At("$id"),
+      Ue = At("router.$id"),
+      Le = function Le(t) {
+    return "Transition #" + Ne(t) + "-" + Ue(t);
+  },
+      Me = function () {
+    function e() {
+      this._enabled = {}, this.approximateDigests = 0;
+    }
+
+    return e.prototype._set = function (e, r) {
+      var n = this;
+      r.length || (r = Object.keys(t.Category).map(function (t) {
+        return parseInt(t, 10);
+      }).filter(function (t) {
+        return !isNaN(t);
+      }).map(function (e) {
+        return t.Category[e];
+      })), r.map(V).forEach(function (t) {
+        return n._enabled[t] = e;
+      });
+    }, e.prototype.enable = function () {
+      for (var t = [], e = 0; e < arguments.length; e++) {
+        t[e] = arguments[e];
+      }
+
+      this._set(!0, t);
+    }, e.prototype.disable = function () {
+      for (var t = [], e = 0; e < arguments.length; e++) {
+        t[e] = arguments[e];
+      }
+
+      this._set(!1, t);
+    }, e.prototype.enabled = function (t) {
+      return !!this._enabled[V(t)];
+    }, e.prototype.traceTransitionStart = function (e) {
+      this.enabled(t.Category.TRANSITION) && console.log(Le(e) + ": Started  -> " + J(e));
+    }, e.prototype.traceTransitionIgnored = function (e) {
+      this.enabled(t.Category.TRANSITION) && console.log(Le(e) + ": Ignored  <> " + J(e));
+    }, e.prototype.traceHookInvocation = function (e, r, n) {
+      if (this.enabled(t.Category.HOOK)) {
+        var i = At("traceData.hookType")(n) || "internal",
+            o = At("traceData.context.state.name")(n) || At("traceData.context")(n) || "unknown",
+            a = W(e.registeredHook.callback);
+        console.log(Le(r) + ":   Hook -> " + i + " context: " + o + ", " + M(200, a));
+      }
+    }, e.prototype.traceHookResult = function (e, r, n) {
+      this.enabled(t.Category.HOOK) && console.log(Le(r) + ":   <- Hook returned: " + M(200, J(e)));
+    }, e.prototype.traceResolvePath = function (e, r, n) {
+      this.enabled(t.Category.RESOLVE) && console.log(Le(n) + ":         Resolving " + e + " (" + r + ")");
+    }, e.prototype.traceResolvableResolved = function (e, r) {
+      this.enabled(t.Category.RESOLVE) && console.log(Le(r) + ":               <- Resolved  " + e + " to: " + M(200, J(e.data)));
+    }, e.prototype.traceError = function (e, r) {
+      this.enabled(t.Category.TRANSITION) && console.log(Le(r) + ": <- Rejected " + J(r) + ", reason: " + e);
+    }, e.prototype.traceSuccess = function (e, r) {
+      this.enabled(t.Category.TRANSITION) && console.log(Le(r) + ": <- Success  " + J(r) + ", final state: " + e.name);
+    }, e.prototype.traceUIViewEvent = function (e, r, n) {
+      void 0 === n && (n = ""), this.enabled(t.Category.UIVIEW) && console.log("ui-view: " + B(30, e) + " " + j(r) + n);
+    }, e.prototype.traceUIViewConfigUpdated = function (e, r) {
+      this.enabled(t.Category.UIVIEW) && this.traceUIViewEvent("Updating", e, " with ViewConfig from context='" + r + "'");
+    }, e.prototype.traceUIViewFill = function (e, r) {
+      this.enabled(t.Category.UIVIEW) && this.traceUIViewEvent("Fill", e, " with: " + M(200, r));
+    }, e.prototype.traceViewSync = function (e) {
+      if (this.enabled(t.Category.VIEWCONFIG)) {
+        var r = e.map(function (t) {
+          var e = t[0],
+              r = t[1];
+          return {
+            "ui-view fqn": e.$type + ":" + e.fqn,
+            "state: view name": r && r.viewDecl.$context.name + ": " + r.viewDecl.$name + " (" + r.viewDecl.$type + ")"
+          };
+        }).sort(function (t, e) {
+          return t["ui-view fqn"].localeCompare(e["ui-view fqn"]);
+        });
+        Fe(r);
+      }
+    }, e.prototype.traceViewServiceEvent = function (e, r) {
+      this.enabled(t.Category.VIEWCONFIG) && console.log("VIEWCONFIG: " + e + " " + qe(r));
+    }, e.prototype.traceViewServiceUIViewEvent = function (e, r) {
+      this.enabled(t.Category.VIEWCONFIG) && console.log("VIEWCONFIG: " + e + " " + j(r));
+    }, e;
+  }(),
+      Be = new Me();
+
+  !function (t) {
+    t[t.CREATE = 0] = "CREATE", t[t.BEFORE = 1] = "BEFORE", t[t.RUN = 2] = "RUN", t[t.SUCCESS = 3] = "SUCCESS", t[t.ERROR = 4] = "ERROR";
+  }(t.TransitionHookPhase || (t.TransitionHookPhase = {})), function (t) {
+    t[t.TRANSITION = 0] = "TRANSITION", t[t.STATE = 1] = "STATE";
+  }(t.TransitionHookScope || (t.TransitionHookScope = {}));
+
+  var Ge = function () {
+    function t(t, e, r, n) {
+      this._stateRegistry = t, this._identifier = e, this._identifier = e, this._params = he({}, r || {}), this._options = he({}, n || {}), this._definition = t.matcher.find(e, this._options.relative);
+    }
+
+    return t.prototype.name = function () {
+      return this._definition && this._definition.name || this._identifier;
+    }, t.prototype.identifier = function () {
+      return this._identifier;
+    }, t.prototype.params = function () {
+      return this._params;
+    }, t.prototype.$state = function () {
+      return this._definition;
+    }, t.prototype.state = function () {
+      return this._definition && this._definition.self;
+    }, t.prototype.options = function () {
+      return this._options;
+    }, t.prototype.exists = function () {
+      return !(!this._definition || !this._definition.self);
+    }, t.prototype.valid = function () {
+      return !this.error();
+    }, t.prototype.error = function () {
+      var t = this.options().relative;
+
+      if (!this._definition && t) {
+        var e = t.name ? t.name : t;
+        return "Could not resolve '" + this.name() + "' from state '" + e + "'";
+      }
+
+      return this._definition ? this._definition.self ? void 0 : "State '" + this.name() + "' has an invalid definition" : "No such state '" + this.name() + "'";
+    }, t.prototype.toString = function () {
+      return "'" + this.name() + "'" + J(this.params());
+    }, t.prototype.withState = function (e) {
+      return new t(this._stateRegistry, e, this._params, this._options);
+    }, t.prototype.withParams = function (e, r) {
+      void 0 === r && (r = !1);
+      var n = r ? e : he({}, this._params, e);
+      return new t(this._stateRegistry, this._identifier, n, this._options);
+    }, t.prototype.withOptions = function (e, r) {
+      void 0 === r && (r = !1);
+      var n = r ? e : he({}, this._options, e);
+      return new t(this._stateRegistry, this._identifier, this._params, n);
+    }, t.isDef = function (t) {
+      return t && t.state && (Zt(t.state) || Zt(t.state.name));
+    }, t;
+  }(),
+      We = {
+    current: l,
+    transition: null,
+    traceData: {},
+    bind: null
+  },
+      ze = function () {
+    function e(e, r, n, i) {
+      var o = this;
+      this.transition = e, this.stateContext = r, this.registeredHook = n, this.options = i, this.isSuperseded = function () {
+        return o.type.hookPhase === t.TransitionHookPhase.RUN && !o.options.transition.isActive();
+      }, this.options = m(i, We), this.type = n.eventType;
+    }
+
+    return e.prototype.logError = function (t) {
+      this.transition.router.stateService.defaultErrorHandler()(t);
+    }, e.prototype.invokeHook = function () {
+      var t = this,
+          e = this.registeredHook;
+
+      if (!e._deregistered) {
+        var r = this.getNotCurrentRejection();
+        if (r) return r;
+        var n = this.options;
+        Be.traceHookInvocation(this, this.transition, n);
+
+        var i = function i(r) {
+          return e.eventType.getErrorHandler(t)(r);
+        },
+            o = function o(r) {
+          return e.eventType.getResultHandler(t)(r);
+        };
+
+        try {
+          var a = e.callback.call(n.bind, t.transition, t.stateContext);
+          return !this.type.synchronous && ie(a) ? a.catch(function (t) {
+            return He.normalize(t).toPromise();
+          }).then(o, i) : o(a);
+        } catch (t) {
+          return i(He.normalize(t));
+        } finally {
+          e.invokeLimit && ++e.invokeCount >= e.invokeLimit && e.deregister();
+        }
+      }
+    }, e.prototype.handleHookResult = function (t) {
+      var e = this,
+          r = this.getNotCurrentRejection();
+      return r || (ie(t) ? t.then(function (t) {
+        return e.handleHookResult(t);
+      }) : (Be.traceHookResult(t, this.transition, this.options), !1 === t ? He.aborted("Hook aborted transition").toPromise() : Ft(Ge)(t) ? He.redirected(t).toPromise() : void 0));
+    }, e.prototype.getNotCurrentRejection = function () {
+      var t = this.transition.router;
+      return t._disposed ? He.aborted("UIRouter instance #" + t.$id + " has been stopped (disposed)").toPromise() : this.transition._aborted ? He.aborted().toPromise() : this.isSuperseded() ? He.superseded(this.options.current()).toPromise() : void 0;
+    }, e.prototype.toString = function () {
+      var t = this,
+          e = t.options,
+          r = t.registeredHook;
+      return (At("traceData.hookType")(e) || "internal") + " context: " + (At("traceData.context.state.name")(e) || At("traceData.context")(e) || "unknown") + ", " + M(200, z(r.callback));
+    }, e.chain = function (t, e) {
+      return t.reduce(function (t, e) {
+        return t.then(function () {
+          return e.invokeHook();
+        });
+      }, e || ae.$q.when());
+    }, e.invokeHooks = function (t, r) {
+      for (var n = 0; n < t.length; n++) {
+        var i = t[n].invokeHook();
+
+        if (ie(i)) {
+          var o = t.slice(n + 1);
+          return e.chain(o, i).then(r);
+        }
+      }
+
+      return r();
+    }, e.runAllHooks = function (t) {
+      t.forEach(function (t) {
+        return t.invokeHook();
+      });
+    }, e.HANDLE_RESULT = function (t) {
+      return function (e) {
+        return t.handleHookResult(e);
+      };
+    }, e.LOG_REJECTED_RESULT = function (t) {
+      return function (e) {
+        ie(e) && e.catch(function (e) {
+          return t.logError(He.normalize(e));
+        });
+      };
+    }, e.LOG_ERROR = function (t) {
+      return function (e) {
+        return t.logError(e);
+      };
+    }, e.REJECT_ERROR = function (t) {
+      return function (t) {
+        return je(t);
+      };
+    }, e.THROW_ERROR = function (t) {
+      return function (t) {
+        throw t;
+      };
+    }, e;
+  }(),
+      Je = function () {
+    function e(t, e, r, n, i, o) {
+      void 0 === o && (o = {}), this.tranSvc = t, this.eventType = e, this.callback = r, this.matchCriteria = n, this.removeHookFromRegistry = i, this.invokeCount = 0, this._deregistered = !1, this.priority = o.priority || 0, this.bind = o.bind || null, this.invokeLimit = o.invokeLimit;
+    }
+
+    return e.prototype._matchingNodes = function (t, e) {
+      if (!0 === e) return t;
+      var r = t.filter(function (t) {
+        return A(t.state, e);
+      });
+      return r.length ? r : null;
+    }, e.prototype._getDefaultMatchCriteria = function () {
+      return b(this.tranSvc._pluginapi._getPathTypes(), function () {
+        return !0;
+      });
+    }, e.prototype._getMatchingNodes = function (e) {
+      var r = this,
+          n = he(this._getDefaultMatchCriteria(), this.matchCriteria);
+      return $e(this.tranSvc._pluginapi._getPathTypes()).reduce(function (i, o) {
+        var a = o.scope === t.TransitionHookScope.STATE,
+            u = e[o.name] || [],
+            s = a ? u : [P(u)];
+        return i[o.name] = r._matchingNodes(s, n[o.name]), i;
+      }, {});
+    }, e.prototype.matches = function (t) {
+      var e = this._getMatchingNodes(t);
+
+      return $e(e).every(f) ? e : null;
+    }, e.prototype.deregister = function () {
+      this.removeHookFromRegistry(this), this._deregistered = !0;
+    }, e;
+  }(),
+      Qe = function () {
+    function e(t) {
+      this.transition = t;
+    }
+
+    return e.prototype.buildHooksForPhase = function (t) {
+      var e = this;
+      return this.transition.router.transitionService._pluginapi._getEvents(t).map(function (t) {
+        return e.buildHooks(t);
+      }).reduce(Re, []).filter(f);
+    }, e.prototype.buildHooks = function (e) {
+      var r = this.transition,
+          n = r.treeChanges(),
+          i = this.getMatchingHooks(e, n);
+      if (!i) return [];
+      var o = {
+        transition: r,
+        current: r.options().current
+      };
+      return i.map(function (i) {
+        return i.matches(n)[e.criteriaMatchPath.name].map(function (n) {
+          var a = he({
+            bind: i.bind,
+            traceData: {
+              hookType: e.name,
+              context: n
+            }
+          }, o),
+              u = e.criteriaMatchPath.scope === t.TransitionHookScope.STATE ? n.state.self : null,
+              s = new ze(r, u, i, a);
+          return {
+            hook: i,
+            node: n,
+            transitionHook: s
+          };
+        });
+      }).reduce(Re, []).sort(q(e.reverseSort)).map(function (t) {
+        return t.transitionHook;
+      });
+    }, e.prototype.getMatchingHooks = function (e, r) {
+      var n = e.hookPhase === t.TransitionHookPhase.CREATE,
+          i = this.transition.router.transitionService;
+      return (n ? [i] : [this.transition, i]).map(function (t) {
+        return t.getHooks(e.name);
+      }).filter(ke(te, "broken event named: " + e.name)).reduce(Re, []).filter(function (t) {
+        return t.matches(r);
+      });
+    }, e;
+  }(),
+      Ke = function () {
+    function t(t) {
+      this.pattern = /.*/, this.inherit = !0, he(this, t);
+    }
+
+    return t.prototype.is = function (t, e) {
+      return !0;
+    }, t.prototype.encode = function (t, e) {
+      return t;
+    }, t.prototype.decode = function (t, e) {
+      return t;
+    }, t.prototype.equals = function (t, e) {
+      return t == e;
+    }, t.prototype.$subPattern = function () {
+      var t = this.pattern.toString();
+      return t.substr(1, t.length - 2);
+    }, t.prototype.toString = function () {
+      return "{ParamType:" + this.name + "}";
+    }, t.prototype.$normalize = function (t) {
+      return this.is(t) ? t : this.decode(t);
+    }, t.prototype.$asArray = function (t, e) {
+      if (!t) return this;
+      if ("auto" === t && !e) throw new Error("'auto' array mode is for query parameters only");
+      return new D(this, t);
+    }, t;
+  }(),
+      Ye = Object.prototype.hasOwnProperty,
+      Ze = function Ze(t) {
+    return 0 === ["value", "type", "squash", "array", "dynamic"].filter(Ye.bind(t || {})).length;
+  };
+
+  !function (t) {
+    t[t.PATH = 0] = "PATH", t[t.SEARCH = 1] = "SEARCH", t[t.CONFIG = 2] = "CONFIG";
+  }(t.DefType || (t.DefType = {}));
+
+  var Xe = function () {
+    function e(e, r, n, i, o) {
+      r = N(n = F(n), r, i, e, o.paramTypes);
+
+      var a = function () {
+        var r = {
+          array: i === t.DefType.SEARCH && "auto"
+        },
+            o = e.match(/\[\]$/) ? {
+          array: !0
+        } : {};
+        return he(r, o, n).array;
+      }();
+
+      r = a ? r.$asArray(a, i === t.DefType.SEARCH) : r;
+      var u = void 0 !== n.value || i === t.DefType.SEARCH,
+          s = zt(n.dynamic) ? !!n.dynamic : !!r.dynamic,
+          c = zt(n.raw) ? !!n.raw : !!r.raw,
+          f = U(n, u, o.defaultSquashPolicy()),
+          l = L(n, a, u, f),
+          h = zt(n.inherit) ? !!n.inherit : !!r.inherit;
+      he(this, {
+        id: e,
+        type: r,
+        location: i,
+        isOptional: u,
+        dynamic: s,
+        raw: c,
+        squash: f,
+        replace: l,
+        inherit: h,
+        array: a,
+        config: n
+      });
+    }
+
+    return e.prototype.isDefaultValue = function (t) {
+      return this.isOptional && this.type.equals(this.value(), t);
+    }, e.prototype.value = function (t) {
+      var e = this;
+      return t = function (t) {
+        for (var r = 0, n = e.replace; r < n.length; r++) {
+          var i = n[r];
+          if (i.from === t) return i.to;
+        }
+
+        return t;
+      }(t), Wt(t) ? function () {
+        if (e._defaultValueCache) return e._defaultValueCache.defaultValue;
+        if (!ae.$injector) throw new Error("Injectable functions cannot be called at configuration time");
+        var t = ae.$injector.invoke(e.config.$$fn);
+        if (null !== t && void 0 !== t && !e.type.is(t)) throw new Error("Default value (" + t + ") for parameter '" + e.id + "' is not an instance of ParamType (" + e.type.name + ")");
+        return e.config.$$fn.__cacheable && (e._defaultValueCache = {
+          defaultValue: t
+        }), t;
+      }() : this.type.$normalize(t);
+    }, e.prototype.isSearch = function () {
+      return this.location === t.DefType.SEARCH;
+    }, e.prototype.validates = function (t) {
+      if ((Wt(t) || null === t) && this.isOptional) return !0;
+      var e = this.type.$normalize(t);
+      if (!this.type.is(e)) return !1;
+      var r = this.type.encode(e);
+      return !(Zt(r) && !this.type.pattern.exec(r));
+    }, e.prototype.toString = function () {
+      return "{Param:" + this.id + " " + this.type + " squash: '" + this.squash + "' optional: " + this.isOptional + "}";
+    }, e.values = function (t, e) {
+      void 0 === e && (e = {});
+
+      for (var r = {}, n = 0, i = t; n < i.length; n++) {
+        var o = i[n];
+        r[o.id] = o.value(e[o.id]);
+      }
+
+      return r;
+    }, e.changed = function (t, e, r) {
+      return void 0 === e && (e = {}), void 0 === r && (r = {}), t.filter(function (t) {
+        return !t.type.equals(e[t.id], r[t.id]);
+      });
+    }, e.equals = function (t, r, n) {
+      return void 0 === r && (r = {}), void 0 === n && (n = {}), 0 === e.changed(t, r, n).length;
+    }, e.validates = function (t, e) {
+      return void 0 === e && (e = {}), t.map(function (t) {
+        return t.validates(e[t.id]);
+      }).reduce(Se, !0);
+    }, e;
+  }(),
+      tr = function () {
+    function t(e) {
+      if (e instanceof t) {
+        var r = e;
+        this.state = r.state, this.paramSchema = r.paramSchema.slice(), this.paramValues = he({}, r.paramValues), this.resolvables = r.resolvables.slice(), this.views = r.views && r.views.slice();
+      } else {
+        var n = e;
+        this.state = n, this.paramSchema = n.parameters({
+          inherit: !1
+        }), this.paramValues = {}, this.resolvables = n.resolvables.map(function (t) {
+          return t.clone();
+        });
+      }
+    }
+
+    return t.prototype.applyRawParams = function (t) {
+      var e = function e(_e4) {
+        return [_e4.id, _e4.value(t[_e4.id])];
+      };
+
+      return this.paramValues = this.paramSchema.reduce(function (t, r) {
+        return C(t, e(r));
+      }, {}), this;
+    }, t.prototype.parameter = function (t) {
+      return S(this.paramSchema, Vt("id", t));
+    }, t.prototype.equals = function (t, e) {
+      var r = this.diff(t, e);
+      return r && 0 === r.length;
+    }, t.prototype.diff = function (t, e) {
+      if (this.state !== t.state) return !1;
+      var r = e ? e(this) : this.paramSchema;
+      return Xe.changed(r, this.paramValues, t.paramValues);
+    }, t.clone = function (e) {
+      return new t(e);
+    }, t;
+  }(),
+      er = function () {
+    function t() {}
+
+    return t.makeTargetState = function (t, e) {
+      var r = P(e).state;
+      return new Ge(t, r, e.map(jt("paramValues")).reduce(_e, {}), {});
+    }, t.buildPath = function (t) {
+      var e = t.params();
+      return t.$state().path.map(function (t) {
+        return new tr(t).applyRawParams(e);
+      });
+    }, t.buildToPath = function (e, r) {
+      var n = t.buildPath(r);
+      return r.options().inherit ? t.inheritParams(e, n, Object.keys(r.params())) : n;
+    }, t.applyViewConfigs = function (e, r, n) {
+      r.filter(function (t) {
+        return ve(n, t.state);
+      }).forEach(function (n) {
+        var i = $e(n.state.views || {}),
+            o = t.subPath(r, function (t) {
+          return t === n;
+        }),
+            a = i.map(function (t) {
+          return e.createViewConfig(o, t);
+        });
+        n.views = a.reduce(Re, []);
+      });
+    }, t.inheritParams = function (t, e, r) {
+      function n(t, e) {
+        var r = S(t, Vt("state", e));
+        return he({}, r && r.paramValues);
+      }
+
+      void 0 === r && (r = []);
+      var i = t.map(function (t) {
+        return t.paramSchema;
+      }).reduce(Re, []).filter(function (t) {
+        return !t.inherit;
+      }).map(jt("id"));
+      return e.map(function (e) {
+        var o = he({}, e && e.paramValues),
+            a = g(o, r);
+        o = _(o, r);
+
+        var u = _(n(t, e.state) || {}, i),
+            s = he(o, u, a);
+
+        return new tr(e.state).applyRawParams(s);
+      });
+    }, t.treeChanges = function (e, r, n) {
+      for (var i = 0, o = Math.min(e.length, r.length); i < o && e[i].state !== n && function (e, r) {
+        return e.equals(r, t.nonDynamicParams);
+      }(e[i], r[i]);) {
+        i++;
+      }
+
+      var a, u, s, c, f;
+      u = (a = e).slice(0, i), s = a.slice(i);
+      var l = u.map(function (t, e) {
+        var n = tr.clone(t);
+        return n.paramValues = r[e].paramValues, n;
+      });
+      return c = r.slice(i), f = l.concat(c), {
+        from: a,
+        to: f,
+        retained: u,
+        exiting: s,
+        entering: c
+      };
+    }, t.matching = function (t, e, r) {
+      var n = !1;
+      return T(t, e).reduce(function (t, e) {
+        var i = e[0],
+            o = e[1];
+        return (n = n || !i.equals(o, r)) ? t : t.concat(i);
+      }, []);
+    }, t.equals = function (e, r, n) {
+      return e.length === r.length && t.matching(e, r, n).length === e.length;
+    }, t.subPath = function (t, e) {
+      var r = S(t, e),
+          n = t.indexOf(r);
+      return -1 === n ? void 0 : t.slice(0, n + 1);
+    }, t.nonDynamicParams = function (t) {
+      return t.state.parameters({
+        inherit: !1
+      }).filter(function (t) {
+        return !t.dynamic;
+      });
+    }, t.paramValues = function (t) {
+      return t.reduce(function (t, e) {
+        return he(t, e.paramValues);
+      }, {});
+    }, t;
+  }(),
+      rr = {
+    when: "LAZY",
+    async: "WAIT"
+  },
+      nr = function () {
+    function t(e, r, n, i, o) {
+      if (this.resolved = !1, this.promise = void 0, e instanceof t) he(this, e);else if (Kt(r)) {
+        if (Qt(e)) throw new Error("new Resolvable(): token argument is required");
+        if (!Kt(r)) throw new Error("new Resolvable(): resolveFn argument must be a function");
+        this.token = e, this.policy = i, this.resolveFn = r, this.deps = n || [], this.data = o, this.resolved = void 0 !== o, this.promise = this.resolved ? ae.$q.when(this.data) : void 0;
+      } else if (Xt(e) && e.token && Kt(e.resolveFn)) {
+        var a = e;
+        return new t(a.token, a.resolveFn, a.deps, a.policy, a.data);
+      }
+    }
+
+    return t.prototype.getPolicy = function (t) {
+      var e = this.policy || {},
+          r = t && t.resolvePolicy || {};
+      return {
+        when: e.when || r.when || rr.when,
+        async: e.async || r.async || rr.async
+      };
+    }, t.prototype.resolve = function (t, e) {
+      var r = this,
+          n = ae.$q,
+          i = t.findNode(this),
+          o = i && i.state,
+          a = "RXWAIT" === this.getPolicy(o).async ? function (t) {
+        var e = t.cache(1);
+        return e.take(1).toPromise().then(function () {
+          return e;
+        });
+      } : f;
+      return this.promise = n.when().then(function () {
+        return n.all(t.getDependencies(r).map(function (r) {
+          return r.get(t, e);
+        }));
+      }).then(function (t) {
+        return r.resolveFn.apply(null, t);
+      }).then(a).then(function (t) {
+        return r.data = t, r.resolved = !0, Be.traceResolvableResolved(r, e), r.data;
+      });
+    }, t.prototype.get = function (t, e) {
+      return this.promise || this.resolve(t, e);
+    }, t.prototype.toString = function () {
+      return "Resolvable(token: " + J(this.token) + ", requires: [" + this.deps.map(J) + "])";
+    }, t.prototype.clone = function () {
+      return new t(this);
+    }, t.fromData = function (e, r) {
+      return new t(e, function () {
+        return r;
+      }, null, null, r);
+    }, t;
+  }(),
+      ir = {
+    when: {
+      LAZY: "LAZY",
+      EAGER: "EAGER"
+    },
+    async: {
+      WAIT: "WAIT",
+      NOWAIT: "NOWAIT",
+      RXWAIT: "RXWAIT"
+    }
+  },
+      or = ir.when,
+      ar = [or.EAGER, or.LAZY],
+      ur = [or.EAGER],
+      sr = "Native Injector",
+      cr = function () {
+    function t(t) {
+      this._path = t;
+    }
+
+    return t.prototype.getTokens = function () {
+      return this._path.reduce(function (t, e) {
+        return t.concat(e.resolvables.map(function (t) {
+          return t.token;
+        }));
+      }, []).reduce(Te, []);
+    }, t.prototype.getResolvable = function (t) {
+      return P(this._path.map(function (t) {
+        return t.resolvables;
+      }).reduce(Re, []).filter(function (e) {
+        return e.token === t;
+      }));
+    }, t.prototype.getPolicy = function (t) {
+      var e = this.findNode(t);
+      return t.getPolicy(e.state);
+    }, t.prototype.subContext = function (e) {
+      return new t(er.subPath(this._path, function (t) {
+        return t.state === e;
+      }));
+    }, t.prototype.addResolvables = function (t, e) {
+      var r = S(this._path, Vt("state", e)),
+          n = t.map(function (t) {
+        return t.token;
+      });
+      r.resolvables = r.resolvables.filter(function (t) {
+        return -1 === n.indexOf(t.token);
+      }).concat(t);
+    }, t.prototype.resolvePath = function (t, e) {
+      var r = this;
+      void 0 === t && (t = "LAZY");
+      var n = (ve(ar, t) ? t : "LAZY") === ir.when.EAGER ? ur : ar;
+      Be.traceResolvePath(this._path, t, e);
+
+      var i = function i(t, e) {
+        return function (n) {
+          return ve(t, r.getPolicy(n)[e]);
+        };
+      },
+          o = this._path.reduce(function (t, o) {
+        var a = o.resolvables.filter(i(n, "when")),
+            u = a.filter(i(["NOWAIT"], "async")),
+            s = a.filter(Ht(i(["NOWAIT"], "async"))),
+            c = r.subContext(o.state),
+            f = function f(t) {
+          return t.get(c, e).then(function (e) {
+            return {
+              token: t.token,
+              value: e
+            };
+          });
+        };
+
+        return u.forEach(f), t.concat(s.map(f));
+      }, []);
+
+      return ae.$q.all(o);
+    }, t.prototype.injector = function () {
+      return this._injector || (this._injector = new fr(this));
+    }, t.prototype.findNode = function (t) {
+      return S(this._path, function (e) {
+        return ve(e.resolvables, t);
+      });
+    }, t.prototype.getDependencies = function (t) {
+      var e = this,
+          r = this.findNode(t),
+          n = (er.subPath(this._path, function (t) {
+        return t === r;
+      }) || this._path).reduce(function (t, e) {
+        return t.concat(e.resolvables);
+      }, []).filter(function (e) {
+        return e !== t;
+      });
+
+      return t.deps.map(function (t) {
+        var r = n.filter(function (e) {
+          return e.token === t;
+        });
+        if (r.length) return P(r);
+        var i = e.injector().getNative(t);
+        if (Wt(i)) throw new Error("Could not find Dependency Injection token: " + J(t));
+        return new nr(t, function () {
+          return i;
+        }, [], i);
+      });
+    }, t;
+  }(),
+      fr = function () {
+    function t(t) {
+      this.context = t, this.native = this.get(sr) || ae.$injector;
+    }
+
+    return t.prototype.get = function (t) {
+      var e = this.context.getResolvable(t);
+
+      if (e) {
+        if ("NOWAIT" === this.context.getPolicy(e).async) return e.get(this.context);
+        if (!e.resolved) throw new Error("Resolvable async .get() not complete:" + J(e.token));
+        return e.data;
+      }
+
+      return this.getNative(t);
+    }, t.prototype.getAsync = function (t) {
+      var e = this.context.getResolvable(t);
+      return e ? e.get(this.context) : ae.$q.when(this.native.get(t));
+    }, t.prototype.getNative = function (t) {
+      return this.native && this.native.get(t);
+    }, t;
+  }(),
+      lr = jt("self"),
+      hr = function () {
+    function e(e, r, n) {
+      var i = this;
+      if (this._deferred = ae.$q.defer(), this.promise = this._deferred.promise, this._registeredHooks = {}, this._hookBuilder = new Qe(this), this.isActive = function () {
+        return i.router.globals.transition === i;
+      }, this.router = n, this._targetState = r, !r.valid()) throw new Error(r.error());
+      this._options = he({
+        current: Ut(this)
+      }, r.options()), this.$id = n.transitionService._transitionCount++;
+      var o = er.buildToPath(e, r);
+      this._treeChanges = er.treeChanges(e, o, this._options.reloadState), this.createTransitionHookRegFns();
+
+      var a = this._hookBuilder.buildHooksForPhase(t.TransitionHookPhase.CREATE);
+
+      ze.invokeHooks(a, function () {
+        return null;
+      }), this.applyViewConfigs(n);
+    }
+
+    return e.prototype.onBefore = function (t, e, r) {}, e.prototype.onStart = function (t, e, r) {}, e.prototype.onExit = function (t, e, r) {}, e.prototype.onRetain = function (t, e, r) {}, e.prototype.onEnter = function (t, e, r) {}, e.prototype.onFinish = function (t, e, r) {}, e.prototype.onSuccess = function (t, e, r) {}, e.prototype.onError = function (t, e, r) {}, e.prototype.createTransitionHookRegFns = function () {
+      var e = this;
+
+      this.router.transitionService._pluginapi._getEvents().filter(function (e) {
+        return e.hookPhase !== t.TransitionHookPhase.CREATE;
+      }).forEach(function (t) {
+        return H(e, e.router.transitionService, t);
+      });
+    }, e.prototype.getHooks = function (t) {
+      return this._registeredHooks[t];
+    }, e.prototype.applyViewConfigs = function (t) {
+      var e = this._treeChanges.entering.map(function (t) {
+        return t.state;
+      });
+
+      er.applyViewConfigs(t.transitionService.$view, this._treeChanges.to, e);
+    }, e.prototype.$from = function () {
+      return P(this._treeChanges.from).state;
+    }, e.prototype.$to = function () {
+      return P(this._treeChanges.to).state;
+    }, e.prototype.from = function () {
+      return this.$from().self;
+    }, e.prototype.to = function () {
+      return this.$to().self;
+    }, e.prototype.targetState = function () {
+      return this._targetState;
+    }, e.prototype.is = function (t) {
+      return t instanceof e ? this.is({
+        to: t.$to().name,
+        from: t.$from().name
+      }) : !(t.to && !A(this.$to(), t.to) || t.from && !A(this.$from(), t.from));
+    }, e.prototype.params = function (t) {
+      return void 0 === t && (t = "to"), Object.freeze(this._treeChanges[t].map(jt("paramValues")).reduce(_e, {}));
+    }, e.prototype.injector = function (t, e) {
+      void 0 === e && (e = "to");
+      var r = this._treeChanges[e];
+      return t && (r = er.subPath(r, function (e) {
+        return e.state === t || e.state.name === t;
+      })), new cr(r).injector();
+    }, e.prototype.getResolveTokens = function (t) {
+      return void 0 === t && (t = "to"), new cr(this._treeChanges[t]).getTokens();
+    }, e.prototype.addResolvable = function (t, e) {
+      void 0 === e && (e = ""), t = Ft(nr)(t) ? t : new nr(t);
+      var r = "string" == typeof e ? e : e.name,
+          n = this._treeChanges.to,
+          i = S(n, function (t) {
+        return t.state.name === r;
+      });
+      new cr(n).addResolvables([t], i.state);
+    }, e.prototype.redirectedFrom = function () {
+      return this._options.redirectedFrom || null;
+    }, e.prototype.originalTransition = function () {
+      var t = this.redirectedFrom();
+      return t && t.originalTransition() || this;
+    }, e.prototype.options = function () {
+      return this._options;
+    }, e.prototype.entering = function () {
+      return b(this._treeChanges.entering, jt("state")).map(lr);
+    }, e.prototype.exiting = function () {
+      return b(this._treeChanges.exiting, jt("state")).map(lr).reverse();
+    }, e.prototype.retained = function () {
+      return b(this._treeChanges.retained, jt("state")).map(lr);
+    }, e.prototype.views = function (t, e) {
+      void 0 === t && (t = "entering");
+      var r = this._treeChanges[t];
+      return (r = e ? r.filter(Vt("state", e)) : r).map(jt("views")).filter(f).reduce(Re, []);
+    }, e.prototype.treeChanges = function (t) {
+      return t ? this._treeChanges[t] : this._treeChanges;
+    }, e.prototype.redirect = function (t) {
+      for (var e = 1, r = this; null != (r = r.redirectedFrom());) {
+        if (++e > 20) throw new Error("Too many consecutive Transition redirects (20+)");
+      }
+
+      var n = {
+        redirectedFrom: this,
+        source: "redirect"
+      };
+      "url" === this.options().source && !1 !== t.options().location && (n.location = "replace");
+      var i = he({}, this.options(), t.options(), n);
+      t = t.withOptions(i, !0);
+      var o = this.router.transitionService.create(this._treeChanges.from, t),
+          a = this._treeChanges.entering,
+          u = o._treeChanges.entering;
+      return er.matching(u, a, er.nonDynamicParams).filter(Ht(function (t) {
+        return function (e) {
+          return t && e.state.includes[t.name];
+        };
+      }(t.options().reloadState))).forEach(function (t, e) {
+        t.resolvables = a[e].resolvables;
+      }), o;
+    }, e.prototype._changedParams = function () {
+      var t = this._treeChanges;
+
+      if (!(this._options.reload || t.exiting.length || t.entering.length || t.to.length !== t.from.length || T(t.to, t.from).map(function (t) {
+        return t[0].state !== t[1].state;
+      }).reduce(be, !1))) {
+        var e = t.to.map(function (t) {
+          return t.paramSchema;
+        }),
+            r = [t.to, t.from].map(function (t) {
+          return t.map(function (t) {
+            return t.paramValues;
+          });
+        });
+        return T(e, r[0], r[1]).map(function (t) {
+          var e = t[0],
+              r = t[1],
+              n = t[2];
+          return Xe.changed(e, r, n);
+        }).reduce(Re, []);
+      }
+    }, e.prototype.dynamic = function () {
+      var t = this._changedParams();
+
+      return !!t && t.map(function (t) {
+        return t.dynamic;
+      }).reduce(be, !1);
+    }, e.prototype.ignored = function () {
+      return !!this._ignoredReason();
+    }, e.prototype._ignoredReason = function () {
+      var t = this.router.globals.transition,
+          e = this._options.reloadState,
+          r = function r(t, _r2) {
+        if (t.length !== _r2.length) return !1;
+        var n = er.matching(t, _r2);
+        return t.length === n.filter(function (t) {
+          return !e || !t.state.includes[e.name];
+        }).length;
+      },
+          n = this.treeChanges(),
+          i = t && t.treeChanges();
+
+      return i && r(i.to, n.to) && r(i.exiting, n.exiting) ? "SameAsPending" : 0 === n.exiting.length && 0 === n.entering.length && r(n.from, n.to) ? "SameAsCurrent" : void 0;
+    }, e.prototype.run = function () {
+      var e = this,
+          r = ze.runAllHooks,
+          n = function n(t) {
+        return e._hookBuilder.buildHooksForPhase(t);
+      },
+          i = n(t.TransitionHookPhase.BEFORE);
+
+      return ze.invokeHooks(i, function () {
+        var t = e.router.globals;
+        return t.lastStartedTransitionId = e.$id, t.transition = e, t.transitionHistory.enqueue(e), Be.traceTransitionStart(e), ae.$q.when(void 0);
+      }).then(function () {
+        var e = n(t.TransitionHookPhase.RUN);
+        return ze.invokeHooks(e, function () {
+          return ae.$q.when(void 0);
+        });
+      }).then(function () {
+        Be.traceSuccess(e.$to(), e), e.success = !0, e._deferred.resolve(e.to()), r(n(t.TransitionHookPhase.SUCCESS));
+      }, function (i) {
+        Be.traceError(i, e), e.success = !1, e._deferred.reject(i), e._error = i, r(n(t.TransitionHookPhase.ERROR));
+      }), this.promise;
+    }, e.prototype.valid = function () {
+      return !this.error() || void 0 !== this.success;
+    }, e.prototype.abort = function () {
+      Wt(this.success) && (this._aborted = !0);
+    }, e.prototype.error = function () {
+      var t = this.$to();
+      if (t.self.abstract) return "Cannot transition to abstract state '" + t.name + "'";
+      var e = t.parameters(),
+          r = this.params(),
+          n = e.filter(function (t) {
+        return !t.validates(r[t.id]);
+      });
+      return n.length ? "Param values not valid for state '" + t.name + "'. Invalid params: [ " + n.map(function (t) {
+        return t.id;
+      }).join(", ") + " ]" : !1 === this.success ? this._error : void 0;
+    }, e.prototype.toString = function () {
+      var t = this.from(),
+          e = this.to(),
+          r = function r(t) {
+        return null !== t["#"] && void 0 !== t["#"] ? t : _(t, ["#"]);
+      };
+
+      return "Transition#" + this.$id + "( '" + (Xt(t) ? t.name : t) + "'" + J(r(this._treeChanges.from.map(jt("paramValues")).reduce(_e, {}))) + " -> " + (this.valid() ? "" : "(X) ") + "'" + (Xt(e) ? e.name : e) + "'" + J(r(this.params())) + " )";
+    }, e.diToken = e, e;
+  }(),
+      pr = null,
+      dr = function dr(t) {
+    var e = He.isRejectionPromise;
+    return (pr = pr || s([[Ht(zt), Ut("undefined")], [Jt, Ut("null")], [ie, Ut("[Promise]")], [e, function (t) {
+      return t._transitionRejection.toString();
+    }], [Ft(He), u("toString")], [Ft(hr), u("toString")], [Ft(nr), u("toString")], [c, W], [Ut(!0), f]]))(t);
+  },
+      vr = function vr(t) {
+    return function (e) {
+      if (!e) return ["", ""];
+      var r = e.indexOf(t);
+      return -1 === r ? [e, ""] : [e.substr(0, r), e.substr(r + 1)];
+    };
+  },
+      mr = new RegExp("^(?:[a-z]+:)?//[^/]+/"),
+      yr = function yr(t) {
+    return t.replace(/\/[^/]*$/, "");
+  },
+      gr = vr("#"),
+      _r = vr("?"),
+      wr = vr("="),
+      $r = function $r(t) {
+    return t ? t.replace(/^#/, "") : "";
+  },
+      Sr = function () {
+    function t() {
+      this.enqueue = !0, this.typeQueue = [], this.defaultTypes = g(t.prototype, ["hash", "string", "query", "path", "int", "bool", "date", "json", "any"]);
+      this.types = de(b(this.defaultTypes, function (t, e) {
+        return new Ke(he({
+          name: e
+        }, t));
+      }), {});
+    }
+
+    return t.prototype.dispose = function () {
+      this.types = {};
+    }, t.prototype.type = function (t, e, r) {
+      if (!zt(e)) return this.types[t];
+      if (this.types.hasOwnProperty(t)) throw new Error("A type named '" + t + "' has already been defined.");
+      return this.types[t] = new Ke(he({
+        name: t
+      }, e)), r && (this.typeQueue.push({
+        name: t,
+        def: r
+      }), this.enqueue || this._flushTypeQueue()), this;
+    }, t.prototype._flushTypeQueue = function () {
+      for (; this.typeQueue.length;) {
+        var t = this.typeQueue.shift();
+        if (t.pattern) throw new Error("You cannot override a type's .pattern at runtime.");
+        he(this.types[t.name], ae.$injector.invoke(t.def));
+      }
+    }, t;
+  }();
+
+  !function () {
+    var t = function t(_t2) {
+      var e = function e(t) {
+        return null != t ? t.toString() : t;
+      },
+          r = {
+        encode: e,
+        decode: e,
+        is: Ft(String),
+        pattern: /.*/,
+        equals: function equals(t, e) {
+          return t == e;
+        }
+      };
+
+      return he({}, r, _t2);
+    };
+
+    he(Sr.prototype, {
+      string: t({}),
+      path: t({
+        pattern: /[^/]*/
+      }),
+      query: t({}),
+      hash: t({
+        inherit: !1
+      }),
+      int: t({
+        decode: function decode(t) {
+          return parseInt(t, 10);
+        },
+        is: function is(t) {
+          return !Qt(t) && this.decode(t.toString()) === t;
+        },
+        pattern: /-?\d+/
+      }),
+      bool: t({
+        encode: function encode(t) {
+          return t && 1 || 0;
+        },
+        decode: function decode(t) {
+          return 0 !== parseInt(t, 10);
+        },
+        is: Ft(Boolean),
+        pattern: /0|1/
+      }),
+      date: t({
+        encode: function encode(t) {
+          return this.is(t) ? [t.getFullYear(), ("0" + (t.getMonth() + 1)).slice(-2), ("0" + t.getDate()).slice(-2)].join("-") : void 0;
+        },
+        decode: function decode(t) {
+          if (this.is(t)) return t;
+          var e = this.capture.exec(t);
+          return e ? new Date(e[1], e[2] - 1, e[3]) : void 0;
+        },
+        is: function is(t) {
+          return t instanceof Date && !isNaN(t.valueOf());
+        },
+        equals: function equals(t, e) {
+          return ["getFullYear", "getMonth", "getDate"].reduce(function (r, n) {
+            return r && t[n]() === e[n]();
+          }, !0);
+        },
+        pattern: /[0-9]{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[1-2][0-9]|3[0-1])/,
+        capture: /([0-9]{4})-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])/
+      }),
+      json: t({
+        encode: fe,
+        decode: ce,
+        is: Ft(Object),
+        equals: pe,
+        pattern: /[^/]*/
+      }),
+      any: t({
+        encode: f,
+        decode: f,
+        is: function is() {
+          return !0;
+        },
+        equals: pe
+      })
+    });
+  }();
+
+  var br,
+      Rr = function () {
+    function t(t) {
+      void 0 === t && (t = {}), he(this, t);
+    }
+
+    return t.prototype.$inherit = function (t, e, r) {
+      var n,
+          i = y(e, r),
+          o = {},
+          a = [];
+
+      for (var u in i) {
+        if (i[u] && i[u].params && (n = Object.keys(i[u].params)).length) for (var s in n) {
+          a.indexOf(n[s]) >= 0 || (a.push(n[s]), o[n[s]] = this[n[s]]);
+        }
+      }
+
+      return he({}, o, t);
+    }, t;
+  }(),
+      Er = function Er(t) {
+    if (!Zt(t)) return !1;
+    var e = "^" === t.charAt(0);
+    return {
+      val: e ? t.substring(1) : t,
+      root: e
+    };
+  },
+      Tr = function Tr(t, e) {
+    return function (r) {
+      var n = r;
+      n && n.url && n.name && n.name.match(/\.\*\*$/) && (n.url += "{remainder:any}");
+      var i = Er(n.url),
+          o = r.parent,
+          a = i ? t.compile(i.val, {
+        params: r.params || {},
+        paramMap: function paramMap(t, e) {
+          return !1 === n.reloadOnSearch && e && (t = he(t || {}, {
+            dynamic: !0
+          })), t;
+        }
+      }) : n.url;
+      if (!a) return null;
+      if (!t.isMatcher(a)) throw new Error("Invalid url '" + a + "' in state '" + r + "'");
+      return i && i.root ? a : (o && o.navigable || e()).url.append(a);
+    };
+  },
+      Cr = function Cr(t) {
+    return function (e) {
+      return !t(e) && e.url ? e : e.parent ? e.parent.navigable : null;
+    };
+  },
+      Pr = function Pr(t) {
+    return function (e) {
+      var r = e.url && e.url.parameters({
+        inherit: !1
+      }) || [],
+          n = $e(we(_(e.params || {}, r.map(jt("id"))), function (e, r) {
+        return t.fromConfig(r, null, e);
+      }));
+      return r.concat(n).map(function (t) {
+        return [t.id, t];
+      }).reduce(C, {});
+    };
+  },
+      kr = function () {
+    function t(t, e) {
+      this.matcher = t;
+
+      var r = this,
+          n = function n() {
+        return t.find("");
+      },
+          i = function i(t) {
+        return "" === t.name;
+      };
+
+      this.builders = {
+        name: [Y],
+        self: [Z],
+        parent: [function (e) {
+          return i(e) ? null : t.find(r.parentName(e)) || n();
+        }],
+        data: [X],
+        url: [Tr(e, n)],
+        navigable: [Cr(i)],
+        params: [Pr(e.paramFactory)],
+        views: [],
+        path: [tt],
+        includes: [et],
+        resolvables: [rt]
+      };
+    }
+
+    return t.prototype.builder = function (t, e) {
+      var r = this.builders,
+          n = r[t] || [];
+      return Zt(t) && !zt(e) ? n.length > 1 ? n : n[0] : Zt(t) && Kt(e) ? (r[t] = n, r[t].push(e), function () {
+        return r[t].splice(r[t].indexOf(e, 1)) && null;
+      }) : void 0;
+    }, t.prototype.build = function (t) {
+      var e = this,
+          r = e.matcher,
+          n = e.builders,
+          i = this.parentName(t);
+      if (i && !r.find(i, void 0, !1)) return null;
+
+      for (var o in n) {
+        if (n.hasOwnProperty(o)) {
+          var a = n[o].reduce(function (t, e) {
+            return function (r) {
+              return e(r, t);
+            };
+          }, l);
+          t[o] = a(t);
+        }
+      }
+
+      return t;
+    }, t.prototype.parentName = function (t) {
+      var e = t.name || "",
+          r = e.split(".");
+
+      if ("**" === r.pop() && r.pop(), r.length) {
+        if (t.parent) throw new Error("States that specify the 'parent:' property should not have a '.' in their name (" + e + ")");
+        return r.join(".");
+      }
+
+      return t.parent ? Zt(t.parent) ? t.parent : t.parent.name : "";
+    }, t.prototype.name = function (t) {
+      var e = t.name;
+      if (-1 !== e.indexOf(".") || !t.parent) return e;
+      var r = Zt(t.parent) ? t.parent : t.parent.name;
+      return r ? r + "." + e : e;
+    }, t;
+  }(),
+      Or = function () {
+    function t(t) {
+      this._states = t;
+    }
+
+    return t.prototype.isRelative = function (t) {
+      return 0 === (t = t || "").indexOf(".") || 0 === t.indexOf("^");
+    }, t.prototype.find = function (t, e, r) {
+      if (void 0 === r && (r = !0), t || "" === t) {
+        var n = Zt(t),
+            i = n ? t : t.name;
+        this.isRelative(i) && (i = this.resolvePath(i, e));
+        var o = this._states[i];
+        if (o && (n || !(n || o !== t && o.self !== t))) return o;
+
+        if (n && r) {
+          var a = $e(this._states).filter(function (t) {
+            return t.__stateObjectCache.nameGlob && t.__stateObjectCache.nameGlob.matches(i);
+          });
+          return a.length > 1 && console.log("stateMatcher.find: Found multiple matches for " + i + " using glob: ", a.map(function (t) {
+            return t.name;
+          })), a[0];
+        }
+      }
+    }, t.prototype.resolvePath = function (t, e) {
+      if (!e) throw new Error("No reference point given for path '" + t + "'");
+
+      for (var r = this.find(e), n = t.split("."), i = 0, o = n.length, a = r; i < o; i++) {
+        if ("" !== n[i] || 0 !== i) {
+          if ("^" !== n[i]) break;
+          if (!a.parent) throw new Error("Path '" + t + "' not valid for state '" + r.name + "'");
+          a = a.parent;
+        } else a = r;
+      }
+
+      var u = n.slice(i).join(".");
+      return a.name + (a.name && u ? "." : "") + u;
+    }, t;
+  }(),
+      xr = function () {
+    function t(t, e, r, n, i) {
+      this.$registry = t, this.$urlRouter = e, this.states = r, this.builder = n, this.listeners = i, this.queue = [], this.matcher = t.matcher;
+    }
+
+    return t.prototype.dispose = function () {
+      this.queue = [];
+    }, t.prototype.register = function (t) {
+      var e = this.queue,
+          r = Mt.create(t),
+          n = r.name;
+      if (!Zt(n)) throw new Error("State must have a valid name");
+      if (this.states.hasOwnProperty(n) || ve(e.map(jt("name")), n)) throw new Error("State '" + n + "' is already defined");
+      return e.push(r), this.flush(), r;
+    }, t.prototype.flush = function () {
+      for (var t = this, e = this, r = e.queue, n = e.states, i = e.builder, o = [], a = [], u = {}, s = function s(e) {
+        return t.states.hasOwnProperty(e) && t.states[e];
+      }; r.length > 0;) {
+        var c = r.shift(),
+            f = c.name,
+            l = i.build(c),
+            h = a.indexOf(c);
+
+        if (l) {
+          var p = s(f);
+          if (p && p.name === f) throw new Error("State '" + f + "' is already defined");
+          var d = s(f + ".**");
+          d && this.$registry.deregister(d), n[f] = c, this.attachRoute(c), h >= 0 && a.splice(h, 1), o.push(c);
+        } else {
+          var v = u[f];
+          if (u[f] = r.length, h >= 0 && v === r.length) return r.push(c), n;
+          h < 0 && a.push(c), r.push(c);
+        }
+      }
+
+      return o.length && this.listeners.forEach(function (t) {
+        return t("registered", o.map(function (t) {
+          return t.self;
+        }));
+      }), n;
+    }, t.prototype.attachRoute = function (t) {
+      !t.abstract && t.url && this.$urlRouter.rule(this.$urlRouter.urlRuleFactory.create(t));
+    }, t;
+  }(),
+      Ir = function () {
+    function t(t) {
+      this._router = t, this.states = {}, this.listeners = [], this.matcher = new Or(this.states), this.builder = new kr(this.matcher, t.urlMatcherFactory), this.stateQueue = new xr(this, t.urlRouter, this.states, this.builder, this.listeners), this._registerRoot();
+    }
+
+    return t.prototype._registerRoot = function () {
+      var t = {
+        name: "",
+        url: "^",
+        views: null,
+        params: {
+          "#": {
+            value: null,
+            type: "hash",
+            dynamic: !0
+          }
+        },
+        abstract: !0
+      };
+      (this._root = this.stateQueue.register(t)).navigable = null;
+    }, t.prototype.dispose = function () {
+      var t = this;
+      this.stateQueue.dispose(), this.listeners = [], this.get().forEach(function (e) {
+        return t.get(e) && t.deregister(e);
+      });
+    }, t.prototype.onStatesChanged = function (t) {
+      return this.listeners.push(t), function () {
+        me(this.listeners)(t);
+      }.bind(this);
+    }, t.prototype.root = function () {
+      return this._root;
+    }, t.prototype.register = function (t) {
+      return this.stateQueue.register(t);
+    }, t.prototype._deregisterTree = function (t) {
+      var e = this,
+          r = this.get().map(function (t) {
+        return t.$$state();
+      }),
+          n = function n(t) {
+        var e = r.filter(function (e) {
+          return -1 !== t.indexOf(e.parent);
+        });
+        return 0 === e.length ? e : e.concat(n(e));
+      },
+          i = n([t]),
+          o = [t].concat(i).reverse();
+
+      return o.forEach(function (t) {
+        var r = e._router.urlRouter;
+        r.rules().filter(Vt("state", t)).forEach(r.removeRule.bind(r)), delete e.states[t.name];
+      }), o;
+    }, t.prototype.deregister = function (t) {
+      var e = this.get(t);
+      if (!e) throw new Error("Can't deregister state; not found: " + t);
+
+      var r = this._deregisterTree(e.$$state());
+
+      return this.listeners.forEach(function (t) {
+        return t("deregistered", r.map(function (t) {
+          return t.self;
+        }));
+      }), r;
+    }, t.prototype.get = function (t, e) {
+      var r = this;
+      if (0 === arguments.length) return Object.keys(this.states).map(function (t) {
+        return r.states[t].self;
+      });
+      var n = this.matcher.find(t, e);
+      return n && n.self || null;
+    }, t.prototype.decorator = function (t, e) {
+      return this.builder.builder(t, e);
+    }, t;
+  }(),
+      jr = function jr(t, e, r) {
+    return t[e] = t[e] || r();
+  },
+      Vr = Q("/"),
+      Ar = function () {
+    function e(t, r, n, i) {
+      var o = this;
+      this.config = i, this._cache = {
+        path: [this]
+      }, this._children = [], this._params = [], this._segments = [], this._compiled = [], this.pattern = t, this.config = m(this.config, {
+        params: {},
+        strict: !0,
+        caseInsensitive: !1,
+        paramMap: f
+      });
+
+      for (var a, u, s, c = /([:*])([\w\[\]]+)|\{([\w\[\]]+)(?:\:\s*((?:[^{}\\]+|\\.|\{(?:[^{}\\]+|\\.)*\})+))?\}/g, l = /([:]?)([\w\[\].-]+)|\{([\w\[\].-]+)(?:\:\s*((?:[^{}\\]+|\\.|\{(?:[^{}\\]+|\\.)*\})+))?\}/g, h = 0, p = [], d = function d(r) {
+        if (!e.nameValidator.test(r)) throw new Error("Invalid parameter name '" + r + "' in pattern '" + t + "'");
+        if (S(o._params, Vt("id", r))) throw new Error("Duplicate parameter name '" + r + "' in pattern '" + t + "'");
+      }, v = function v(e, n) {
+        var i = e[2] || e[3],
+            a = n ? e[4] : e[4] || ("*" === e[1] ? "[\\s\\S]*" : null);
+        return {
+          id: i,
+          regexp: a,
+          cfg: o.config.params[i],
+          segment: t.substring(h, e.index),
+          type: a ? r.type(a) || function (t) {
+            return de(r.type(n ? "query" : "path"), {
+              pattern: new RegExp(t, o.config.caseInsensitive ? "i" : void 0)
+            });
+          }(a) : null
+        };
+      }; (a = c.exec(t)) && !((u = v(a, !1)).segment.indexOf("?") >= 0);) {
+        d(u.id), this._params.push(n.fromPath(u.id, u.type, this.config.paramMap(u.cfg, !1))), this._segments.push(u.segment), p.push([u.segment, P(this._params)]), h = c.lastIndex;
+      }
+
+      var y = (s = t.substring(h)).indexOf("?");
+
+      if (y >= 0) {
+        var g = s.substring(y);
+        if (s = s.substring(0, y), g.length > 0) for (h = 0; a = l.exec(g);) {
+          d((u = v(a, !0)).id), this._params.push(n.fromSearch(u.id, u.type, this.config.paramMap(u.cfg, !0))), h = c.lastIndex;
+        }
+      }
+
+      this._segments.push(s), this._compiled = p.map(function (t) {
+        return nt.apply(null, t);
+      }).concat(nt(s));
+    }
+
+    return e.prototype.append = function (t) {
+      return this._children.push(t), t._cache = {
+        path: this._cache.path.concat(t),
+        parent: this,
+        pattern: null
+      }, t;
+    }, e.prototype.isRoot = function () {
+      return this._cache.path[0] === this;
+    }, e.prototype.toString = function () {
+      return this.pattern;
+    }, e.prototype.exec = function (t, e, r, n) {
+      var i = this;
+      void 0 === e && (e = {}), void 0 === n && (n = {});
+      var o = jr(this._cache, "pattern", function () {
+        return new RegExp(["^", Ce(i._cache.path.map(jt("_compiled"))).join(""), !1 === i.config.strict ? "/?" : "", "$"].join(""), i.config.caseInsensitive ? "i" : void 0);
+      }).exec(t);
+      if (!o) return null;
+
+      var a = this.parameters(),
+          u = a.filter(function (t) {
+        return !t.isSearch();
+      }),
+          s = a.filter(function (t) {
+        return t.isSearch();
+      }),
+          c = this._cache.path.map(function (t) {
+        return t._segments.length - 1;
+      }).reduce(function (t, e) {
+        return t + e;
+      }),
+          f = {};
+
+      if (c !== o.length - 1) throw new Error("Unbalanced capture group in route '" + this.pattern + "'");
+
+      for (var l = 0; l < c; l++) {
+        for (var h = u[l], p = o[l + 1], d = 0; d < h.replace.length; d++) {
+          h.replace[d].from === p && (p = h.replace[d].to);
+        }
+
+        p && !0 === h.array && (p = function (t) {
+          var e = function e(t) {
+            return t.split("").reverse().join("");
+          };
+
+          return b(b(e(t).split(/-(?!\\)/), e), function (t) {
+            return t.replace(/\\-/g, "-");
+          }).reverse();
+        }(p)), zt(p) && (p = h.type.decode(p)), f[h.id] = h.value(p);
+      }
+
+      return s.forEach(function (t) {
+        for (var r = e[t.id], n = 0; n < t.replace.length; n++) {
+          t.replace[n].from === r && (r = t.replace[n].to);
+        }
+
+        zt(r) && (r = t.type.decode(r)), f[t.id] = t.value(r);
+      }), r && (f["#"] = r), f;
+    }, e.prototype.parameters = function (t) {
+      return void 0 === t && (t = {}), !1 === t.inherit ? this._params : Ce(this._cache.path.map(function (t) {
+        return t._params;
+      }));
+    }, e.prototype.parameter = function (t, e) {
+      var r = this;
+      void 0 === e && (e = {});
+      var n = this._cache.parent;
+      return function () {
+        for (var e = 0, n = r._params; e < n.length; e++) {
+          var i = n[e];
+          if (i.id === t) return i;
+        }
+      }() || !1 !== e.inherit && n && n.parameter(t, e) || null;
+    }, e.prototype.validates = function (t) {
+      var e = function e(t, _e5) {
+        return !t || t.validates(_e5);
+      };
+
+      return t = t || {}, this.parameters().filter(function (e) {
+        return t.hasOwnProperty(e.id);
+      }).map(function (r) {
+        return e(r, t[r.id]);
+      }).reduce(Se, !0);
+    }, e.prototype.format = function (t) {
+      function r(e) {
+        var r = e.value(t[e.id]),
+            n = e.validates(r),
+            i = e.isDefaultValue(r);
+        return {
+          param: e,
+          value: r,
+          isValid: n,
+          isDefaultValue: i,
+          squash: !!i && e.squash,
+          encoded: e.type.encode(r)
+        };
+      }
+
+      void 0 === t && (t = {});
+      var n = this._cache.path,
+          i = n.map(e.pathSegmentsAndParams).reduce(Re, []).map(function (t) {
+        return Zt(t) ? t : r(t);
+      }),
+          o = n.map(e.queryParams).reduce(Re, []).map(r);
+      if (i.concat(o).filter(function (t) {
+        return !1 === t.isValid;
+      }).length) return null;
+      var a = i.reduce(function (t, r) {
+        if (Zt(r)) return t + r;
+        var n = r.squash,
+            i = r.encoded,
+            o = r.param;
+        return !0 === n ? t.match(/\/$/) ? t.slice(0, -1) : t : Zt(n) ? t + n : !1 !== n ? t : null == i ? t : te(i) ? t + b(i, e.encodeDashes).join("-") : o.raw ? t + i : t + encodeURIComponent(i);
+      }, ""),
+          u = o.map(function (t) {
+        var e = t.param,
+            r = t.squash,
+            n = t.encoded,
+            i = t.isDefaultValue;
+        if (!(null == n || i && !1 !== r) && (te(n) || (n = [n]), 0 !== n.length)) return e.raw || (n = b(n, encodeURIComponent)), n.map(function (t) {
+          return e.id + "=" + t;
+        });
+      }).filter(f).reduce(Re, []).join("&");
+      return a + (u ? "?" + u : "") + (t["#"] ? "#" + t["#"] : "");
+    }, e.encodeDashes = function (t) {
+      return encodeURIComponent(t).replace(/-/g, function (t) {
+        return "%5C%" + t.charCodeAt(0).toString(16).toUpperCase();
+      });
+    }, e.pathSegmentsAndParams = function (e) {
+      return T(e._segments, e._params.filter(function (e) {
+        return e.location === t.DefType.PATH;
+      }).concat(void 0)).reduce(Re, []).filter(function (t) {
+        return "" !== t && zt(t);
+      });
+    }, e.queryParams = function (e) {
+      return e._params.filter(function (e) {
+        return e.location === t.DefType.SEARCH;
+      });
+    }, e.compare = function (t, r) {
+      var n = function n(t) {
+        return t._cache.segments = t._cache.segments || t._cache.path.map(e.pathSegmentsAndParams).reduce(Re, []).reduce(K, []).map(function (t) {
+          return Zt(t) ? Vr(t) : t;
+        }).reduce(Re, []);
+      },
+          i = function i(t) {
+        return t._cache.weights = t._cache.weights || n(t).map(function (t) {
+          return "/" === t ? 1 : Zt(t) ? 2 : t instanceof Xe ? 3 : void 0;
+        });
+      },
+          o = i(t),
+          a = i(r);
+
+      !function (t, e, r) {
+        for (var n = Math.max(t.length, e.length); t.length < n;) {
+          t.push(r);
+        }
+
+        for (; e.length < n;) {
+          e.push(r);
+        }
+      }(o, a, 0);
+      var u,
+          s,
+          c = T(o, a);
+
+      for (s = 0; s < c.length; s++) {
+        if (0 != (u = c[s][0] - c[s][1])) return u;
+      }
+
+      return 0;
+    }, e.nameValidator = /^\w+([-.]+\w+)*(?:\[\])?$/, e;
+  }(),
+      Hr = function () {
+    function e() {
+      var e = this;
+      this.paramTypes = new Sr(), this._isCaseInsensitive = !1, this._isStrictMode = !0, this._defaultSquashPolicy = !1, this._getConfig = function (t) {
+        return he({
+          strict: e._isStrictMode,
+          caseInsensitive: e._isCaseInsensitive
+        }, t);
+      }, this.paramFactory = {
+        fromConfig: function fromConfig(r, n, i) {
+          return new Xe(r, n, i, t.DefType.CONFIG, e);
+        },
+        fromPath: function fromPath(r, n, i) {
+          return new Xe(r, n, i, t.DefType.PATH, e);
+        },
+        fromSearch: function fromSearch(r, n, i) {
+          return new Xe(r, n, i, t.DefType.SEARCH, e);
+        }
+      }, he(this, {
+        UrlMatcher: Ar,
+        Param: Xe
+      });
+    }
+
+    return e.prototype.caseInsensitive = function (t) {
+      return this._isCaseInsensitive = zt(t) ? t : this._isCaseInsensitive;
+    }, e.prototype.strictMode = function (t) {
+      return this._isStrictMode = zt(t) ? t : this._isStrictMode;
+    }, e.prototype.defaultSquashPolicy = function (t) {
+      if (zt(t) && !0 !== t && !1 !== t && !Zt(t)) throw new Error("Invalid squash policy: " + t + ". Valid policies: false, true, arbitrary-string");
+      return this._defaultSquashPolicy = zt(t) ? t : this._defaultSquashPolicy;
+    }, e.prototype.compile = function (t, e) {
+      return new Ar(t, this.paramTypes, this.paramFactory, this._getConfig(e));
+    }, e.prototype.isMatcher = function (t) {
+      if (!Xt(t)) return !1;
+      var e = !0;
+      return le(Ar.prototype, function (r, n) {
+        Kt(r) && (e = e && zt(t[n]) && Kt(t[n]));
+      }), e;
+    }, e.prototype.type = function (t, e, r) {
+      var n = this.paramTypes.type(t, e, r);
+      return zt(e) ? this : n;
+    }, e.prototype.$get = function () {
+      return this.paramTypes.enqueue = !1, this.paramTypes._flushTypeQueue(), this;
+    }, e.prototype.dispose = function () {
+      this.paramTypes.dispose();
+    }, e;
+  }(),
+      qr = function () {
+    function t(t) {
+      this.router = t;
+    }
+
+    return t.prototype.compile = function (t) {
+      return this.router.urlMatcherFactory.compile(t);
+    }, t.prototype.create = function (t, e) {
+      var r = this,
+          n = s([[Zt, function (t) {
+        return n(r.compile(t));
+      }], [Ft(Ar), function (t) {
+        return r.fromUrlMatcher(t, e);
+      }], [ne, function (t) {
+        return r.fromState(t, r.router);
+      }], [Ft(RegExp), function (t) {
+        return r.fromRegExp(t, e);
+      }], [Kt, function (t) {
+        return new Dr(t, e);
+      }]]),
+          i = n(t);
+      if (!i) throw new Error("invalid 'what' in when()");
+      return i;
+    }, t.prototype.fromUrlMatcher = function (t, e) {
+      var r = e;
+      Zt(e) && (e = this.router.urlMatcherFactory.compile(e)), Ft(Ar)(e) && (r = function r(t) {
+        return e.format(t);
+      });
+      var n = {
+        urlMatcher: t,
+        matchPriority: function matchPriority(e) {
+          var r = t.parameters().filter(function (t) {
+            return t.isOptional;
+          });
+          return r.length ? r.filter(function (t) {
+            return e[t.id];
+          }).length / r.length : 1e-6;
+        },
+        type: "URLMATCHER"
+      };
+      return he(new Dr(function (e) {
+        var r = t.exec(e.path, e.search, e.hash);
+        return t.validates(r) && r;
+      }, r), n);
+    }, t.prototype.fromState = function (t, e) {
+      var r = {
+        state: t,
+        type: "STATE"
+      };
+      return he(this.fromUrlMatcher(t.url, function (r) {
+        var n = e.stateService,
+            i = e.globals;
+        n.href(t, r) !== n.href(i.current, i.params) && n.transitionTo(t, r, {
+          inherit: !0,
+          source: "url"
+        });
+      }), r);
+    }, t.prototype.fromRegExp = function (t, e) {
+      if (t.global || t.sticky) throw new Error("Rule RegExp must not be global or sticky");
+      var r = Zt(e) ? function (t) {
+        return e.replace(/\$(\$|\d{1,2})/, function (e, r) {
+          return t["$" === r ? 0 : Number(r)];
+        });
+      } : e,
+          n = {
+        regexp: t,
+        type: "REGEXP"
+      };
+      return he(new Dr(function (e) {
+        return t.exec(e.path);
+      }, r), n);
+    }, t.isUrlRule = function (t) {
+      return t && ["type", "match", "handler"].every(function (e) {
+        return zt(t[e]);
+      });
+    }, t;
+  }(),
+      Dr = function () {
+    return function (t, e) {
+      var r = this;
+      this.match = t, this.type = "RAW", this.matchPriority = function (t) {
+        return 0 - r.$id;
+      }, this.handler = e || f;
+    };
+  }(),
+      Fr = function Fr(t, e) {
+    return (e.priority || 0) - (t.priority || 0);
+  },
+      Nr = function Nr(t, e) {
+    var r = {
+      STATE: 4,
+      URLMATCHER: 4,
+      REGEXP: 3,
+      RAW: 2,
+      OTHER: 1
+    };
+    return (r[t.type] || 0) - (r[e.type] || 0);
+  },
+      Ur = function Ur(t, e) {
+    return t.urlMatcher && e.urlMatcher ? Ar.compare(t.urlMatcher, e.urlMatcher) : 0;
+  },
+      Lr = function Lr(t, e) {
+    var r = {
+      STATE: !0,
+      URLMATCHER: !0
+    };
+    return r[t.type] && r[e.type] ? 0 : (t.$id || 0) - (e.$id || 0);
+  };
+
+  br = function br(t, e) {
+    var r = Fr(t, e);
+    return 0 !== r ? r : 0 !== (r = Nr(t, e)) ? r : 0 !== (r = Ur(t, e)) ? r : Lr(t, e);
+  };
+
+  var Mr = function () {
+    function t(e) {
+      this._sortFn = br, this._rules = [], this.interceptDeferred = !1, this._id = 0, this._sorted = !1, this._router = e, this.urlRuleFactory = new qr(e), h(Ut(t.prototype), this, Ut(this));
+    }
+
+    return t.prototype.dispose = function () {
+      this.listen(!1), this._rules = [], delete this._otherwiseFn;
+    }, t.prototype.sort = function (t) {
+      this._rules = this.stableSort(this._rules, this._sortFn = t || this._sortFn), this._sorted = !0;
+    }, t.prototype.ensureSorted = function () {
+      this._sorted || this.sort();
+    }, t.prototype.stableSort = function (t, e) {
+      var r = t.map(function (t, e) {
+        return {
+          elem: t,
+          idx: e
+        };
+      });
+      return r.sort(function (t, r) {
+        var n = e(t.elem, r.elem);
+        return 0 === n ? t.idx - r.idx : n;
+      }), r.map(function (t) {
+        return t.elem;
+      });
+    }, t.prototype.match = function (t) {
+      var e = this;
+      this.ensureSorted(), t = he({
+        path: "",
+        search: {},
+        hash: ""
+      }, t);
+      var r = this.rules();
+      this._otherwiseFn && r.push(this._otherwiseFn);
+
+      for (var n, i = 0; i < r.length && (!n || 0 === this._sortFn(r[i], n.rule)); i++) {
+        var o = function (r) {
+          var n = r.match(t, e._router);
+          return n && {
+            match: n,
+            rule: r,
+            weight: r.matchPriority(n)
+          };
+        }(r[i]);
+
+        n = !n || o && o.weight > n.weight ? o : n;
+      }
+
+      return n;
+    }, t.prototype.sync = function (t) {
+      if (!t || !t.defaultPrevented) {
+        var e = this._router,
+            r = e.urlService,
+            n = e.stateService,
+            i = {
+          path: r.path(),
+          search: r.search(),
+          hash: r.hash()
+        },
+            o = this.match(i);
+        s([[Zt, function (t) {
+          return r.url(t, !0);
+        }], [Ge.isDef, function (t) {
+          return n.go(t.state, t.params, t.options);
+        }], [Ft(Ge), function (t) {
+          return n.go(t.state(), t.params(), t.options());
+        }]])(o && o.rule.handler(o.match, i, e));
+      }
+    }, t.prototype.listen = function (t) {
+      var e = this;
+      if (!1 !== t) return this._stopFn = this._stopFn || this._router.urlService.onChange(function (t) {
+        return e.sync(t);
+      });
+      this._stopFn && this._stopFn(), delete this._stopFn;
+    }, t.prototype.update = function (t) {
+      var e = this._router.locationService;
+      t ? this.location = e.path() : e.path() !== this.location && e.url(this.location, !0);
+    }, t.prototype.push = function (t, e, r) {
+      var n = r && !!r.replace;
+
+      this._router.urlService.url(t.format(e || {}), n);
+    }, t.prototype.href = function (t, e, r) {
+      var n = t.format(e);
+      if (null == n) return null;
+      r = r || {
+        absolute: !1
+      };
+      var i = this._router.urlService.config,
+          o = i.html5Mode();
+      if (o || null === n || (n = "#" + i.hashPrefix() + n), n = it(n, o, r.absolute, i.baseHref()), !r.absolute || !n) return n;
+      var a = !o && n ? "/" : "",
+          u = i.port();
+      return u = 80 === u || 443 === u ? "" : ":" + u, [i.protocol(), "://", i.host(), u, a, n].join("");
+    }, t.prototype.rule = function (t) {
+      var e = this;
+      if (!qr.isUrlRule(t)) throw new Error("invalid rule");
+      return t.$id = this._id++, t.priority = t.priority || 0, this._rules.push(t), this._sorted = !1, function () {
+        return e.removeRule(t);
+      };
+    }, t.prototype.removeRule = function (t) {
+      me(this._rules, t);
+    }, t.prototype.rules = function () {
+      return this.ensureSorted(), this._rules.slice();
+    }, t.prototype.otherwise = function (t) {
+      var e = ot(t);
+      this._otherwiseFn = this.urlRuleFactory.create(Ut(!0), e), this._sorted = !1;
+    }, t.prototype.initial = function (t) {
+      var e = ot(t);
+      this.rule(this.urlRuleFactory.create(function (t, e) {
+        return 0 === e.globals.transitionHistory.size() && !!/^\/?$/.exec(t.path);
+      }, e));
+    }, t.prototype.when = function (t, e, r) {
+      var n = this.urlRuleFactory.create(t, e);
+      return zt(r && r.priority) && (n.priority = r.priority), this.rule(n), n;
+    }, t.prototype.deferIntercept = function (t) {
+      void 0 === t && (t = !0), this.interceptDeferred = t;
+    }, t;
+  }(),
+      Br = function () {
+    function t() {
+      var t = this;
+      this._uiViews = [], this._viewConfigs = [], this._viewConfigFactories = {}, this._pluginapi = {
+        _rootViewContext: this._rootViewContext.bind(this),
+        _viewConfigFactory: this._viewConfigFactory.bind(this),
+        _registeredUIViews: function _registeredUIViews() {
+          return t._uiViews;
+        },
+        _activeViewConfigs: function _activeViewConfigs() {
+          return t._viewConfigs;
+        }
+      };
+    }
+
+    return t.prototype._rootViewContext = function (t) {
+      return this._rootContext = t || this._rootContext;
+    }, t.prototype._viewConfigFactory = function (t, e) {
+      this._viewConfigFactories[t] = e;
+    }, t.prototype.createViewConfig = function (t, e) {
+      var r = this._viewConfigFactories[e.$type];
+      if (!r) throw new Error("ViewService: No view config factory registered for type " + e.$type);
+      var n = r(t, e);
+      return te(n) ? n : [n];
+    }, t.prototype.deactivateViewConfig = function (t) {
+      Be.traceViewServiceEvent("<- Removing", t), me(this._viewConfigs, t);
+    }, t.prototype.activateViewConfig = function (t) {
+      Be.traceViewServiceEvent("-> Registering", t), this._viewConfigs.push(t);
+    }, t.prototype.sync = function () {
+      function e(t) {
+        for (var e = t.viewDecl.$context, r = 0; ++r && e.parent;) {
+          e = e.parent;
+        }
+
+        return r;
+      }
+
+      var n = this,
+          i = this._uiViews.map(function (t) {
+        return [t.fqn, t];
+      }).reduce(C, {}),
+          o = r(function (t, e, r, n) {
+        return e * (t(r) - t(n));
+      }),
+          a = this._uiViews.sort(o(function (t) {
+        var e = function e(t) {
+          return t && t.parent ? e(t.parent) + 1 : 1;
+        };
+
+        return 1e4 * t.fqn.split(".").length + e(t.creationContext);
+      }, 1)).map(function (r) {
+        var a = n._viewConfigs.filter(t.matches(i, r));
+
+        return a.length > 1 && a.sort(o(e, -1)), [r, a[0]];
+      });
+
+      Be.traceViewSync(a), a.forEach(function (t) {
+        var e = t[0],
+            r = t[1];
+        -1 !== n._uiViews.indexOf(e) && e.configUpdated(r);
+      });
+    }, t.prototype.registerUIView = function (t) {
+      Be.traceViewServiceUIViewEvent("-> Registering", t);
+      var e = this._uiViews;
+      return e.filter(function (e) {
+        return e.fqn === t.fqn && e.$type === t.$type;
+      }).length && Be.traceViewServiceUIViewEvent("!!!! duplicate uiView named:", t), e.push(t), this.sync(), function () {
+        -1 !== e.indexOf(t) ? (Be.traceViewServiceUIViewEvent("<- Deregistering", t), me(e)(t)) : Be.traceViewServiceUIViewEvent("Tried removing non-registered uiView", t);
+      };
+    }, t.prototype.available = function () {
+      return this._uiViews.map(jt("fqn"));
+    }, t.prototype.active = function () {
+      return this._uiViews.filter(jt("$config")).map(jt("name"));
+    }, t.normalizeUIViewTarget = function (t, e) {
+      void 0 === e && (e = "");
+      var r = e.split("@"),
+          n = r[0] || "$default",
+          i = Zt(r[1]) ? r[1] : "^",
+          o = /^(\^(?:\.\^)*)\.(.*$)/.exec(n);
+      return o && (i = o[1], n = o[2]), "!" === n.charAt(0) && (n = n.substr(1), i = ""), /^(\^(?:\.\^)*)$/.exec(i) ? i = i.split(".").reduce(function (t, e) {
+        return t.parent;
+      }, t).name : "." === i && (i = t.name), {
+        uiViewName: n,
+        uiViewContextAnchor: i
+      };
+    }, t.matches = function (t, e) {
+      return function (r) {
+        if (e.$type !== r.viewDecl.$type) return !1;
+        var n = r.viewDecl,
+            i = n.$uiViewName.split("."),
+            o = e.fqn.split(".");
+        if (!pe(i, o.slice(0 - i.length))) return !1;
+        var a = 1 - i.length || void 0,
+            u = o.slice(0, a).join("."),
+            s = t[u].creationContext;
+        return n.$uiViewContextAnchor === (s && s.name);
+      };
+    }, t;
+  }(),
+      Gr = function () {
+    function t() {
+      this.params = new Rr(), this.lastStartedTransitionId = -1, this.transitionHistory = new Ve([], 1), this.successfulTransitions = new Ve([], 1);
+    }
+
+    return t.prototype.dispose = function () {
+      this.transitionHistory.clear(), this.successfulTransitions.clear(), this.transition = null;
+    }, t;
+  }(),
+      Wr = function Wr(t) {
+    return t.reduce(function (t, e) {
+      return t[e] = oe(e), t;
+    }, {
+      dispose: l
+    });
+  },
+      zr = ["url", "path", "search", "hash", "onChange"],
+      Jr = ["port", "protocol", "host", "baseHref", "html5Mode", "hashPrefix"],
+      Qr = ["type", "caseInsensitive", "strictMode", "defaultSquashPolicy"],
+      Kr = ["sort", "when", "initial", "otherwise", "rules", "rule", "removeRule"],
+      Yr = ["deferIntercept", "listen", "sync", "match"],
+      Zr = function () {
+    function t(t, e) {
+      void 0 === e && (e = !0), this.router = t, this.rules = {}, this.config = {};
+
+      var r = function r() {
+        return t.locationService;
+      };
+
+      h(r, this, r, zr, e);
+
+      var n = function n() {
+        return t.locationConfig;
+      };
+
+      h(n, this.config, n, Jr, e);
+
+      var i = function i() {
+        return t.urlMatcherFactory;
+      };
+
+      h(i, this.config, i, Qr);
+
+      var o = function o() {
+        return t.urlRouter;
+      };
+
+      h(o, this.rules, o, Kr), h(o, this, o, Yr);
+    }
+
+    return t.prototype.url = function (t, e, r) {}, t.prototype.path = function () {}, t.prototype.search = function () {}, t.prototype.hash = function () {}, t.prototype.onChange = function (t) {}, t.prototype.parts = function () {
+      return {
+        path: this.path(),
+        search: this.search(),
+        hash: this.hash()
+      };
+    }, t.prototype.dispose = function () {}, t.prototype.sync = function (t) {}, t.prototype.listen = function (t) {}, t.prototype.deferIntercept = function (t) {}, t.prototype.match = function (t) {}, t.locationServiceStub = Wr(zr), t.locationConfigStub = Wr(Jr), t;
+  }(),
+      Xr = 0,
+      tn = function () {
+    function t(t, e) {
+      void 0 === t && (t = Zr.locationServiceStub), void 0 === e && (e = Zr.locationConfigStub), this.locationService = t, this.locationConfig = e, this.$id = Xr++, this._disposed = !1, this._disposables = [], this.trace = Be, this.viewService = new Br(), this.transitionService = new kn(this), this.globals = new Gr(), this.urlMatcherFactory = new Hr(), this.urlRouter = new Mr(this), this.stateRegistry = new Ir(this), this.stateService = new On(this), this.urlService = new Zr(this), this._plugins = {}, this.viewService._pluginapi._rootViewContext(this.stateRegistry.root()), this.globals.$current = this.stateRegistry.root(), this.globals.current = this.globals.$current.self, this.disposable(this.globals), this.disposable(this.stateService), this.disposable(this.stateRegistry), this.disposable(this.transitionService), this.disposable(this.urlRouter), this.disposable(t), this.disposable(e);
+    }
+
+    return t.prototype.disposable = function (t) {
+      this._disposables.push(t);
+    }, t.prototype.dispose = function (t) {
+      var e = this;
+      t && Kt(t.dispose) ? t.dispose(this) : (this._disposed = !0, this._disposables.slice().forEach(function (t) {
+        try {
+          "function" == typeof t.dispose && t.dispose(e), me(e._disposables, t);
+        } catch (t) {}
+      }));
+    }, t.prototype.plugin = function (t, e) {
+      void 0 === e && (e = {});
+      var r = new t(this, e);
+      if (!r.name) throw new Error("Required property `name` missing on plugin: " + r);
+      return this._disposables.push(r), this._plugins[r.name] = r;
+    }, t.prototype.getPlugin = function (t) {
+      return t ? this._plugins[t] : $e(this._plugins);
+    }, t;
+  }(),
+      en = function en(t) {
+    return t.onCreate({}, at);
+  },
+      rn = function rn(t) {
+    function e(e) {
+      if (e) return e instanceof Ge ? e : Zt(e) ? n.target(e, t.params(), t.options()) : e.state || e.params ? n.target(e.state || t.to(), e.params || t.params(), t.options()) : void 0;
+    }
+
+    var r = t.to().redirectTo;
+
+    if (r) {
+      var n = t.router.stateService;
+      return Kt(r) ? ae.$q.when(r(t)).then(e) : e(r);
+    }
+  },
+      nn = function nn(t) {
+    return t.onStart({
+      to: function to(t) {
+        return !!t.redirectTo;
+      }
+    }, rn);
+  },
+      on = ut("onExit"),
+      an = function an(t) {
+    return t.onExit({
+      exiting: function exiting(t) {
+        return !!t.onExit;
+      }
+    }, on);
+  },
+      un = ut("onRetain"),
+      sn = function sn(t) {
+    return t.onRetain({
+      retained: function retained(t) {
+        return !!t.onRetain;
+      }
+    }, un);
+  },
+      cn = ut("onEnter"),
+      fn = function fn(t) {
+    return t.onEnter({
+      entering: function entering(t) {
+        return !!t.onEnter;
+      }
+    }, cn);
+  },
+      ln = function ln(t) {
+    return new cr(t.treeChanges().to).resolvePath("EAGER", t).then(l);
+  },
+      hn = function hn(t) {
+    return t.onStart({}, ln, {
+      priority: 1e3
+    });
+  },
+      pn = function pn(t, e) {
+    return new cr(t.treeChanges().to).subContext(e.$$state()).resolvePath("LAZY", t).then(l);
+  },
+      dn = function dn(t) {
+    return t.onEnter({
+      entering: Ut(!0)
+    }, pn, {
+      priority: 1e3
+    });
+  },
+      vn = function vn(t) {
+    var e = ae.$q,
+        r = t.views("entering");
+    if (r.length) return e.all(r.map(function (t) {
+      return e.when(t.load());
+    })).then(l);
+  },
+      mn = function mn(t) {
+    return t.onFinish({}, vn);
+  },
+      yn = function yn(t) {
+    var e = t.views("entering"),
+        r = t.views("exiting");
+
+    if (e.length || r.length) {
+      var n = t.router.viewService;
+      r.forEach(function (t) {
+        return n.deactivateViewConfig(t);
+      }), e.forEach(function (t) {
+        return n.activateViewConfig(t);
+      }), n.sync();
+    }
+  },
+      gn = function gn(t) {
+    return t.onSuccess({}, yn);
+  },
+      _n = function _n(t) {
+    var e = t.router.globals,
+        r = function r() {
+      e.transition === t && (e.transition = null);
+    };
+
+    t.onSuccess({}, function () {
+      e.successfulTransitions.enqueue(t), e.$current = t.$to(), e.current = e.$current.self, k(t.params(), e.params);
+    }, {
+      priority: 1e4
+    }), t.promise.then(r, r);
+  },
+      wn = function wn(t) {
+    return t.onCreate({}, _n);
+  },
+      $n = function $n(t) {
+    var e = t.options(),
+        r = t.router.stateService,
+        n = t.router.urlRouter;
+
+    if ("url" !== e.source && e.location && r.$current.navigable) {
+      var i = {
+        replace: "replace" === e.location
+      };
+      n.push(r.$current.navigable.url, r.params, i);
+    }
+
+    n.update(!0);
+  },
+      Sn = function Sn(t) {
+    return t.onSuccess({}, $n, {
+      priority: 9999
+    });
+  },
+      bn = function bn(t) {
+    var e = t.router,
+        r = t.entering().filter(function (t) {
+      return !!t.$$state().lazyLoad;
+    }).map(function (e) {
+      return st(t, e);
+    });
+    return ae.$q.all(r).then(function () {
+      if ("url" !== t.originalTransition().options().source) {
+        var r = t.targetState();
+        return e.stateService.target(r.identifier(), r.params(), r.options());
+      }
+
+      var n = e.urlService,
+          i = n.match(n.parts()),
+          o = i && i.rule;
+
+      if (o && "STATE" === o.type) {
+        var a = o.state,
+            u = i.match;
+        return e.stateService.target(a, u, t.options());
+      }
+
+      e.urlService.sync();
+    });
+  },
+      Rn = function Rn(t) {
+    return t.onBefore({
+      entering: function entering(t) {
+        return !!t.lazyLoad;
+      }
+    }, bn);
+  },
+      En = function () {
+    return function (t, e, r, n, i, o, a, u) {
+      void 0 === i && (i = !1), void 0 === o && (o = ze.HANDLE_RESULT), void 0 === a && (a = ze.REJECT_ERROR), void 0 === u && (u = !1), this.name = t, this.hookPhase = e, this.hookOrder = r, this.criteriaMatchPath = n, this.reverseSort = i, this.getResultHandler = o, this.getErrorHandler = a, this.synchronous = u;
+    };
+  }(),
+      Tn = function Tn(t) {
+    return t.onBefore({}, ct, {
+      priority: -9999
+    });
+  },
+      Cn = function Cn(t) {
+    return t.onBefore({}, ft, {
+      priority: -1e4
+    });
+  },
+      Pn = {
+    location: !0,
+    relative: null,
+    inherit: !1,
+    notify: !0,
+    reload: !1,
+    custom: {},
+    current: function current() {
+      return null;
+    },
+    source: "unknown"
+  },
+      kn = function () {
+    function e(t) {
+      this._transitionCount = 0, this._eventTypes = [], this._registeredHooks = {}, this._criteriaPaths = {}, this._router = t, this.$view = t.viewService, this._deregisterHookFns = {}, this._pluginapi = h(Ut(this), {}, Ut(this), ["_definePathType", "_defineEvent", "_getPathTypes", "_getEvents", "getHooks"]), this._defineCorePaths(), this._defineCoreEvents(), this._registerCoreTransitionHooks();
+    }
+
+    return e.prototype.onCreate = function (t, e, r) {}, e.prototype.onBefore = function (t, e, r) {}, e.prototype.onStart = function (t, e, r) {}, e.prototype.onExit = function (t, e, r) {}, e.prototype.onRetain = function (t, e, r) {}, e.prototype.onEnter = function (t, e, r) {}, e.prototype.onFinish = function (t, e, r) {}, e.prototype.onSuccess = function (t, e, r) {}, e.prototype.onError = function (t, e, r) {}, e.prototype.dispose = function (t) {
+      $e(this._registeredHooks).forEach(function (t) {
+        return t.forEach(function (e) {
+          e._deregistered = !0, me(t, e);
+        });
+      });
+    }, e.prototype.create = function (t, e) {
+      return new hr(t, e, this._router);
+    }, e.prototype._defineCoreEvents = function () {
+      var e = t.TransitionHookPhase,
+          r = ze,
+          n = this._criteriaPaths;
+      this._defineEvent("onCreate", e.CREATE, 0, n.to, !1, r.LOG_REJECTED_RESULT, r.THROW_ERROR, !0), this._defineEvent("onBefore", e.BEFORE, 0, n.to), this._defineEvent("onStart", e.RUN, 0, n.to), this._defineEvent("onExit", e.RUN, 100, n.exiting, !0), this._defineEvent("onRetain", e.RUN, 200, n.retained), this._defineEvent("onEnter", e.RUN, 300, n.entering), this._defineEvent("onFinish", e.RUN, 400, n.to), this._defineEvent("onSuccess", e.SUCCESS, 0, n.to, !1, r.LOG_REJECTED_RESULT, r.LOG_ERROR, !0), this._defineEvent("onError", e.ERROR, 0, n.to, !1, r.LOG_REJECTED_RESULT, r.LOG_ERROR, !0);
+    }, e.prototype._defineCorePaths = function () {
+      var e = t.TransitionHookScope.STATE,
+          r = t.TransitionHookScope.TRANSITION;
+      this._definePathType("to", r), this._definePathType("from", r), this._definePathType("exiting", e), this._definePathType("retained", e), this._definePathType("entering", e);
+    }, e.prototype._defineEvent = function (t, e, r, n, i, o, a, u) {
+      void 0 === i && (i = !1), void 0 === o && (o = ze.HANDLE_RESULT), void 0 === a && (a = ze.REJECT_ERROR), void 0 === u && (u = !1);
+      var s = new En(t, e, r, n, i, o, a, u);
+      this._eventTypes.push(s), H(this, this, s);
+    }, e.prototype._getEvents = function (t) {
+      return (zt(t) ? this._eventTypes.filter(function (e) {
+        return e.hookPhase === t;
+      }) : this._eventTypes.slice()).sort(function (t, e) {
+        var r = t.hookPhase - e.hookPhase;
+        return 0 === r ? t.hookOrder - e.hookOrder : r;
+      });
+    }, e.prototype._definePathType = function (t, e) {
+      this._criteriaPaths[t] = {
+        name: t,
+        scope: e
+      };
+    }, e.prototype._getPathTypes = function () {
+      return this._criteriaPaths;
+    }, e.prototype.getHooks = function (t) {
+      return this._registeredHooks[t];
+    }, e.prototype._registerCoreTransitionHooks = function () {
+      var t = this._deregisterHookFns;
+      t.addCoreResolves = en(this), t.ignored = Tn(this), t.invalid = Cn(this), t.redirectTo = nn(this), t.onExit = an(this), t.onRetain = sn(this), t.onEnter = fn(this), t.eagerResolve = hn(this), t.lazyResolve = dn(this), t.loadViews = mn(this), t.activateViews = gn(this), t.updateGlobals = wn(this), t.updateUrl = Sn(this), t.lazyLoad = Rn(this);
+    }, e;
+  }(),
+      On = function () {
+    function e(t) {
+      this.router = t, this.invalidCallbacks = [], this._defaultErrorHandler = function (t) {
+        t instanceof Error && t.stack ? (console.error(t), console.error(t.stack)) : t instanceof He ? (console.error(t.toString()), t.detail && t.detail.stack && console.error(t.detail.stack)) : console.error(t);
+      };
+      var r = ["current", "$current", "params", "transition"],
+          n = Object.keys(e.prototype).filter(Ht(ve(r)));
+      h(Ut(e.prototype), this, Ut(this), n);
+    }
+
+    return Object.defineProperty(e.prototype, "transition", {
+      get: function get() {
+        return this.router.globals.transition;
+      },
+      enumerable: !0,
+      configurable: !0
+    }), Object.defineProperty(e.prototype, "params", {
+      get: function get() {
+        return this.router.globals.params;
+      },
+      enumerable: !0,
+      configurable: !0
+    }), Object.defineProperty(e.prototype, "current", {
+      get: function get() {
+        return this.router.globals.current;
+      },
+      enumerable: !0,
+      configurable: !0
+    }), Object.defineProperty(e.prototype, "$current", {
+      get: function get() {
+        return this.router.globals.$current;
+      },
+      enumerable: !0,
+      configurable: !0
+    }), e.prototype.dispose = function () {
+      this.defaultErrorHandler(l), this.invalidCallbacks = [];
+    }, e.prototype._handleInvalidTargetState = function (t, e) {
+      function r() {
+        var t = s.dequeue();
+        return void 0 === t ? He.invalid(e.error()).toPromise() : ae.$q.when(t(e, i, c)).then(f).then(function (t) {
+          return t || r();
+        });
+      }
+
+      var n = this,
+          i = er.makeTargetState(this.router.stateRegistry, t),
+          o = this.router.globals,
+          a = function a() {
+        return o.transitionHistory.peekTail();
+      },
+          u = a(),
+          s = new Ve(this.invalidCallbacks.slice()),
+          c = new cr(t).injector(),
+          f = function f(t) {
+        if (t instanceof Ge) {
+          var e = t;
+          return (e = n.target(e.identifier(), e.params(), e.options())).valid() ? a() !== u ? He.superseded().toPromise() : n.transitionTo(e.identifier(), e.params(), e.options()) : He.invalid(e.error()).toPromise();
+        }
+      };
+
+      return r();
+    }, e.prototype.onInvalid = function (t) {
+      return this.invalidCallbacks.push(t), function () {
+        me(this.invalidCallbacks)(t);
+      }.bind(this);
+    }, e.prototype.reload = function (t) {
+      return this.transitionTo(this.current, this.params, {
+        reload: !zt(t) || t,
+        inherit: !1,
+        notify: !1
+      });
+    }, e.prototype.go = function (t, e, r) {
+      var n = m(r, {
+        relative: this.$current,
+        inherit: !0
+      }, Pn);
+      return this.transitionTo(t, e, n);
+    }, e.prototype.target = function (t, e, r) {
+      if (void 0 === r && (r = {}), Xt(r.reload) && !r.reload.name) throw new Error("Invalid reload state object");
+      var n = this.router.stateRegistry;
+      if (r.reloadState = !0 === r.reload ? n.root() : n.matcher.find(r.reload, r.relative), r.reload && !r.reloadState) throw new Error("No such reload state '" + (Zt(r.reload) ? r.reload : r.reload.name) + "'");
+      return new Ge(this.router.stateRegistry, t, e, r);
+    }, e.prototype.getCurrentPath = function () {
+      var t = this,
+          e = this.router.globals.successfulTransitions.peekTail();
+      return e ? e.treeChanges().to : [new tr(t.router.stateRegistry.root())];
+    }, e.prototype.transitionTo = function (e, r, n) {
+      var i = this;
+      void 0 === r && (r = {}), void 0 === n && (n = {});
+      var o = this.router,
+          a = o.globals;
+      n = m(n, Pn);
+      n = he(n, {
+        current: function current() {
+          return a.transition;
+        }
+      });
+      var u = this.target(e, r, n),
+          s = this.getCurrentPath();
+      if (!u.exists()) return this._handleInvalidTargetState(s, u);
+      if (!u.valid()) return je(u.error());
+
+      var c = function c(e) {
+        return function (r) {
+          if (r instanceof He) {
+            var n = o.globals.lastStartedTransitionId === e.$id;
+            if (r.type === t.RejectType.IGNORED) return n && o.urlRouter.update(), ae.$q.when(a.current);
+            var u = r.detail;
+
+            if (r.type === t.RejectType.SUPERSEDED && r.redirected && u instanceof Ge) {
+              var s = e.redirect(u);
+              return s.run().catch(c(s));
+            }
+
+            if (r.type === t.RejectType.ABORTED) return n && o.urlRouter.update(), ae.$q.reject(r);
+          }
+
+          return i.defaultErrorHandler()(r), ae.$q.reject(r);
+        };
+      },
+          f = this.router.transitionService.create(s, u),
+          l = f.run().catch(c(f));
+
+      return Ie(l), he(l, {
+        transition: f
+      });
+    }, e.prototype.is = function (t, e, r) {
+      r = m(r, {
+        relative: this.$current
+      });
+      var n = this.router.stateRegistry.matcher.find(t, r.relative);
+
+      if (zt(n)) {
+        if (this.$current !== n) return !1;
+        if (!e) return !0;
+        var i = n.parameters({
+          inherit: !0,
+          matchingKeys: e
+        });
+        return Xe.equals(i, Xe.values(i, e), this.params);
+      }
+    }, e.prototype.includes = function (t, e, r) {
+      r = m(r, {
+        relative: this.$current
+      });
+      var n = Zt(t) && Lt.fromString(t);
+
+      if (n) {
+        if (!n.matches(this.$current.name)) return !1;
+        t = this.$current.name;
+      }
+
+      var i = this.router.stateRegistry.matcher.find(t, r.relative),
+          o = this.$current.includes;
+
+      if (zt(i)) {
+        if (!zt(o[i.name])) return !1;
+        if (!e) return !0;
+        var a = i.parameters({
+          inherit: !0,
+          matchingKeys: e
+        });
+        return Xe.equals(a, Xe.values(a, e), this.params);
+      }
+    }, e.prototype.href = function (t, e, r) {
+      r = m(r, {
+        lossy: !0,
+        inherit: !0,
+        absolute: !1,
+        relative: this.$current
+      }), e = e || {};
+      var n = this.router.stateRegistry.matcher.find(t, r.relative);
+      if (!zt(n)) return null;
+      r.inherit && (e = this.params.$inherit(e, this.$current, n));
+      var i = n && r.lossy ? n.navigable : n;
+      return i && void 0 !== i.url && null !== i.url ? this.router.urlRouter.href(i.url, e, {
+        absolute: r.absolute
+      }) : null;
+    }, e.prototype.defaultErrorHandler = function (t) {
+      return this._defaultErrorHandler = t || this._defaultErrorHandler;
+    }, e.prototype.get = function (t, e) {
+      var r = this.router.stateRegistry;
+      return 0 === arguments.length ? r.get() : r.get(t, e || this.$current);
+    }, e.prototype.lazyLoad = function (t, e) {
+      var r = this.get(t);
+      if (!r || !r.lazyLoad) throw new Error("Can not lazy load " + t);
+      var n = this.getCurrentPath(),
+          i = er.makeTargetState(this.router.stateRegistry, n);
+      return e = e || this.router.transitionService.create(n, i), st(e, r);
+    }, e;
+  }(),
+      xn = {
+    when: function when(t) {
+      return new Promise(function (e, r) {
+        return e(t);
+      });
+    },
+    reject: function reject(t) {
+      return new Promise(function (e, r) {
+        r(t);
+      });
+    },
+    defer: function defer() {
+      var t = {};
+      return t.promise = new Promise(function (e, r) {
+        t.resolve = e, t.reject = r;
+      }), t;
+    },
+    all: function all(t) {
+      if (te(t)) return Promise.all(t);
+
+      if (Xt(t)) {
+        var e = Object.keys(t).map(function (e) {
+          return t[e].then(function (t) {
+            return {
+              key: e,
+              val: t
+            };
+          });
+        });
+        return xn.all(e).then(function (t) {
+          return t.reduce(function (t, e) {
+            return t[e.key] = e.val, t;
+          }, {});
+        });
+      }
+    }
+  },
+      In = {},
+      jn = /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/gm,
+      Vn = /([^\s,]+)/g,
+      An = {
+    get: function get(t) {
+      return In[t];
+    },
+    has: function has(t) {
+      return null != An.get(t);
+    },
+    invoke: function invoke(t, e, r) {
+      var n = he({}, In, r || {}),
+          i = An.annotate(t),
+          o = ke(function (t) {
+        return n.hasOwnProperty(t);
+      }, function (t) {
+        return "DI can't find injectable: '" + t + "'";
+      }),
+          a = i.filter(o).map(function (t) {
+        return n[t];
+      });
+      return Kt(t) ? t.apply(e, a) : t.slice(-1)[0].apply(e, a);
+    },
+    annotate: function annotate(t) {
+      if (!c(t)) throw new Error("Not an injectable function: " + t);
+      if (t && t.$inject) return t.$inject;
+      if (te(t)) return t.slice(0, -1);
+      var e = t.toString().replace(jn, "");
+      return e.slice(e.indexOf("(") + 1, e.indexOf(")")).match(Vn) || [];
+    }
+  },
+      Hn = function Hn(t, e) {
+    var r = e[0],
+        n = e[1];
+    return t.hasOwnProperty(r) ? te(t[r]) ? t[r].push(n) : t[r] = [t[r], n] : t[r] = n, t;
+  },
+      qn = function qn(t) {
+    return t.split("&").filter(f).map(wr).reduce(Hn, {});
+  },
+      Dn = function Dn(t) {
+    var e = t.path(),
+        r = t.search(),
+        n = t.hash(),
+        i = Object.keys(r).map(function (t) {
+      var e = r[t];
+      return (te(e) ? e : [e]).map(function (e) {
+        return t + "=" + e;
+      });
+    }).reduce(Re, []).join("&");
+    return e + (i ? "?" + i : "") + (n ? "#" + n : "");
+  },
+      Fn = function () {
+    function t(t, e) {
+      var r = this;
+      this.fireAfterUpdate = e, this._listener = function (t) {
+        return r._listeners.forEach(function (e) {
+          return e(t);
+        });
+      }, this._listeners = [], this.hash = function () {
+        return lt(r._get()).hash;
+      }, this.path = function () {
+        return lt(r._get()).path;
+      }, this.search = function () {
+        return qn(lt(r._get()).search);
+      }, this._location = ue.location, this._history = ue.history;
+    }
+
+    return t.prototype.url = function (t, e) {
+      return void 0 === e && (e = !0), zt(t) && t !== this._get() && (this._set(null, null, t, e), this.fireAfterUpdate && this._listeners.forEach(function (e) {
+        return e({
+          url: t
+        });
+      })), Dn(this);
+    }, t.prototype.onChange = function (t) {
+      var e = this;
+      return this._listeners.push(t), function () {
+        return me(e._listeners, t);
+      };
+    }, t.prototype.dispose = function (t) {
+      ge(this._listeners);
+    }, t;
+  }(),
+      Nn = function () {
+    var t = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (t, e) {
+      t.__proto__ = e;
+    } || function (t, e) {
+      for (var r in e) {
+        e.hasOwnProperty(r) && (t[r] = e[r]);
+      }
+    };
+
+    return function (e, r) {
+      function n() {
+        this.constructor = e;
+      }
+
+      t(e, r), e.prototype = null === r ? Object.create(r) : (n.prototype = r.prototype, new n());
+    };
+  }(),
+      Un = function (t) {
+    function e(e) {
+      var r = t.call(this, e, !1) || this;
+      return ue.addEventListener("hashchange", r._listener, !1), r;
+    }
+
+    return Nn(e, t), e.prototype._get = function () {
+      return $r(this._location.hash);
+    }, e.prototype._set = function (t, e, r, n) {
+      this._location.hash = r;
+    }, e.prototype.dispose = function (e) {
+      t.prototype.dispose.call(this, e), ue.removeEventListener("hashchange", this._listener);
+    }, e;
+  }(Fn),
+      Ln = function () {
+    var t = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (t, e) {
+      t.__proto__ = e;
+    } || function (t, e) {
+      for (var r in e) {
+        e.hasOwnProperty(r) && (t[r] = e[r]);
+      }
+    };
+
+    return function (e, r) {
+      function n() {
+        this.constructor = e;
+      }
+
+      t(e, r), e.prototype = null === r ? Object.create(r) : (n.prototype = r.prototype, new n());
+    };
+  }(),
+      Mn = function (t) {
+    function e(e) {
+      return t.call(this, e, !0) || this;
+    }
+
+    return Ln(e, t), e.prototype._get = function () {
+      return this._url;
+    }, e.prototype._set = function (t, e, r, n) {
+      this._url = r;
+    }, e;
+  }(Fn),
+      Bn = function () {
+    var t = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (t, e) {
+      t.__proto__ = e;
+    } || function (t, e) {
+      for (var r in e) {
+        e.hasOwnProperty(r) && (t[r] = e[r]);
+      }
+    };
+
+    return function (e, r) {
+      function n() {
+        this.constructor = e;
+      }
+
+      t(e, r), e.prototype = null === r ? Object.create(r) : (n.prototype = r.prototype, new n());
+    };
+  }(),
+      Gn = function (t) {
+    function e(e) {
+      var r = t.call(this, e, !0) || this;
+      return r._config = e.urlService.config, ue.addEventListener("popstate", r._listener, !1), r;
+    }
+
+    return Bn(e, t), e.prototype._getBasePrefix = function () {
+      return yr(this._config.baseHref());
+    }, e.prototype._get = function () {
+      var t = this._location,
+          e = t.pathname,
+          r = t.hash,
+          n = t.search;
+      n = _r(n)[1], r = gr(r)[1];
+
+      var i = this._getBasePrefix(),
+          o = e === this._config.baseHref(),
+          a = e.startsWith(i);
+
+      return (e = o ? "/" : a ? e.substring(i.length) : e) + (n ? "?" + n : "") + (r ? "#" + r : "");
+    }, e.prototype._set = function (t, e, r, n) {
+      var i = this._getBasePrefix() + r;
+      n ? this._history.replaceState(t, e, i) : this._history.pushState(t, e, i);
+    }, e.prototype.dispose = function (e) {
+      t.prototype.dispose.call(this, e), ue.removeEventListener("popstate", this._listener);
+    }, e;
+  }(Fn),
+      Wn = function () {
+    return function () {
+      var t = this;
+      this._baseHref = "", this._port = 80, this._protocol = "http", this._host = "localhost", this._hashPrefix = "", this.port = function () {
+        return t._port;
+      }, this.protocol = function () {
+        return t._protocol;
+      }, this.host = function () {
+        return t._host;
+      }, this.baseHref = function () {
+        return t._baseHref;
+      }, this.html5Mode = function () {
+        return !1;
+      }, this.hashPrefix = function (e) {
+        return zt(e) ? t._hashPrefix = e : t._hashPrefix;
+      }, this.dispose = l;
+    };
+  }(),
+      zn = function () {
+    function t(t, e) {
+      void 0 === e && (e = !1), this._isHtml5 = e, this._baseHref = void 0, this._hashPrefix = "";
+    }
+
+    return t.prototype.port = function () {
+      return location.port ? Number(location.port) : "https" === this.protocol() ? 443 : 80;
+    }, t.prototype.protocol = function () {
+      return location.protocol.replace(/:/g, "");
+    }, t.prototype.host = function () {
+      return location.hostname;
+    }, t.prototype.html5Mode = function () {
+      return this._isHtml5;
+    }, t.prototype.hashPrefix = function (t) {
+      return zt(t) ? this._hashPrefix = t : this._hashPrefix;
+    }, t.prototype.baseHref = function (t) {
+      return zt(t) ? this._baseHref = t : zt(this._baseHref) ? this._baseHref : this.applyDocumentBaseHref();
+    }, t.prototype.applyDocumentBaseHref = function () {
+      var t = document.getElementsByTagName("base")[0];
+      return this._baseHref = t ? t.href.substr(location.origin.length) : "";
+    }, t.prototype.dispose = function () {}, t;
+  }(),
+      Jn = ht("vanilla.hashBangLocation", !1, Un, zn),
+      Qn = ht("vanilla.pushStateLocation", !0, Gn, zn),
+      Kn = ht("vanilla.memoryLocation", !1, Mn, Wn),
+      Yn = function () {
+    function t() {}
+
+    return t.prototype.dispose = function (t) {}, t;
+  }(),
+      Zn = Object.freeze({
+    root: ue,
+    fromJson: ce,
+    toJson: fe,
+    forEach: le,
+    extend: he,
+    equals: pe,
+    identity: f,
+    noop: l,
+    createProxyFunctions: h,
+    inherit: de,
+    inArray: ve,
+    _inArray: p,
+    removeFrom: me,
+    _removeFrom: d,
+    pushTo: ye,
+    _pushTo: v,
+    deregAll: ge,
+    defaults: m,
+    mergeR: _e,
+    ancestors: y,
+    pick: g,
+    omit: _,
+    pluck: w,
+    filter: $,
+    find: S,
+    mapObj: we,
+    map: b,
+    values: $e,
+    allTrueR: Se,
+    anyTrueR: be,
+    unnestR: Re,
+    flattenR: Ee,
+    pushR: R,
+    uniqR: Te,
+    unnest: Ce,
+    flatten: Pe,
+    assertPredicate: ke,
+    assertMap: Oe,
+    assertFn: E,
+    pairs: xe,
+    arrayTuples: T,
+    applyPairs: C,
+    tail: P,
+    copy: k,
+    _extend: O,
+    silenceUncaughtInPromise: Ie,
+    silentRejection: je,
+    notImplemented: oe,
+    services: ae,
+    Glob: Lt,
+    curry: r,
+    compose: n,
+    pipe: i,
+    prop: jt,
+    propEq: Vt,
+    parse: At,
+    not: Ht,
+    and: o,
+    or: a,
+    all: qt,
+    any: Dt,
+    is: Ft,
+    eq: Nt,
+    val: Ut,
+    invoke: u,
+    pattern: s,
+    isUndefined: Wt,
+    isDefined: zt,
+    isNull: Jt,
+    isNullOrUndefined: Qt,
+    isFunction: Kt,
+    isNumber: Yt,
+    isString: Zt,
+    isObject: Xt,
+    isArray: te,
+    isDate: ee,
+    isRegExp: re,
+    isState: ne,
+    isInjectable: c,
+    isPromise: ie,
+    Queue: Ve,
+    maxLength: M,
+    padString: B,
+    kebobString: G,
+    functionToString: W,
+    fnToString: z,
+    stringify: J,
+    beforeAfterSubstr: vr,
+    hostRegex: mr,
+    stripFile: yr,
+    splitHash: gr,
+    splitQuery: _r,
+    splitEqual: wr,
+    trimHashVal: $r,
+    splitOnDelim: Q,
+    joinNeighborsR: K,
+
+    get Category() {
+      return t.Category;
+    },
+
+    Trace: Me,
+    trace: Be,
+
+    get DefType() {
+      return t.DefType;
+    },
+
+    Param: Xe,
+    ParamTypes: Sr,
+    StateParams: Rr,
+    ParamType: Ke,
+    PathNode: tr,
+    PathUtils: er,
+    resolvePolicies: ir,
+    defaultResolvePolicy: rr,
+    Resolvable: nr,
+    NATIVE_INJECTOR_TOKEN: sr,
+    ResolveContext: cr,
+    resolvablesBuilder: rt,
+    StateBuilder: kr,
+    StateObject: Mt,
+    StateMatcher: Or,
+    StateQueueManager: xr,
+    StateRegistry: Ir,
+    StateService: On,
+    TargetState: Ge,
+
+    get TransitionHookPhase() {
+      return t.TransitionHookPhase;
+    },
+
+    get TransitionHookScope() {
+      return t.TransitionHookScope;
+    },
+
+    HookBuilder: Qe,
+    matchState: A,
+    RegisteredHook: Je,
+    makeEvent: H,
+
+    get RejectType() {
+      return t.RejectType;
+    },
+
+    Rejection: He,
+    Transition: hr,
+    TransitionHook: ze,
+    TransitionEventType: En,
+    defaultTransOpts: Pn,
+    TransitionService: kn,
+    UrlMatcher: Ar,
+    UrlMatcherFactory: Hr,
+    UrlRouter: Mr,
+    UrlRuleFactory: qr,
+    BaseUrlRule: Dr,
+    UrlService: Zr,
+    ViewService: Br,
+    UIRouterGlobals: Gr,
+    UIRouter: tn,
+    $q: xn,
+    $injector: An,
+    BaseLocationServices: Fn,
+    HashLocationService: Un,
+    MemoryLocationService: Mn,
+    PushStateLocationService: Gn,
+    MemoryLocationConfig: Wn,
+    BrowserLocationConfig: zn,
+    keyValsToObjectR: Hn,
+    getParams: qn,
+    parseUrl: lt,
+    buildUrl: Dn,
+    locationPluginFactory: ht,
+    servicesPlugin: pt,
+    hashLocationPlugin: Jn,
+    pushStateLocationPlugin: Qn,
+    memoryLocationPlugin: Kn,
+    UIRouterPluginBase: Yn
+  }),
+      Xn = function Xn(t, e) {
+    return t.reduce(function (t, r) {
+      return t || zt(e[r]);
+    }, !1);
+  },
+      ti = 0,
+      ei = function () {
+    function t(t, e, r) {
+      var n = this;
+      this.path = t, this.viewDecl = e, this.factory = r, this.$id = ti++, this.loaded = !1, this.getTemplate = function (t, e) {
+        return n.component ? n.factory.makeComponentTemplate(t, e, n.component, n.viewDecl.bindings) : n.template;
+      };
+    }
+
+    return t.prototype.load = function () {
+      var t = this,
+          e = ae.$q,
+          r = new cr(this.path),
+          n = this.path.reduce(function (t, e) {
+        return he(t, e.paramValues);
+      }, {}),
+          i = {
+        template: e.when(this.factory.fromConfig(this.viewDecl, n, r)),
+        controller: e.when(this.getController(r))
+      };
+      return e.all(i).then(function (e) {
+        return Be.traceViewServiceEvent("Loaded", t), t.controller = e.controller, he(t, e.template), t;
+      });
+    }, t.prototype.getController = function (t) {
+      var e = this.viewDecl.controllerProvider;
+      if (!c(e)) return this.viewDecl.controller;
+      var r = ae.$injector.annotate(e),
+          n = te(e) ? P(e) : e;
+      return new nr("", n, r).get(t);
+    }, t;
+  }(),
+      ri = function () {
+    function t() {
+      var t = this;
+      this._useHttp = It.version.minor < 3, this.$get = ["$http", "$templateCache", "$injector", function (e, r, n) {
+        return t.$templateRequest = n.has && n.has("$templateRequest") && n.get("$templateRequest"), t.$http = e, t.$templateCache = r, t;
+      }];
+    }
+
+    return t.prototype.useHttpService = function (t) {
+      this._useHttp = t;
+    }, t.prototype.fromConfig = function (t, e, r) {
+      var n = function n(t) {
+        return ae.$q.when(t).then(function (t) {
+          return {
+            template: t
+          };
+        });
+      },
+          i = function i(t) {
+        return ae.$q.when(t).then(function (t) {
+          return {
+            component: t
+          };
+        });
+      };
+
+      return zt(t.template) ? n(this.fromString(t.template, e)) : zt(t.templateUrl) ? n(this.fromUrl(t.templateUrl, e)) : zt(t.templateProvider) ? n(this.fromProvider(t.templateProvider, e, r)) : zt(t.component) ? i(t.component) : zt(t.componentProvider) ? i(this.fromComponentProvider(t.componentProvider, e, r)) : n("<ui-view></ui-view>");
+    }, t.prototype.fromString = function (t, e) {
+      return Kt(t) ? t(e) : t;
+    }, t.prototype.fromUrl = function (t, e) {
+      return Kt(t) && (t = t(e)), null == t ? null : this._useHttp ? this.$http.get(t, {
+        cache: this.$templateCache,
+        headers: {
+          Accept: "text/html"
+        }
+      }).then(function (t) {
+        return t.data;
+      }) : this.$templateRequest(t);
+    }, t.prototype.fromProvider = function (t, e, r) {
+      var n = ae.$injector.annotate(t),
+          i = te(t) ? P(t) : t;
+      return new nr("", i, n).get(r);
+    }, t.prototype.fromComponentProvider = function (t, e, r) {
+      var n = ae.$injector.annotate(t),
+          i = te(t) ? P(t) : t;
+      return new nr("", i, n).get(r);
+    }, t.prototype.makeComponentTemplate = function (t, e, r, n) {
+      n = n || {};
+
+      var i = It.version.minor >= 3 ? "::" : "",
+          o = function o(t) {
+        var e = G(t);
+        return /^(x|data)-/.exec(e) ? "x-" + e : e;
+      },
+          a = mt(r).map(function (r) {
+        var a = r.name,
+            u = r.type,
+            s = o(a);
+        if (t.attr(s) && !n[a]) return s + "='" + t.attr(s) + "'";
+        var c = n[a] || a;
+        if ("@" === u) return s + "='{{" + i + "$resolve." + c + "}}'";
+
+        if ("&" === u) {
+          var f = e.getResolvable(c),
+              l = f && f.data,
+              h = l && ae.$injector.annotate(l) || [];
+          return s + "='$resolve." + c + (te(l) ? "[" + (l.length - 1) + "]" : "") + "(" + h.join(",") + ")'";
+        }
+
+        return s + "='" + i + "$resolve." + c + "'";
+      }).join(" "),
+          u = o(r);
+
+      return "<" + u + " " + a + "></" + u + ">";
+    }, t;
+  }(),
+      ni = function ni(t) {
+    return ii(Xt(t.bindToController) ? t.bindToController : t.scope);
+  },
+      ii = function ii(t) {
+    return Object.keys(t || {}).map(function (e) {
+      return [e, /^([=<@&])[?]?(.*)/.exec(t[e])];
+    }).filter(function (t) {
+      return zt(t) && te(t[1]);
+    }).map(function (t) {
+      return {
+        name: t[1][2] || t[0],
+        type: t[1][1]
+      };
+    });
+  },
+      oi = function () {
+    function t(e, r) {
+      this.stateRegistry = e, this.stateService = r, h(Ut(t.prototype), this, Ut(this));
+    }
+
+    return t.prototype.decorator = function (t, e) {
+      return this.stateRegistry.decorator(t, e) || this;
+    }, t.prototype.state = function (t, e) {
+      return Xt(t) ? e = t : e.name = t, this.stateRegistry.register(e), this;
+    }, t.prototype.onInvalid = function (t) {
+      return this.stateService.onInvalid(t);
+    }, t;
+  }(),
+      ai = function ai(t) {
+    return function (e, r) {
+      var n = e[t],
+          i = "onExit" === t ? "from" : "to";
+      return n ? function (t, e) {
+        var r = new cr(t.treeChanges(i)),
+            o = he(yi(r), {
+          $state$: e,
+          $transition$: t
+        });
+        return ae.$injector.invoke(n, this, o);
+      } : void 0;
+    };
+  },
+      ui = function () {
+    function t(t) {
+      this._urlListeners = [], this.$locationProvider = t;
+      var e = Ut(t);
+      h(e, this, e, ["hashPrefix"]);
+    }
+
+    return t.prototype.dispose = function () {}, t.prototype.onChange = function (t) {
+      var e = this;
+      return this._urlListeners.push(t), function () {
+        return me(e._urlListeners)(t);
+      };
+    }, t.prototype.html5Mode = function () {
+      var t = this.$locationProvider.html5Mode();
+      return (t = Xt(t) ? t.enabled : t) && this.$sniffer.history;
+    }, t.prototype.url = function (t, e, r) {
+      return void 0 === e && (e = !1), t && this.$location.url(t), e && this.$location.replace(), r && this.$location.state(r), this.$location.url();
+    }, t.prototype._runtimeServices = function (t, e, r, n) {
+      var i = this;
+      this.$location = e, this.$sniffer = r, t.$on("$locationChangeSuccess", function (t) {
+        return i._urlListeners.forEach(function (e) {
+          return e(t);
+        });
+      });
+      var o = Ut(e),
+          a = Ut(n);
+      h(o, this, o, ["replace", "path", "search", "hash"]), h(o, this, o, ["port", "protocol", "host"]), h(a, this, a, ["baseHref"]);
+    }, t.monkeyPatchPathParameterType = function (t) {
+      var e = t.urlMatcherFactory.type("path");
+      e.encode = function (t) {
+        return null != t ? t.toString().replace(/(~|\/)/g, function (t) {
+          return {
+            "~": "~~",
+            "/": "~2F"
+          }[t];
+        }) : t;
+      }, e.decode = function (t) {
+        return null != t ? t.toString().replace(/(~~|~2F)/g, function (t) {
+          return {
+            "~~": "~",
+            "~2F": "/"
+          }[t];
+        }) : t;
+      };
+    }, t;
+  }(),
+      si = function () {
+    function t(t) {
+      this._router = t, this._urlRouter = t.urlRouter;
+    }
+
+    return t.prototype.$get = function () {
+      var t = this._urlRouter;
+      return t.update(!0), t.interceptDeferred || t.listen(), t;
+    }, t.prototype.rule = function (t) {
+      var e = this;
+      if (!Kt(t)) throw new Error("'rule' must be a function");
+      var r = new Dr(function () {
+        return t(ae.$injector, e._router.locationService);
+      }, f);
+      return this._urlRouter.rule(r), this;
+    }, t.prototype.otherwise = function (t) {
+      var e = this,
+          r = this._urlRouter;
+      if (Zt(t)) r.otherwise(t);else {
+        if (!Kt(t)) throw new Error("'rule' must be a string or function");
+        r.otherwise(function () {
+          return t(ae.$injector, e._router.locationService);
+        });
+      }
+      return this;
+    }, t.prototype.when = function (e, r) {
+      return (te(r) || Kt(r)) && (r = t.injectableHandler(this._router, r)), this._urlRouter.when(e, r), this;
+    }, t.injectableHandler = function (t, e) {
+      return function (r) {
+        return ae.$injector.invoke(e, null, {
+          $match: r,
+          $stateParams: t.globals.params
+        });
+      };
+    }, t.prototype.deferIntercept = function (t) {
+      this._urlRouter.deferIntercept(t);
+    }, t;
+  }();
+
+  It.module("ui.router.angular1", []);
+  var ci = It.module("ui.router.init", []),
+      fi = It.module("ui.router.util", ["ng", "ui.router.init"]),
+      li = It.module("ui.router.router", ["ui.router.util"]),
+      hi = It.module("ui.router.state", ["ui.router.router", "ui.router.util", "ui.router.angular1"]),
+      pi = It.module("ui.router", ["ui.router.init", "ui.router.state", "ui.router.angular1"]),
+      di = (It.module("ui.router.compat", ["ui.router"]), null);
+  yt.$inject = ["$locationProvider"];
+
+  var vi = function vi(t) {
+    return ["$uiRouterProvider", function (e) {
+      var r = e.router[t];
+      return r.$get = function () {
+        return r;
+      }, r;
+    }];
+  };
+
+  gt.$inject = ["$injector", "$q", "$uiRouter"];
+  _t.$inject = ["$rootScope"], ci.provider("$uiRouter", yt), li.provider("$urlRouter", ["$uiRouterProvider", function (t) {
+    return t.urlRouterProvider = new si(t);
+  }]), fi.provider("$urlService", vi("urlService")), fi.provider("$urlMatcherFactory", ["$uiRouterProvider", function () {
+    return di.urlMatcherFactory;
+  }]), fi.provider("$templateFactory", function () {
+    return new ri();
+  }), hi.provider("$stateRegistry", vi("stateRegistry")), hi.provider("$uiRouterGlobals", vi("globals")), hi.provider("$transitions", vi("transitionService")), hi.provider("$state", ["$uiRouterProvider", function () {
+    return he(di.stateProvider, {
+      $get: function $get() {
+        return di.stateService;
+      }
+    });
+  }]), hi.factory("$stateParams", ["$uiRouter", function (t) {
+    return t.globals.params;
+  }]), pi.factory("$view", function () {
+    return di.viewService;
+  }), pi.service("$trace", function () {
+    return Be;
+  }), pi.run(_t), fi.run(["$urlMatcherFactory", function (t) {}]), hi.run(["$state", function (t) {}]), li.run(["$urlRouter", function (t) {}]), ci.run(gt);
+
+  var mi,
+      yi = function yi(t) {
+    return t.getTokens().filter(Zt).map(function (e) {
+      var r = t.getResolvable(e);
+      return [e, "NOWAIT" === t.getPolicy(r).async ? r.promise : r.data];
+    }).reduce(C, {});
+  };
+
+  mi = ["$uiRouter", "$timeout", function (t, e) {
+    var r = t.stateService;
+    return {
+      restrict: "A",
+      require: ["?^uiSrefActive", "?^uiSrefActiveEq"],
+      link: function link(n, i, o, a) {
+        function u() {
+          var t = p();
+          l && l(), f && (l = f.$$addStateInfo(t.uiState, t.uiStateParams)), null != t.href && o.$set(c.attr, t.href);
+        }
+
+        var s,
+            c = bt(i),
+            f = a[1] || a[0],
+            l = null,
+            h = {},
+            p = function p() {
+          return St(r, i, h);
+        },
+            d = wt(o.uiSref);
+
+        h.uiState = d.state, h.uiStateOpts = o.uiSrefOpts ? n.$eval(o.uiSrefOpts) : {}, d.paramExpr && (n.$watch(d.paramExpr, function (t) {
+          h.uiStateParams = he({}, t), u();
+        }, !0), h.uiStateParams = he({}, n.$eval(d.paramExpr))), u(), n.$on("$destroy", t.stateRegistry.onStatesChanged(u)), n.$on("$destroy", t.transitionService.onSuccess({}, u)), c.clickable && (s = Rt(i, r, e, c, p), Tt(i, n, s, h.uiStateOpts));
+      }
+    };
+  }];
+  var gi;
+  gi = ["$uiRouter", "$timeout", function (t, e) {
+    var r = t.stateService;
+    return {
+      restrict: "A",
+      require: ["?^uiSrefActive", "?^uiSrefActiveEq"],
+      link: function link(n, i, o, a) {
+        function u() {
+          var t = d();
+          h && h(), f && (h = f.$$addStateInfo(t.uiState, t.uiStateParams)), null != t.href && o.$set(c.attr, t.href);
+        }
+
+        var s,
+            c = bt(i),
+            f = a[1] || a[0],
+            h = null,
+            p = {},
+            d = function d() {
+          return St(r, i, p);
+        },
+            v = ["uiState", "uiStateParams", "uiStateOpts"],
+            m = v.reduce(function (t, e) {
+          return t[e] = l, t;
+        }, {});
+
+        v.forEach(function (t) {
+          p[t] = o[t] ? n.$eval(o[t]) : null, o.$observe(t, function (e) {
+            m[t](), m[t] = n.$watch(e, function (e) {
+              p[t] = e, u();
+            }, !0);
+          });
+        }), u(), n.$on("$destroy", t.stateRegistry.onStatesChanged(u)), n.$on("$destroy", t.transitionService.onSuccess({}, u)), c.clickable && (s = Rt(i, r, e, c, d), Tt(i, n, s, p.uiStateOpts));
+      }
+    };
+  }];
+
+  var _i;
+
+  _i = ["$state", "$stateParams", "$interpolate", "$uiRouter", function (t, e, r, n) {
+    return {
+      restrict: "A",
+      controller: ["$scope", "$element", "$attrs", function (e, i, o) {
+        function a(t) {
+          t.promise.then(s, l);
+        }
+
+        function u(e, r, n) {
+          var o = {
+            state: t.get(e, $t(i)) || {
+              name: e
+            },
+            params: r,
+            activeClass: n
+          };
+          return p.push(o), function () {
+            me(p)(o);
+          };
+        }
+
+        function s() {
+          var r = function r(t) {
+            return t.split(/\s/).filter(f);
+          },
+              n = function n(t) {
+            return t.map(function (t) {
+              return t.activeClass;
+            }).map(r).reduce(Re, []);
+          },
+              o = n(p).concat(r(c)).reduce(Te, []),
+              a = n(p.filter(function (e) {
+            return t.includes(e.state.name, e.params);
+          })),
+              u = !!p.filter(function (e) {
+            return t.is(e.state.name, e.params);
+          }).length ? r(c) : [],
+              s = a.concat(u).reduce(Te, []),
+              l = o.filter(function (t) {
+            return !ve(s, t);
+          });
+
+          e.$evalAsync(function () {
+            s.forEach(function (t) {
+              return i.addClass(t);
+            }), l.forEach(function (t) {
+              return i.removeClass(t);
+            });
+          });
+        }
+
+        var c,
+            h,
+            p = [];
+        c = r(o.uiSrefActiveEq || "", !1)(e);
+
+        try {
+          h = e.$eval(o.uiSrefActive);
+        } catch (t) {}
+
+        h = h || r(o.uiSrefActive || "", !1)(e), Xt(h) && le(h, function (t, r) {
+          if (Zt(t)) {
+            var n = wt(t);
+            u(n.state, e.$eval(n.paramExpr), r);
+          }
+        }), this.$$addStateInfo = function (t, e) {
+          if (!(Xt(h) && p.length > 0)) {
+            var r = u(t, e, h);
+            return s(), r;
+          }
+        }, e.$on("$stateChangeSuccess", s), e.$on("$destroy", n.transitionService.onStart({}, a)), n.globals.transition && a(n.globals.transition), s();
+      }]
+    };
+  }], It.module("ui.router.state").directive("uiSref", mi).directive("uiSrefActive", _i).directive("uiSrefActiveEq", _i).directive("uiState", gi), Ct.$inject = ["$state"], Pt.$inject = ["$state"], It.module("ui.router.state").filter("isState", Ct).filter("includedByState", Pt);
+  var wi;
+  wi = ["$view", "$animate", "$uiViewScroll", "$interpolate", "$q", function (t, e, r, n, i) {
+    function o(t, r) {
+      return {
+        enter: function enter(t, r, n) {
+          It.version.minor > 2 ? e.enter(t, null, r).then(n) : e.enter(t, null, r, n);
+        },
+        leave: function leave(t, r) {
+          It.version.minor > 2 ? e.leave(t).then(r) : e.leave(t, r);
+        }
+      };
+    }
+
+    function a(t, e) {
+      return t === e;
+    }
+
+    var u = {
+      $cfg: {
+        viewDecl: {
+          $context: t._pluginapi._rootViewContext()
+        }
+      },
+      $uiView: {}
+    },
+        s = {
+      count: 0,
+      restrict: "ECA",
+      terminal: !0,
+      priority: 400,
+      transclude: "element",
+      compile: function compile(e, c, f) {
+        return function (e, c, l) {
+          function h() {
+            if (d && (Be.traceUIViewEvent("Removing (previous) el", d.data("$uiView")), d.remove(), d = null), m && (Be.traceUIViewEvent("Destroying scope", R), m.$destroy(), m = null), v) {
+              var t = v.data("$uiViewAnim");
+              Be.traceUIViewEvent("Animate out", t), w.leave(v, function () {
+                t.$$animLeave.resolve(), d = null;
+              }), d = v, v = null;
+            }
+          }
+
+          function p(t) {
+            var n = e.$new(),
+                o = i.defer(),
+                a = i.defer(),
+                u = {
+              $cfg: t,
+              $uiView: R
+            },
+                s = {
+              $animEnter: o.promise,
+              $animLeave: a.promise,
+              $$animLeave: a
+            };
+            n.$emit("$viewContentLoading", b);
+            var l = f(n, function (t) {
+              t.data("$uiViewAnim", s), t.data("$uiView", u), w.enter(t, c, function () {
+                o.resolve(), m && m.$emit("$viewContentAnimationEnded"), (zt(_) && !_ || e.$eval(_)) && r(t);
+              }), h();
+            });
+            v = l, (m = n).$emit("$viewContentLoaded", t || $), m.$eval(g);
+          }
+
+          var d,
+              v,
+              m,
+              y,
+              g = l.onload || "",
+              _ = l.autoscroll,
+              w = o(),
+              $ = void 0,
+              S = c.inheritedData("$uiView") || u,
+              b = n(l.uiView || l.name || "")(e) || "$default",
+              R = {
+            $type: "ng1",
+            id: s.count++,
+            name: b,
+            fqn: S.$uiView.fqn ? S.$uiView.fqn + "." + b : b,
+            config: null,
+            configUpdated: function configUpdated(t) {
+              (!t || t instanceof ei) && (a($, t) || (Be.traceUIViewConfigUpdated(R, t && t.viewDecl && t.viewDecl.$context), $ = t, p(t)));
+            },
+
+            get creationContext() {
+              var t = At("$cfg.viewDecl.$context")(S),
+                  e = At("$uiView.creationContext")(S);
+              return t || e;
+            }
+
+          };
+          Be.traceUIViewEvent("Linking", R), c.data("$uiView", {
+            $uiView: R
+          }), p(), y = t.registerUIView(R), e.$on("$destroy", function () {
+            Be.traceUIViewEvent("Destroying/Unregistering", R), y();
+          });
+        };
+      }
+    };
+    return s;
+  }], kt.$inject = ["$compile", "$controller", "$transitions", "$view", "$q", "$timeout"];
+  var $i = "function" == typeof It.module("ui.router").component,
+      Si = 0;
+  It.module("ui.router.state").directive("uiView", wi), It.module("ui.router.state").directive("uiView", kt), It.module("ui.router.state").provider("$uiViewScroll", function () {
+    var t = !1;
+    this.useAnchorScroll = function () {
+      t = !0;
+    }, this.$get = ["$anchorScroll", "$timeout", function (e, r) {
+      return t ? e : function (t) {
+        return r(function () {
+          t[0].scrollIntoView();
+        }, 0, !1);
+      };
+    }];
+  });
+  t.default = "ui.router", t.core = Zn, t.watchDigests = _t, t.getLocals = yi, t.getNg1ViewConfigFactory = dt, t.ng1ViewsBuilder = vt, t.Ng1ViewConfig = ei, t.StateProvider = oi, t.UrlRouterProvider = si, t.root = ue, t.fromJson = ce, t.toJson = fe, t.forEach = le, t.extend = he, t.equals = pe, t.identity = f, t.noop = l, t.createProxyFunctions = h, t.inherit = de, t.inArray = ve, t._inArray = p, t.removeFrom = me, t._removeFrom = d, t.pushTo = ye, t._pushTo = v, t.deregAll = ge, t.defaults = m, t.mergeR = _e, t.ancestors = y, t.pick = g, t.omit = _, t.pluck = w, t.filter = $, t.find = S, t.mapObj = we, t.map = b, t.values = $e, t.allTrueR = Se, t.anyTrueR = be, t.unnestR = Re, t.flattenR = Ee, t.pushR = R, t.uniqR = Te, t.unnest = Ce, t.flatten = Pe, t.assertPredicate = ke, t.assertMap = Oe, t.assertFn = E, t.pairs = xe, t.arrayTuples = T, t.applyPairs = C, t.tail = P, t.copy = k, t._extend = O, t.silenceUncaughtInPromise = Ie, t.silentRejection = je, t.notImplemented = oe, t.services = ae, t.Glob = Lt, t.curry = r, t.compose = n, t.pipe = i, t.prop = jt, t.propEq = Vt, t.parse = At, t.not = Ht, t.and = o, t.or = a, t.all = qt, t.any = Dt, t.is = Ft, t.eq = Nt, t.val = Ut, t.invoke = u, t.pattern = s, t.isUndefined = Wt, t.isDefined = zt, t.isNull = Jt, t.isNullOrUndefined = Qt, t.isFunction = Kt, t.isNumber = Yt, t.isString = Zt, t.isObject = Xt, t.isArray = te, t.isDate = ee, t.isRegExp = re, t.isState = ne, t.isInjectable = c, t.isPromise = ie, t.Queue = Ve, t.maxLength = M, t.padString = B, t.kebobString = G, t.functionToString = W, t.fnToString = z, t.stringify = J, t.beforeAfterSubstr = vr, t.hostRegex = mr, t.stripFile = yr, t.splitHash = gr, t.splitQuery = _r, t.splitEqual = wr, t.trimHashVal = $r, t.splitOnDelim = Q, t.joinNeighborsR = K, t.Trace = Me, t.trace = Be, t.Param = Xe, t.ParamTypes = Sr, t.StateParams = Rr, t.ParamType = Ke, t.PathNode = tr, t.PathUtils = er, t.resolvePolicies = ir, t.defaultResolvePolicy = rr, t.Resolvable = nr, t.NATIVE_INJECTOR_TOKEN = sr, t.ResolveContext = cr, t.resolvablesBuilder = rt, t.StateBuilder = kr, t.StateObject = Mt, t.StateMatcher = Or, t.StateQueueManager = xr, t.StateRegistry = Ir, t.StateService = On, t.TargetState = Ge, t.HookBuilder = Qe, t.matchState = A, t.RegisteredHook = Je, t.makeEvent = H, t.Rejection = He, t.Transition = hr, t.TransitionHook = ze, t.TransitionEventType = En, t.defaultTransOpts = Pn, t.TransitionService = kn, t.UrlMatcher = Ar, t.UrlMatcherFactory = Hr, t.UrlRouter = Mr, t.UrlRuleFactory = qr, t.BaseUrlRule = Dr, t.UrlService = Zr, t.ViewService = Br, t.UIRouterGlobals = Gr, t.UIRouter = tn, t.$q = xn, t.$injector = An, t.BaseLocationServices = Fn, t.HashLocationService = Un, t.MemoryLocationService = Mn, t.PushStateLocationService = Gn, t.MemoryLocationConfig = Wn, t.BrowserLocationConfig = zn, t.keyValsToObjectR = Hn, t.getParams = qn, t.parseUrl = lt, t.buildUrl = Dn, t.locationPluginFactory = ht, t.servicesPlugin = pt, t.hashLocationPlugin = Jn, t.pushStateLocationPlugin = Qn, t.memoryLocationPlugin = Kn, t.UIRouterPluginBase = Yn, Object.defineProperty(t, "__esModule", {
+    value: !0
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports) {
+
+angular.module('App', ['ui.router', 'ui.bootstrap', 'ui.tree']).run();
+/**
+ * @ngdoc function
+ * @name clientApp.controller:MainCtrl
+ * @description
+ * # MainCtrl
+ * Controller of the clientApp
+ */
+
+angular.module('App').controller('MainCtrl', MainCtrl);
+MainCtrl.$inject = ['NAVLIST'];
+
+function MainCtrl(NAVLIST) {
+  var vm = this;
+  var routePermissionMap = new Map();
+  var navList = NAVLIST;
+  Object.keys(navList).forEach(function (navKey) {
+    var navItem = navList[navKey];
+
+    if (navItem.nav.code) {
+      routePermissionMap.set(navItem.nav.state, navItem.nav.code);
+    }
+
+    (navItem.subNavs || []).forEach(function (subNavItem) {
+      routePermissionMap.set(subNavItem.state, subNavItem.code);
+    });
+  });
+}
+
+/***/ }),
+/* 41 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navlist__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navlist___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__navlist__);
+
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports) {
+
+angular.module('App').constant('NAVLIST', {
+  account: {
+    nav: {
+      code: 'nav-sidebar.account-manage',
+      name: '账户权限',
+      svg: '#icon-zhanghu'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.member-manage',
+      state: 'account.member-manage',
+      name: '成员管理'
+    }, {
+      code: 'nav-sidebar.permission-manage',
+      state: 'account.role-permission',
+      name: '角色权限'
+    }, {
+      code: 'nav-sidebar.sales-manage',
+      state: 'account.sales',
+      name: '销售组管理'
+    }, {
+      code: 'nav-sidebar.tmks-manage',
+      state: 'account.tmks',
+      name: 'TMK组管理'
+    }]
+  },
+  baseSettings: {
+    nav: {
+      code: 'nav-sidebar.base-settings',
+      name: '基础设置',
+      svg: '#icon-jichushezhi'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.location-tag-manage',
+      state: 'base-settings.location-tags',
+      name: '机会城市设置'
+    }, {
+      code: 'nav-sidebar.tag-manage',
+      state: 'base-settings.tag-settings',
+      name: '标签设置'
+    }, {
+      code: 'nav-sidebar.school-manage',
+      state: 'base-settings.school-manage',
+      name: '学校管理'
+    }, {
+      code: 'nav-sidebar.company-manage',
+      state: 'base-settings.company-manage',
+      name: '公司管理'
+    }, {
+      code: 'nav-sidebar.industry-manage',
+      state: 'base-settings.industry',
+      name: '行业管理'
+    }, {
+      code: 'nav-sidebar.offer-company',
+      state: 'base-settings.offer-company-list',
+      name: '保Offer列表'
+    }]
+  },
+  cfCollege: {
+    nav: {
+      code: 'nav-sidebar.cf-college',
+      name: '求职学堂',
+      svg: '#icon-edm'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.banner-list',
+      state: 'cf-college.banner-list',
+      name: 'Banner管理'
+    }, {
+      code: 'nav-sidebar.activity-list',
+      state: 'cf-college.activity-list',
+      name: '活动推送'
+    }, {
+      code: 'nav-sidebar.position-statistics',
+      state: 'cf-college.position-statistics',
+      name: '职位数据监控'
+    }, {
+      code: 'nav-sidebar.qa-list',
+      state: 'cf-college.qa-list',
+      name: '弹幕问答管理'
+    }, {
+      code: 'nav-sidebar.college-discovery',
+      state: 'cf-college.college-discovery',
+      name: '求职百科资料'
+    }, {
+      code: 'nav-sidebar.college-materials',
+      state: 'cf-college.college-materials',
+      name: '资料中心'
+    }, {
+      code: 'nav-sidebar.college-referral',
+      state: 'cf-college.referral-opportunities.list',
+      name: '内推机会'
+    }]
+  },
+  coach: {
+    nav: {
+      code: 'nav-sidebar.coach-manage',
+      name: '顾问管理',
+      svg: '#icon-guwenguanli'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.service-schedule-manage',
+      state: 'coach.schedule-manage',
+      name: '排班'
+    }, {
+      code: 'nav-sidebar.coach-feedback',
+      state: 'coach.feedback',
+      name: '学员评价'
+    }]
+  },
+  content: {
+    nav: {
+      code: 'nav-sidebar.content-manage',
+      name: '内容管理',
+      svg: '#icon-neirongguanli'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.article-manage',
+      state: 'content.article',
+      name: '官网求职干货'
+    }, {
+      code: 'nav-sidebar.material-manage',
+      state: 'content.material',
+      name: '学员中心资料'
+    }, {
+      code: 'nav-sidebar.news-manage',
+      state: 'content.visitor',
+      name: '官网内容管理'
+    }]
+  },
+  courseSchedule: {
+    nav: {
+      code: 'nav-sidebar.course-and-schedule',
+      name: '课务管理',
+      svg: '#icon-kechengpaike'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.course-manage',
+      state: 'course-schedule.course.item.list',
+      name: '课程管理'
+    }, {
+      code: 'nav-sidebar.course-schedule-manage',
+      state: 'course-schedule.standard-schedule.list',
+      name: '安排课程'
+    }, {
+      code: 'nav-sidebar.preset-schedule',
+      state: 'course-schedule.preset',
+      name: '申请安排'
+    }, {
+      code: 'nav-sidebar.lesson-feedback-manage',
+      state: 'course-schedule.lesson-feedback.list',
+      name: '课后评价'
+    }, {
+      code: 'nav-sidebar.course-rank',
+      state: 'course-schedule.course-rank.list',
+      name: '授课榜'
+    }, {
+      code: 'nav-sidebar.coach-schedule',
+      state: 'course-schedule.coach-schedule.list',
+      name: '门徒课程'
+    }]
+  },
+  edm: {
+    nav: {
+      code: 'nav-sidebar.edm',
+      name: 'EDM',
+      svg: '#icon-edm'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.send-email',
+      state: 'edm.send-edm',
+      name: '发送邮件'
+    }, {
+      code: 'nav-sidebar.statistics',
+      state: 'edm.statistics',
+      name: '发送统计'
+    }]
+  },
+  employer: {
+    nav: {
+      code: 'nav-sidebar.employer-manage',
+      name: '雇主管理',
+      svg: '#icon-daoshiguanli',
+      state: 'employer.list'
+    },
+    subNavs: []
+  },
+  finance: {
+    nav: {
+      code: 'nav-sidebar.finance',
+      name: '财务 & 对账',
+      svg: '#icon-neirongguanli'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.baofoo',
+      state: 'reconciliation.list',
+      name: '宝付对账'
+    }, {
+      code: 'nav-sidebar.confirm-payment',
+      state: 'reconciliation.confirm-payment',
+      name: '到账确认'
+    }]
+  },
+  lead: {
+    nav: {
+      code: 'nav-sidebar.lead',
+      name: '客户管理',
+      svg: '#icon-kehuguanli'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.lead-public-pool',
+      state: 'lead.public-pool',
+      name: '公海管理'
+    }, {
+      code: 'nav-sidebar.lead-query',
+      state: 'lead.query',
+      name: '客户查询'
+    }, {
+      code: 'nav-sidebar.lead-bulk-import',
+      state: 'lead.import-bulk',
+      name: '批量导入'
+    }, {
+      code: 'nav-sidebar.lead-single-import',
+      state: 'lead.single-import',
+      name: '单条导入'
+    }, {
+      code: 'nav-sidebar.lead-photo-import',
+      state: 'lead.photo-import',
+      name: '拍照导入'
+    }, {
+      code: 'nav-sidebar.lead-assign',
+      state: 'lead.assign',
+      name: '客户分配'
+    }, {
+      code: 'nav-sidebar.lead-assign-tmk',
+      state: 'lead.assign-tmk',
+      name: '客户分配-TMK'
+    }, {
+      code: 'nav-sidebar.lead-follow-up',
+      state: 'lead.follow-up',
+      name: '客户维护'
+    }, {
+      code: 'nav-sidebar.lead-screen',
+      state: 'lead.follow-up-tmk',
+      name: '客户维护-TMK'
+    }, {
+      code: 'nav-sidebar.lead-completed-deal',
+      state: 'lead.completed-deal',
+      name: '成单列表'
+    }, {
+      code: 'nav-sidebar.lead-sale-report',
+      state: 'lead.sale-report',
+      name: '销售报表'
+    }]
+  },
+  marketing: {
+    nav: {
+      code: 'nav-sidebar.marketing',
+      name: '市场运营',
+      svg: '#icon-shichangyunying'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.marketing-source',
+      state: 'marketing.source.list',
+      name: '渠道管理'
+    }, {
+      code: 'nav-sidebar.marketing-traffic',
+      state: 'marketing.traffic.list',
+      name: '流量监控'
+    }, {
+      code: 'nav-sidebar.marketing-form',
+      state: 'marketing.form',
+      name: '报名订制'
+    }, {
+      code: 'nav-sidebar.marketing-share-card',
+      state: 'marketing.share-card',
+      name: '分享卡活动'
+    }, {
+      code: 'nav-sidebar.wechat-auto-reply',
+      state: 'marketing.wechat-auto-reply',
+      name: '公众号回复'
+    }, {
+      code: 'nav-sidebar.operation-gua',
+      state: 'marketing.operation-gua',
+      name: '微信客户移交'
+    }, {
+      code: 'nav-sidebar.huan-ying-cv-download',
+      state: 'marketing.huan-ying-cv-download',
+      name: '环球投递下载'
+    }, {
+      code: 'nav-sidebar.university-company-manage',
+      state: 'marketing.university-company-manage',
+      name: '环球公司管理'
+    }, {
+      code: 'marketing.send-sms',
+      state: 'marketing.sms.send',
+      name: '海外短信通知'
+    }, {
+      code: 'marketing.official-account-qrcode',
+      state: 'marketing.official-account-qrcode',
+      name: '公众号关注场景管理'
+    }]
+  },
+  opportunity: {
+    nav: {
+      code: 'nav-sidebar.opportunity-manage',
+      name: '机会 & 申请',
+      svg: '#icon-qiuzhiganhuo'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.external-opportunity-manage',
+      state: 'opportunities.external.list',
+      name: '外部机会'
+    }, {
+      code: 'nav-sidebar.referral-opportunity-manage',
+      state: 'opportunities.referral.list',
+      name: '内推管理'
+    }, {
+      code: 'nav-sidebar.crawler-manage',
+      state: 'opportunities.crawler.channels',
+      name: '爬虫规则'
+    }, {
+      code: 'nav-sidebar.crawled-opportunity-manage',
+      state: 'opportunities.crawler.opportunities',
+      name: '爬得机会'
+    }, {
+      code: 'nav-sidebar.crawled-opportunity-review',
+      state: 'opportunities.crawler.opportunity-review',
+      name: '发布审核'
+    }]
+  },
+  student: {
+    nav: {
+      code: 'nav-sidebar.student-manage',
+      name: '学员管理',
+      svg: '#icon-xueyuanguanli'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.student-list',
+      state: 'student.list',
+      name: '学员列表'
+    }, {
+      code: 'nav-sidebar.student-source',
+      state: 'student.source',
+      name: '渠道学员'
+    }, {
+      code: 'nav-sidebar.offer-report',
+      state: 'student.offer-report',
+      name: 'Offer库'
+    }, {
+      code: 'nav-sidebar.student-handover',
+      state: 'student.handovers',
+      name: '学员交接'
+    }, {
+      code: 'nav-sidebar.private-schedule',
+      state: 'student.private-schedule',
+      name: '一对一申请'
+    }]
+  },
+  tutor: {
+    nav: {
+      code: 'nav-sidebar.tutor-manage',
+      name: '导师管理',
+      svg: '#icon-daoshiguanli'
+    },
+    subNavs: [{
+      code: 'nav-sidebar.tutor-list',
+      state: 'tutor.list',
+      name: '基本信息'
+    }, {
+      code: 'nav-sidebar.tutor-timetable',
+      state: 'tutor.timetable',
+      name: '授课时间收集'
+    }, {
+      code: 'nav-sidebar.tutor-monthly-report',
+      state: 'tutor.monthly-report',
+      name: '导师月报'
+    }]
+  }
+});
+
+/***/ }),
+/* 43 */
+/***/ (function(module, exports) {
+
+(function () {
+  angular.module('App').directive('navSidebar', ['$state', 'NAVLIST', function ($state, NAVLIST) {
+    return {
+      restrict: 'A',
+      transclude: true,
+      controller: sidebarCtrl,
+      controllerAs: 'vm',
+      templateUrl: 'directives/nav-sidebar/template.html'
+    };
+
+    function sidebarCtrl() {
+      var vm = this;
+      vm.navList = [buildNav(NAVLIST.lead), buildNav(NAVLIST.marketing), buildNav(NAVLIST.student), buildNav(NAVLIST.coach), buildNav(NAVLIST.tutor), buildNav(NAVLIST.courseSchedule), buildNav(NAVLIST.opportunity), buildNav(NAVLIST.employer), buildNav(NAVLIST.content), buildNav(NAVLIST.edm), buildNav(NAVLIST.finance), buildNav(NAVLIST.cfCollege), buildNav(NAVLIST.baseSettings), buildNav(NAVLIST.account)];
+    }
+
+    function buildNav(navs) {
+      var nav = navs.nav;
+
+      nav.onclick = function () {
+        nav.isOpen = !nav.isOpen;
+      };
+
+      nav.subNavs = navs.subNavs.map(function (sn) {
+        sn.isActive = function () {
+          return $state.includes(sn.state);
+        };
+
+        return sn;
+      });
+
+      nav.isActive = function () {
+        return nav.subNavs.find(function (sn) {
+          return sn.isActive() === true;
+        }) || $state.includes(nav.state);
+      };
+
+      return nav;
+    }
+  }]);
+})();
 
 /***/ })
 /******/ ]);

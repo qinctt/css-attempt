@@ -1,0 +1,99 @@
+.sidebar {
+    background: #636977;
+    &.is-test {
+      background-color: black;
+      .nav-sidebar{
+        >li>a {
+          &:hover,&:active,&:visited,&:focus,&.active{
+            border-left: #57C673 solid 4px;
+            background-color: black;
+          }
+        }
+        >li>ul>li {
+          >a:hover,>a:focus,&.active>a {
+            background-color: black;
+            color: #57C673;
+          }
+        }
+      }
+    }
+  }
+  .nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-left: -20px;
+    font-size: 14px;
+    >li>a, >li>ul>li>a {
+      color: #fff;
+      font-size: 13px;
+    }
+    >li>a {
+      padding-left: 24.5px;
+      span {
+        margin-right: 8px;
+      }
+      &:hover,&:active,&:visited,&:focus,&.active{
+        border-left: #71d189 solid 4px;
+        background-color: #636977;
+        padding-left: 20.5px;
+      }
+    }
+    >li>ul>li {
+      >a{
+        padding-left: 47px;
+      }
+      >a:hover,>a:focus,&.active>a {
+        background-color: #636977;
+        color: #71d189;
+      }
+    }
+  }
+  
+  .header {
+    &.is-test {
+      .navbar {
+        background-color: #57C673;
+        .navbar-brand {
+          color: #fff;
+        }
+      }
+      ul.nav li a {
+        &:hover,&:focus,&:active{
+          color: #3d424d;
+        }
+      }
+    }
+    .navbar {
+      border-bottom: none;
+      background-color: #3d424d;
+      .navbar-brand {
+        margin-left: 15px;
+        background-image: url('/images/logo.png');
+        background-repeat: no-repeat;
+        background-position: left 42%;
+        background-size: 95px;
+        padding-left: 105px;
+  
+        span {
+          float: left;
+          font-size: 14px;
+        }
+        img {
+          margin-left: 3px;
+          display: inline-block;
+          height: 14px;
+          float: left;
+          margin-top: 2px;
+        }
+      }
+      ul li a {
+        color: #fff;
+        &:hover,&:focus,&:active{
+          color: #71d189;
+        }
+      }
+      .dropdown-menu a {
+        color: #000;
+      }
+    }
+  }
+  

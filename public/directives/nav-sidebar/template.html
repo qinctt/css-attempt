@@ -1,0 +1,15 @@
+<ul class="nav nav-sidebar">
+	<li ng-repeat="nav in vm.navList" permission-ctrl="{{nav.code}}">
+		<a ng-if="!nav.state" ng-click="nav.onclick()" ng-class="{'active': nav.isActive() }">
+			<svg class="icon" aria-hidden="true"><use xlink:href="{{nav.svg}}"></use></svg>{{nav.name}}
+		</a>
+		<a ng-if="nav.state" ui-sref="{{nav.state}}" ng-class="{'active': nav.isActive()}">
+			<svg class="icon" aria-hidden="true"><use xlink:href="{{nav.svg}}"></use></svg>{{nav.name}}
+		</a>
+		<ul class="nav sub-nav" ng-show="nav.isOpen || nav.isActive()">
+			<li ng-repeat="subNav in nav.subNavs" ng-class="{'active': subNav.isActive() }" permission-ctrl="{{subNav.code}}">
+				<a ui-sref="{{subNav.state}}" ng-bind="subNav.name"></a>
+			</li>
+		</ul>
+	</li>
+</ul>
